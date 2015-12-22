@@ -1,0 +1,40 @@
+body {
+	background: #000000;
+	color: #ff55ff;
+	font: 16px Helvetica, "Trebuchet MS", sans-serif;
+}
+
+a {
+	color: #00ff99;
+}
+
+a:active {
+	color: #99ffff;
+}
+
+a:visited {
+	color: #ff9933;
+}
+
+h1 {
+	text-align: center;
+}
+
+strong {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+code {
+	color: #ffffff;
+	font: normal 13px Monospace;
+}
+
+.fine-print {
+	font-size: 13px;
+}
+
+.space-after {
+	padding-bottom: 1em;
+}
