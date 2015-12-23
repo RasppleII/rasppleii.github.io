@@ -1,4 +1,4 @@
-## A2SERVER
+# A2SERVER
 
 Sometimes you need to access the A2SERVER command line to set up network boot
 or do other stuff. A list of commands is below.
@@ -20,11 +20,13 @@ your router to give A2SERVER the same IP address every time. To do this,
 you'll need the MAC (Ethernet) address of the machine (or virtual machine)
 running A2SERVER, which you can see by typing `showmac`. If you are using the
 premade virtual machine, the MAC is 08:00:03:F2:FF:59 .
+{: .fine-print }
 
 The default username is either "pi" for Raspberry Pi, and otherwise
-"user1". The password is "apple2". (The password is "raspberry" for an
+"user1". The password is "apple2". *(The password is "raspberry" for an
 standard installation of Raspbian; you can use the
-[installer script](a2server_installer.md) to install A2SERVER.)
+[installer script](a2server_installer.md) to install A2SERVER.)*{:
+.fine-print .no-style }
 
 Shared volumes can be found at /srv/A2SERVER. Netatalk configuration files
 are in /usr/local/etc/netatalk.
@@ -35,7 +37,10 @@ Once logged in, you can enter the following commands.
 typing `a2server-setup`, answering "no" to all prompts if you like.)
 
 
-~~~
+<!--
+    scripts/tools/a2server-help.txt
+-->
+~~~ embedded-text
 A2SERVER commands:
   (note: new commands may be added; use a2server-setup to refresh)
 
@@ -124,5 +129,10 @@ cppo: catalog and copy files from ProDOS image file (slow, but works)
 
 ~~~
 
+[back][2]
+
+[A2SERVER home page][3]
 
 [1]: http://support.apple.com/kb/dl999
+[2]: javascript:history.go(-1);
+[3]: index.html
