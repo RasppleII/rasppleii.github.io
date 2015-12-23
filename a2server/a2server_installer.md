@@ -1,4 +1,4 @@
-## A2SERVER
+# A2SERVER
 
 You can easily install A2SERVER on Debian, Ubuntu, or Raspbian Linux by using
 the A2SERVER install scripts.
@@ -12,12 +12,10 @@ user running the scripts needs a bash shell, sudo privileges, and a search
 path containing all the "bin" and "sbin" directories.
 
 
-### Debian or Ubuntu Linux
-
-(Tested on Debian 7.8.0 and Ubuntu Server 12.04 LTS. Note that Ubuntu 14.04
+__Debian or Ubuntu Linux__{: .uline } _(Tested on Debian 7.8.0 and Ubuntu Server 12.04 LTS. Note that Ubuntu 14.04
 LTS includes kernel 3.13, which is *not* compatible with A2SERVER; you will
 need to upgrade it to 3.16 or later. Debian 8 and Ubuntu 15 *cannot* be used
-at this time.)
+at this time.)_{: .fine-print .no-style }
 
 1. [Create a new virtual machine](a2server_prepvm.md) (skip if installing on a
    real machine)
@@ -25,11 +23,11 @@ at this time.)
    real machine
 
 
-### Raspberry Pi
+__Raspberry Pi__{: .uline }
 
 1. [Download Raspbian][1]
 2. [Perform Raspberry Pi setup](a2server_raspberrypi.md)
-
+{: .space-after }
 
 Once you are up and running in Linux, you can execute the automated setup
 scripts to download, install, and configure the A2SERVER software. To use
@@ -48,6 +46,12 @@ next steps.
 If you'd like to set things up manually, or are curious as to what's
 happening, you can
 [view the contents of the setup scripts](a2server_scriptdetails.md).
+{: .space-after }
 
+[back][2]
+
+[A2SERVER home page][3]
 
 [1]: http://www.raspberrypi.org/downloads
+[2]: javascript:history.go(-1);
+[3]: index.html
