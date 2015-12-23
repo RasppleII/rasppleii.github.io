@@ -1,4 +1,4 @@
-## A2SERVER
+# A2SERVER
 
 A2SERVER lets you use a [Raspberry Pi][1], or almost any other computer, to
 serve files to Apple IIgs and enhanced IIe computers on your network. You'll
@@ -31,11 +31,11 @@ the installer script. To update, type `a2server-setup`.*
 
 Choose how you'd like to use A2SERVER, and you'll be up and running shortly.
 
- * [Raspberry Pi](a2server_raspberrypi.md)
- * [Virtual Machine](a2server_virtualbox.md) (for Mac OS X, Windows, Linux,
-   Solaris)
- * [Installer for Ubuntu or Debian Linux](a2server_installer.md)
-
+* [Raspberry Pi](a2server_raspberrypi.md)
+* [Virtual Machine](a2server_virtualbox.md) (for Mac OS X, Windows, Linux,
+  Solaris)
+* [Installer for Ubuntu or Debian Linux](a2server_installer.md)
+{: .hlist .space-after }
 
 Once you've got it set up, here are next steps:
 
@@ -51,7 +51,7 @@ console](a2server_commands.md)
 [Access A2SERVER files from a Mac or Windows computer](a2server_access.md)
 
 [Use A2SERVER with Wi-Fi](a2server_wifi.md)
-
+{: .space-after }
 
 And some other stuff that might (or might not) be helpful or interesting:
 
@@ -66,11 +66,11 @@ does](a2server_scriptdetails.md)
 
 [See the March 2013 cover of Juiced.GS][4], featuring A2SERVER
 
-[Watch me introduce A2SERVER at KansasFest 2011][5] (note: this contains some
-outdated information)
+[Watch me introduce A2SERVER at KansasFest 2011][5]  
+(note: this contains some outdated information)
 
 [The A2SERVER odyssey](a2server_story.md) (warning: long)
-
+{: .space-after }
 
 Buckets of thanks to Steven Hirsch and Geoff Body, whose invaluable assistance
 and contributions have made A2SERVER exist, along with Tony Diaz, Antoine
