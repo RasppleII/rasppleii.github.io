@@ -10,6 +10,10 @@ code {
 	font: 13px Monospace;
 }
 
+em.no-style {
+	font-style: normal;
+}
+
 .fine-print {
 	font-size: 13px;
 }
@@ -25,6 +29,13 @@ code {
 .hlist li {
 	display: inline;
 	margin: 0 1.5em;
+}
+
+.language-text {
+	display: block;
+	padding: 1em;
+	color: #000000;
+	background-color: #ffffff;
 }
 
 .a2server {
