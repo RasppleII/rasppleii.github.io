@@ -1,4 +1,4 @@
-## A2SERVER
+# A2SERVER
 
 You probably want to be able to get stuff on and off of A2SERVER, so that
 means connecting to it from other computers.
@@ -19,6 +19,7 @@ to A2SERVER](a2server_commands.md) to update, and if that doesn't work, to
 find its IP address. On Mac OS X, enter the IP address under "Connect To
 Server..." from the Go menu of the Finder; on Windows, type the IP address
 following two backslash characters (\\) in an Explorer window.)
+{: .fine-print }
 
 <!--
 Content edit: Make sure both Markdown source and HTML target renderings of how
@@ -38,6 +39,13 @@ Windows computers can also do so in the command window by using `pscp` in
 
 If you need to set the ProDOS file type of a file you have copied to A2SERVER,
 [log in to A2SERVER](a2server_commands.md) and use `afptype`.
+{: .space-after }
+
+[back][2]
+
+[A2SERVER home page][3]
 
 
 [1]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
+[2]: javascript:history.go(-1)
+[3]: index.html
