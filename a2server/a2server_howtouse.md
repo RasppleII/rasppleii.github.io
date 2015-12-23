@@ -1,4 +1,4 @@
-## A2SERVER
+# A2SERVER
 
 To connect to A2SERVER from your Apple II:
 
@@ -23,6 +23,7 @@ make a bootable disk, or consider setting up
 (There is also an obsolete [IIgs Workstation Disk](#wsdisks) that boots into
 ProDOS 16 rather than GS/OS, and has the same ProDOS 8 applications for server
 access as the IIe disk. You probably don't want to use it.)
+{: .fine-print }
 
 "a2server" or "raspberrypi" should appear in the list of server names. Log
 in as Guest and select the A2FILES volume, for ProDOS 8 storage, and/or the
@@ -49,15 +50,20 @@ links, but I'm not fixing that right now.  -tjcarter,2015-10-22
 * IIe Workstation Card, 800K:
   [raw image](files/a2ws/A2E.WS.FULL.HDV)
   [ShrinkIt image](files/a2ws/A2E.WS.FULL.BXY)
-
 * IIe Workstation Card, Logon/Logoff/BASIC only, 140K:
   [raw image](files/a2ws/A2E.WS.LITE.DSK)
   [ShrinkIt image](files/a2ws/A2E.WS.LITE.BXY)
-
 * IIe Workstation Card, System Utilities/BASIC only, 140K:
   [raw image](files/a2ws/A2E.WS.UTIL.DSK)
   [ShrinkIt image](files/a2ws/A2E.WS.UTIL.BXY)
-
 * IIgs Workstation, 800K \[superseded by GS/OS AppleShare software\]:
   [raw image](files/a2ws/A2GS.WS.HDV)
   [ShrinkIt image](files/a2ws/A2E.WS.BXY)
+{: .no-bullets .space-after }
+
+[back][1]
+
+[A2SERVER home page][2]
+
+[1]: javascript:history.go(-1);
+[2]: index.html
