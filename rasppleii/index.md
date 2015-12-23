@@ -22,7 +22,7 @@ What would you expect to pay for this superstar parade of blown mind? One billio
 
 Then unzip it, put all the files on your SD card, stick it in your Pi, and enjoy yourself. (Moar details [here][7].) Then click on over to the home pages for [A2CLOUD][1], [A2SERVER][2], or [Apple II Pi][3] to read about how to use them. You will not be able to tolerate your uncontrollable delight.
 
-**For those who want the latest and greatest without starting over**  
+__For those who want the latest and greatest without starting over__{: .uline }  
 To update A2SERVER, A2CLOUD, Apple II Pi, and the Raspbian OS, type: `a2cloud-update os`
 {: .space-after }
 <!-- To update A2SERVER, type: `a2server-setup`
