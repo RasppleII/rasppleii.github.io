@@ -6,12 +6,42 @@ h1 {
 	text-align: center;
 }
 
+code {
+	font: 13px Monospace;
+}
+
 .fine-print {
 	font-size: 13px;
 }
 
 .space-after {
 	padding-bottom: 1em;
+}
+
+.hlist {
+	list-style-type: none;
+}
+
+.hlist li {
+	display: inline;
+	margin: 0 1.5em;
+}
+
+.a2server {
+	background: #333333;
+	color: #ffcccc;
+}
+
+.a2server a {
+	color: #66ccff;
+}
+
+.a2server a:active {
+	color: #cc33ff;
+}
+
+.a2server a:visited {
+	color: #3399ff;
 }
 
 .rasppleii {
@@ -39,5 +69,4 @@ h1 {
 
 .rasppleii code {
 	color: #ffffff;
-	font: normal 13px Monospace;
 }
