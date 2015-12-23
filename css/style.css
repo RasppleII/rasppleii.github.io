@@ -1,0 +1,43 @@
+body {
+	font: 16px Helvetica, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.fine-print {
+	font-size: 13px;
+}
+
+.space-after {
+	padding-bottom: 1em;
+}
+
+.rasppleii {
+	background: #000000;
+	color: #ff55ff;
+}
+
+.rasppleii a {
+	color: #00ff99;
+}
+
+.rasppleii a:active {
+	color: #99ffff;
+}
+
+.rasppleii a:visited {
+	color: #ff9933;
+}
+
+.rasppleii strong {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.rasppleii code {
+	color: #ffffff;
+	font: normal 13px Monospace;
+}
