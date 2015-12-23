@@ -1,12 +1,11 @@
-## A2SERVER
+# A2SERVER
 
 A2SERVER's central capability, sharing files to an Apple II, is provided by
 [Netatalk][1] 2.2.4.
 
 Here's the extra sauce that A2SERVER provides:
 
-* available as a ready-to-use [Raspberry Pi][2] operating system installer
-
+* available as a ready-to-use [Raspberry Pi][2] operating system installer  
   (plus new [Pi Filler][3] and [Pi Copier][3] utilities for easy SD card
   creation and backup)
 
@@ -33,8 +32,9 @@ Here's the extra sauce that A2SERVER provides:
 * GS/OS installer that can be run from folders rather than disk
 
 * installs ProDOS 8 and GS/OS utilities for working with archive (ShrinkIt and
-  GSHK), disk images ([DSK2FILE][5] / [Asimov][6] / [MountIt][7]), and file
-  (Apple ProDOS System Utilities)
+  GSHK),  
+  disk images ([DSK2FILE][5] / [Asimov][6] / [MountIt][7]), and file (Apple
+  ProDOS System Utilities)
 
 * supports Wi-Fi when used with Apple AirPort or Time Capsul
 
@@ -66,19 +66,25 @@ Here's the extra sauce that A2SERVER provides:
   started
 
 * good documentation (or so I hope)
-
+{: .space-after }
 
 Any content unique to A2SERVER and not covered under a specific license is
 licensed under the [WTFPL][10].
+{: .space-after }
 
+[back][11]
 
-[1]: http://netatalk.sourceforge.net
-[2]: http://www.raspberrypi.org
+[A2SERVER home page][12]
+
+[1]: http://netatalk.sourceforge.net/
+[2]: http://www.raspberrypi.org/
 [3]: http://ivanx.com/raspberrypi/
-[4]: http://www.virtualbox.org
+[4]: http://www.virtualbox.org/
 [5]: http://www.dwheeler.com/6502/oneelkruns/dsk2file.html
 [6]: http://www.ninjaforce.com/html/products.html
 [7]: http://www.brutaldeluxe.fr/products/apple2gs/mountit.html
-[8]: http://www.nulib.com
-[9]: http://unarchiver.c3.cx
-[10]: http://www.wtfpl.net
+[8]: http://www.nulib.com/
+[9]: http://unarchiver.c3.cx/
+[10]: http://www.wtfpl.net/
+[11]: javascript:history.go(-1);
+[12]: index.html
