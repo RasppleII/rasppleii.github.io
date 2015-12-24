@@ -35,6 +35,19 @@ em.no-style em {
 	margin: 0 1.5em;
 }
 
+span.src-list {
+	margin: 0 1em;
+}
+span.src-list::before {
+	content: "[";
+}
+span.src-list::after {
+	content: "]";
+}
+span.src-list span {
+	padding: 0 0.6em;
+}
+
 .language-embedded-text {
 	display: block;
 	padding: 1em;
