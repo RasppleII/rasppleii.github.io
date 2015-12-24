@@ -74,7 +74,7 @@ os`). The complete version history is [here](#release-history-and-notes).*
 [v_img01]: http://img.youtube.com/vi/kYkOxe4mjHg/0.jpg
 [video01]: http://www.youtube.com/watch?v=kYkOxe4mjHg
 
-This entry was posted on July 14, 2013 by [ivanx][]
+##### This entry was posted on July 14, 2013 by [ivanx][]
 
 * * *
 
@@ -158,7 +158,7 @@ model linked above, are those based on the Prolific PL2303 chipset. Other
 models based on other chipsets such as FTDI may also work; I just haven’t
 tried them.)
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -192,7 +192,7 @@ If you want all the features, answer “Y” to the questions. Then be patient, 
 it takes a little while to install.
 
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -266,7 +266,7 @@ configure your Pi to have a static IP address (which is permanently set,
 rather than asking your router for it) via the method discussed [here][59].
 
  
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -303,7 +303,7 @@ You’ve now got your Raspberry Pi providing virtual drives and internet access
 for your Apple II!
 
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -383,7 +383,7 @@ different port and repeat until you figure out which one is the lowest and
 which one is the highest.
 
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -440,7 +440,7 @@ reboot, or disconnect and then reconnect the USB-to-serial adapter on the
 lower USB port.
 
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -487,7 +487,7 @@ You can also change the virtual drives to use different images, which I’ll
 explain in a later post.
 
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -587,7 +587,7 @@ UltraTerm) for 80 column support. I haven’t tried them, but [here’s the
 relevant discussion thread][71].
 
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -648,7 +648,7 @@ Windows computers can also do so in the command window by using `pscp`
 in [PuTTY][54]. The shared volume is at /media/A2SHARED/ADTDISKS.
 
 
-This entry was posted on July 14, 2013 by [ivanx][].
+##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
 
@@ -726,7 +726,7 @@ for every purpose imaginable. If you think there are others which should be
 included here, please mention them in the comments.
 
  
-This entry was posted on July 15, 2013 by [ivanx][].
+##### This entry was posted on July 15, 2013 by [ivanx][].
 
 * * *
 
@@ -772,7 +772,7 @@ The symlinks are in /usr/local/adtpro/disks, and are called Virtual.po or
 Virtual2.po, respectively.)
 
 
-This entry was posted on August 11, 2013 by [ivanx][].
+##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
 
@@ -828,7 +828,7 @@ want to give it a go, [see this comment][75] to get started, and look for help
 on Linux forums if you need it.
 
 
-This entry was posted on August 11, 2013 by [ivanx][].
+##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
 
@@ -885,7 +885,7 @@ in a single command, e.g: `wget
 http://appleii.ivanx.com/slammer/files/SLAMMER111P.DSK`
 
  
-This entry was posted on August 11, 2013 by [ivanx][].
+##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
 
@@ -946,7 +946,7 @@ alternative, but it’s even slower. It does preserve dates, however.)
 assigned to virtual drives 1 and 2, rather than typing out the full path.
 
 
-This entry was posted on August 11, 2013 by [ivanx][].
+##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
 
@@ -1008,7 +1008,7 @@ outfilename` will decode an EXEC file made by Executioner; `unexec filename >
 outfilename` will decode an EXEC file containing monitor input.
 
 
-This entry was posted on August 11, 2013 by [ivanx][].
+##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
 
@@ -1100,7 +1100,7 @@ it prefers to say) from various Apple II file formats into modern formats. If
 you want it to give that a shot, use `-e` instead of `-g` above.
 
 
-This entry was posted on August 11, 2013 by [ivanx][].
+##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
 
@@ -1150,7 +1150,7 @@ rename PT3.GLOBALS, and then rename the appropriate globals file to
 PT3.GLOBALS.
 
 
-This entry was posted on August 11, 2013 by [ivanx][].
+##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
 
@@ -1183,7 +1183,7 @@ of the Raspbian desktop. (To start the Raspbian desktop, type `startx` or use
 [remote desktop software](#go-headless-optional).) Usage instructions are [here][84].
 
 
-This entry was posted on November 29, 2013 by [ivanx][].
+##### This entry was posted on November 29, 2013 by [ivanx][].
 
 * * *
 
@@ -1225,7 +1225,7 @@ on how to use it, check out [Dave’s web site][27] and the [Ultimate Apple 2
 forums][86].
 
 
-This entry was posted on November 29, 2013 by [ivanx][].
+##### This entry was posted on November 29, 2013 by [ivanx][].
 
 * * *
 
@@ -1445,7 +1445,7 @@ enhancements. To update, type `a2cloud-update`.
   introduced at KansasFest 2013
 
 
-This entry was posted on December 28, 2013 by [ivanx][].
+##### This entry was posted on December 28, 2013 by [ivanx][].
 
 * * *
 
@@ -1538,7 +1538,7 @@ Apple II Pi is not offered as an installation option on non-Pi computers,
 though if you’re dedicated, you can compile it yourself [here][93].
 
 
-This entry was posted on January 26, 2014 by [ivanx][].
+##### This entry was posted on January 26, 2014 by [ivanx][].
 </section>
 
 [24]: http://www.raspberrypi.org "Raspberry Pi"
