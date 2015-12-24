@@ -38,7 +38,7 @@ been pretty heavily modified to convert the page to Markdown format.
 * [A2CLOUD: other stuff](#other-stuff)
 
 
-# A2CLOUD: intro
+## A2CLOUD: intro
 {: #intro }
 
 Hello, and welcome to A2CLOUD! It provides any Apple II — even a IIc — with
@@ -67,7 +67,7 @@ This entry was posted on July 14, 2013 by [ivanx][]
 
 
 
-# A2CLOUD: what you need
+## A2CLOUD: what you need
 {: #what-you-need }
 
 To use A2CLOUD, you need various things. Here’s a video to show you what
@@ -151,7 +151,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: prepare your Pi
+## A2CLOUD: prepare your Pi
 {: #prepare-your-pi }
 
 ### Starting Fresh
@@ -185,7 +185,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: go headless (optional)
+## A2CLOUD: go headless (optional)
 {: #go-headless-optional }
 
 For basic A2CLOUD use, I recommend going headless with your Raspberry Pi —
@@ -259,7 +259,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: install the software
+## A2CLOUD: install the software
 {: #install-the-software }
 
 If you used the [Raspple II][28] installation method, you’ve already installed
@@ -296,7 +296,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: attach your cables
+## A2CLOUD: attach your cables
 {: #attach-your-cables }
 
 Figure out which of the following scenarios applies to you, and attach your
@@ -376,7 +376,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: make your boot disk
+## A2CLOUD: make your boot disk
 {: #make-your-boot-disk }
 
 You’re almost ready to use virtual drives, courtesy of David Schmidt’s
@@ -433,7 +433,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: use virtual drives!
+## A2CLOUD: use virtual drives!
 {: #use-virtual-drives }
 
 Ok, almost there. Fire up your A2CLOUD floppy, and at the welcome screen, type
@@ -480,7 +480,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: log in from your Apple II
+## A2CLOUD: log in from your Apple II
 {: #log-in-from-your-apple-ii }
 
 If you’re happy enough controlling your Pi with a screen or keyboard attached,
@@ -580,7 +580,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: make a floppy or image
+## A2CLOUD: make a floppy or image
 {: #make-a-floppy-or-image }
 
 If you have [A2SERVER][26] installed — which you do if you installed A2CLOUD
@@ -641,7 +641,7 @@ This entry was posted on July 14, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: learn some Unix
+## A2CLOUD: learn some Unix
 {: #learn-some-unix }
 
 Once you’re logged into your Raspberry Pi, you can download disk images and
@@ -719,7 +719,7 @@ This entry was posted on July 15, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: “insert” a disk image
+## A2CLOUD: “insert” a disk image
 {: #insert-a-disk-image }
 
 To make things easy, A2CLOUD has commands to “insert” disk image files into
@@ -765,7 +765,7 @@ This entry was posted on August 11, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: connect with other people
+## A2CLOUD: connect with other people
 {: #connect-with-other-people }
 
 Once you’ve logged into your Pi — that could be from your Apple II using
@@ -821,7 +821,7 @@ This entry was posted on August 11, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: browse &amp; download
+## A2CLOUD: browse &amp; download
 {: #browse-amp-download }
 
 If you want to get new Apple II software, there are a few ways to go about it.
@@ -878,7 +878,7 @@ This entry was posted on August 11, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: use disk images
+## A2CLOUD: use disk images
 {: #use-disk-images }
 
 Once you’ve [downloaded stuff to your Pi](#browse-amp-download), or [copied stuff on to it from
@@ -939,7 +939,7 @@ This entry was posted on August 11, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: expand archives
+## A2CLOUD: expand archives
 {: #expand-archives }
 
 If you have an archive file, on your Pi, you’ll need to expand it.
@@ -1001,7 +1001,7 @@ This entry was posted on August 11, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: transfer files
+## A2CLOUD: transfer files
 {: #transfer-files }
 
 If you’ve got files on your Pi that aren’t inside one of your viritual disks,
@@ -1093,7 +1093,7 @@ This entry was posted on August 11, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: increase serial port speed
+## A2CLOUD: increase serial port speed
 {: #increase-serial-port-speed }
 
 I chose the default speed of 4800 baud for Pi as a lowest common
@@ -1143,7 +1143,7 @@ This entry was posted on August 11, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: emulate an Apple II
+## A2CLOUD: emulate an Apple II
 {: #emulate-an-apple-ii }
 
 Though the purpose of A2CLOUD is primarily to extend the functionality of your
@@ -1176,7 +1176,7 @@ This entry was posted on November 29, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: Apple II Pi
+## A2CLOUD: Apple II Pi
 {: #apple-ii-pi }
 
 David Schmenk has created [Apple II Pi][27], which takes a different approach
@@ -1218,7 +1218,7 @@ This entry was posted on November 29, 2013 by [ivanx][].
 
 
 
-# A2CLOUD: release history and notes
+## A2CLOUD: release history and notes
 {: #release-history-and-notes }
 
 A2CLOUD is sorta always in a state of development with tiny tweaks happening
@@ -1437,7 +1437,7 @@ enhancements. To update, type `a2cloud-update`.
 This entry was posted on December 28, 2013 by [ivanx][].
 
 
-# A2CLOUD: other stuff
+## A2CLOUD: other stuff
 {: #other-stuff }
 
 This is a post for new techniques or features that aren’t fully ready, or
