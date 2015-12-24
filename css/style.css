@@ -92,6 +92,13 @@ span.src-list span {
 	color: #9CF;
 }
 
+.a2cloud h3 {
+	font-size: 14px;
+	font-size: 1rem;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
 .a2cloud h5 {
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
