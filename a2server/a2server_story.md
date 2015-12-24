@@ -1,5 +1,4 @@
-## A2SERVER
-
+# A2SERVER
 
 The A2SERVER Odyssey
 
@@ -85,12 +84,12 @@ network startup. Both Steven and Geoff have also helped figure out and work
 around the idiosyncracies of many of the dedicated LocalTalk-to-Ethernet
 bridges, and have been essential contributors to the execution of A2SERVER.
 
-The initial conversation is chronicled in perpetuity here:
+The initial conversation is chronicled in perpetuity here:  
 https://groups.google.com/forum/#!topic/comp.sys.apple2/b\_TzESci6Kg
 
 With their help, I finally succeeded in network booting my Apple IIe from my
 Linux virtual machine. The first proto-version of A2SERVER was a step-by-step
-guide to manually set it up, as posted here:
+guide to manually set it up, as posted here:  
 https://groups.google.com/forum/#!topic/comp.sys.apple2/lkh4hXqmJbE
 
 I could have left it at that, but I didn't like it. It wasn't all THAT easy
@@ -232,3 +231,11 @@ normally only possible under GS/OS.
 I could go on and on, but basically the ideas kept coming, and I think I was
 able I was able to polish most of A2SERVER's rough edges so that it could be
 fun and/or useful for a few people. I hope you enjoy it!
+{: .space-after }
+
+[back][1]
+
+[A2SERVER home page][2]
+
+[1]: javascript:history.go(-1);
+[2]: index.html
