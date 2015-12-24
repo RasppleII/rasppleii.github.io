@@ -1,7 +1,8 @@
-## A2SERVER
+# A2SERVER
 
-So you got a [Raspberry Pi][1]. Congratulations!
- Are you ready to turn it into a file server for your Apple II? Here's how.
+So you got a [Raspberry Pi][1]. Congratulations!  
+Are you ready to turn it into a file server for your Apple II? Here's how.
+{: .space-after }
 
 <!--
 *Important: As of 11-Aug-14, A2SERVER 1.2.0 is now compatible with the latest
@@ -12,9 +13,7 @@ stopped working after a Raspbian update, see the
 -->
 
 
-
-### Starting fresh:
-
+__Starting fresh:__{: .uline }  
 If you haven't already started working with a Raspberry Pi, then [download
 Raspple II][2], a distribution of the Raspbian operating system which includes
 A2SERVER, [A2CLOUD][3], and David Schmenk's [Apple II Pi][4].
@@ -38,10 +37,10 @@ another computer](a2server_raspberrypi_login.md), including an Apple II.) If
 you wish to change any configuration options, type `raspi-config`.
 
 For next steps, check out the links on the [A2SERVER home page](index.md).
+{: .space-after }
 
 
-### Already using a Raspberry Pi?
-
+__Already using a Raspberry Pi?__{: .uline }  
 If you're already using Raspbian, you can install A2SERVER by typing at a
 Linux prompt:
 
@@ -52,7 +51,7 @@ wget appleii.ivanx.com/a2server/setup; source setup
 The process is straightforward -- just respond to the prompts.
 
 For next steps, check out the links on the [A2SERVER home page](index.md).
-
+{: .space-after }
 
 <!--
 (If you wish, you can read detailed technical information about the [AppleTalk
@@ -60,9 +59,15 @@ networking support on the Raspberry Pi](a2server_raspberrypi_kernel.md) that
 A2SERVER installs.)
 -->
 
+[back][6]
 
-[1]: http://www.raspberrypi.org
-[2]: http://appleii.ivanx.com/rasppleii/
-[3]: http://appleii.ivanx.com/a2cloud
+[A2SERVER home page][7]
+
+
+[1]: http://www.raspberrypi.org/
+[2]: ../rasppleii/index.html
+[3]: ../a2cloud/index.html
 [4]: http://schmenk.is-a-geek.com/wordpress
 [5]: https://www.sdcard.org/downloads/formatter_4/
+[6]: javascript:history.go(-1);
+[7]: index.html
