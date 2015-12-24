@@ -1,4 +1,7 @@
+<header markdown="1">
 # [A2CLOUD][]
+{: .site-title }
+
 [A2CLOUD]: index.html "A2CLOUD"
 
 <!--
@@ -7,12 +10,13 @@ This file is an export of the WordPress site for A2CLOUD, pulled in October
 been pretty heavily modified to convert the page to Markdown format.
 -->
 
-* [love and hate mail: ivan@ivanx.com][ivanx]
+[love and hate mail: ivan@ivanx.com][ivanx]
 
 [ivanx]: mailto:ivan@ivanx.com "Contact Ivan Drucker"
+</header>
 
-
-## Table of Contents
+<nav markdown="1">
+## A2CLOUD Table of Contents
 
 * [A2CLOUD: intro](#intro)
 * [A2CLOUD: what you need](#what-you-need)
@@ -36,8 +40,9 @@ been pretty heavily modified to convert the page to Markdown format.
 * [A2CLOUD: Apple II Pi](#apple-ii-pi)
 * [A2CLOUD: release history and notes](#release-history-and-notes)
 * [A2CLOUD: other stuff](#other-stuff)
+</nav>
 
-
+<section markdown="1" id="content">
 ## A2CLOUD: intro
 {: #intro }
 
@@ -1527,7 +1532,7 @@ though if you’re dedicated, you can compile it yourself [here][93].
 
 
 This entry was posted on January 26, 2014 by [ivanx][].
-
+</section>
 
 [24]: http://www.raspberrypi.org "Raspberry Pi"
 [25]: #ivanx-february-17-2014-at-943-pm "A2CLOUD on non-Pi computers"
