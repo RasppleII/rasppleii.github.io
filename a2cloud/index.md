@@ -70,7 +70,7 @@ os`). The complete version history is [here](#release-history-and-notes).*
 
 This entry was posted on July 14, 2013 by [ivanx][]
 
-
+* * *
 
 ## A2CLOUD: what you need
 {: #what-you-need }
@@ -154,7 +154,7 @@ tried them.)
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: prepare your Pi
 {: #prepare-your-pi }
@@ -188,7 +188,7 @@ it takes a little while to install.
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: go headless (optional)
 {: #go-headless-optional }
@@ -262,7 +262,7 @@ rather than asking your router for it) via the method discussed [here][59].
  
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: install the software
 {: #install-the-software }
@@ -299,7 +299,7 @@ for your Apple II!
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: attach your cables
 {: #attach-your-cables }
@@ -379,7 +379,7 @@ which one is the highest.
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: make your boot disk
 {: #make-your-boot-disk }
@@ -436,7 +436,7 @@ lower USB port.
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: use virtual drives!
 {: #use-virtual-drives }
@@ -483,7 +483,7 @@ explain in a later post.
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: log in from your Apple II
 {: #log-in-from-your-apple-ii }
@@ -583,7 +583,7 @@ relevant discussion thread][71].
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: make a floppy or image
 {: #make-a-floppy-or-image }
@@ -644,7 +644,7 @@ in [PuTTY][54]. The shared volume is at /media/A2SHARED/ADTDISKS.
 
 This entry was posted on July 14, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: learn some Unix
 {: #learn-some-unix }
@@ -722,7 +722,7 @@ included here, please mention them in the comments.
  
 This entry was posted on July 15, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: “insert” a disk image
 {: #insert-a-disk-image }
@@ -768,7 +768,7 @@ Virtual2.po, respectively.)
 
 This entry was posted on August 11, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: connect with other people
 {: #connect-with-other-people }
@@ -824,7 +824,7 @@ on Linux forums if you need it.
 
 This entry was posted on August 11, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: browse &amp; download
 {: #browse-amp-download }
@@ -881,7 +881,7 @@ http://appleii.ivanx.com/slammer/files/SLAMMER111P.DSK`
  
 This entry was posted on August 11, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: use disk images
 {: #use-disk-images }
@@ -942,7 +942,7 @@ assigned to virtual drives 1 and 2, rather than typing out the full path.
 
 This entry was posted on August 11, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: expand archives
 {: #expand-archives }
@@ -1004,7 +1004,7 @@ outfilename` will decode an EXEC file containing monitor input.
 
 This entry was posted on August 11, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: transfer files
 {: #transfer-files }
@@ -1096,7 +1096,7 @@ you want it to give that a shot, use `-e` instead of `-g` above.
 
 This entry was posted on August 11, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: increase serial port speed
 {: #increase-serial-port-speed }
@@ -1146,7 +1146,7 @@ PT3.GLOBALS.
 
 This entry was posted on August 11, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: emulate an Apple II
 {: #emulate-an-apple-ii }
@@ -1179,7 +1179,7 @@ of the Raspbian desktop. (To start the Raspbian desktop, type `startx` or use
 
 This entry was posted on November 29, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: Apple II Pi
 {: #apple-ii-pi }
@@ -1221,7 +1221,7 @@ forums][86].
 
 This entry was posted on November 29, 2013 by [ivanx][].
 
-
+* * *
 
 ## A2CLOUD: release history and notes
 {: #release-history-and-notes }
@@ -1441,6 +1441,7 @@ enhancements. To update, type `a2cloud-update`.
 
 This entry was posted on December 28, 2013 by [ivanx][].
 
+* * *
 
 ## A2CLOUD: other stuff
 {: #other-stuff }

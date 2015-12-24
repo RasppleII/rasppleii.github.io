@@ -170,6 +170,11 @@ span.src-list span {
 	margin: 1.714285714rem 0 0;
 }
 
+.a2cloud hr {
+	margin: 2em 0;
+	border: 2px solid #fff;
+}
+
 .rasppleii {
 	background: #000000;
 	color: #ff55ff;
