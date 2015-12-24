@@ -21,9 +21,9 @@ To set up A2SERVER, follow these steps:
 
 * Ensure that "Attached To:" is set to "Bridged Adapter".
 
-* Set "Name:" to a _wired_ network interface on your computer. If you don't
-  have one, use a USB-to-Ethernet adapter. (A2SERVER won't work over Wi-Fi in
-  a virtual machine.)
+* Set "Name:" to a __wired__{: .uline } network interface on your computer. If
+  you don't have one, use a USB-to-Ethernet adapter. (A2SERVER won't work over
+  Wi-Fi in a virtual machine.)
 
 * Click OK.
 
