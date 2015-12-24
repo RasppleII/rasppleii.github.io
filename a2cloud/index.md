@@ -1,8 +1,8 @@
 <header markdown="1">
 # [A2CLOUD][]
-{: .site-title }
 
-[A2CLOUD]: index.html "A2CLOUD"
+## This is not a blog. This is a user guide.
+
 
 <!--
 This file is an export of the WordPress site for A2CLOUD, pulled in October
@@ -10,8 +10,14 @@ This file is an export of the WordPress site for A2CLOUD, pulled in October
 been pretty heavily modified to convert the page to Markdown format.
 -->
 
-[love and hate mail: ivan@ivanx.com][ivanx]
+* [A2CLOUD home][A2CLOUD]
+* [Apple II Extravaganza][]
+* [Raspberry Pi Party][]
+* [love and hate mail: ivan@ivanx.com][ivanx]
 
+[A2CLOUD]: index.html "A2CLOUD"
+[Apple II Extravaganza]: [http://appleii.ivanx.com/
+[Raspberry Pi Party]: http://ivanx.com/raspberrypi
 [ivanx]: mailto:ivan@ivanx.com "Contact Ivan Drucker"
 </header>
 

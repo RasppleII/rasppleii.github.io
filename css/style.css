@@ -91,7 +91,6 @@ span.src-list span {
 	margin-top: 3.428571429rem;
 	margin-bottom: 48px;
 	margin-bottom: 3.428571429rem;
-	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	margin: 0 auto;
 	max-width: 960px;
 	max-width: 68.571428571rem;
@@ -99,19 +98,26 @@ span.src-list span {
 }
 
 .a2cloud header {
+	color: #00db0a;
 	margin: 14px 0;
 	margin: 1rem 0;
+	padding: 0 0 14px;
 	padding: 0 0 1rem;
-	border-bottom: 1px solid #fff;
 }
 .a2cloud header h1 {
-	color: #00db0a;
 	text-align: left;
 	font-size: 24px;
 	font-size: 1.714285714rem;
 	line-height: 1.285714286;
 	margin-bottom: 14px;
 	margin-bottom: 1rem;
+}
+
+.a2cloud header h2 {
+	font-weight: normal;
+	font-size: 13px;
+	font-size: 0.928571429rem;
+	line-height: 1.846153846;
 }
 
 .a2cloud header a {
@@ -122,6 +128,23 @@ span.src-list span {
 
 .a2cloud header a:hover, .a2cloud nav a:hover {
 	color: #21759b;
+}
+
+.a2cloud header ul {
+	list-style: none;
+	padding: 1rem 0;
+	text-transform: uppercase;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+}
+
+.a2cloud header li {
+	display: inline-block;
+	margin: 0 40px 0 0;
+	margin: 0 2.857142857rem 0 0;
+	line-height: 1.42857143;
 }
 
 .a2cloud a {
@@ -172,7 +195,7 @@ span.src-list span {
 
 .a2cloud hr {
 	margin: 2em 0;
-	border: 2px solid #fff;
+	border: 2px solid #ededed;
 }
 
 .rasppleii {
