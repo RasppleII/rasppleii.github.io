@@ -112,7 +112,6 @@ span.src-list span {
 .a2cloud p {
 	margin: 0 0 24px;
 	margin: 0 0 1.714285714rem;
-	line-height: 1.714285714;
 }
 
 .a2cloud code {
@@ -228,6 +227,12 @@ span.src-list span {
 	width: 65.104166667%;
 	margin: 24px 0 0;
 	margin: 1.714285714rem 0 0;
+	line-height: 1.714285714;
+}
+
+.a2cloud ul {
+	margin-bottom: 36px;
+	margin-bottom: 3rem;
 }
 
 .a2cloud hr {

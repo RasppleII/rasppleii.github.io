@@ -95,52 +95,37 @@ I made the video.)
 Places to purchase are linked:
 
 * for virtual drives, any Apple II model with Applesoft
-
 * for internet, an Apple IIc, IIgs, or 128K Apple IIe enhanced (though Apple
   II Plus and unenhanced IIe [might work][30])
-
 * any Raspberry Pi, B/B+ models recommended
   ([buy direct from distributor][31], or at Amazon: [Pi 2 model B][32],
   [Pi 1 model B+][33], [Pi 1 model B][34], [Pi 1 model A+][35])
-
 * a [4 GB or larger SD card][36] ([8 GB or larger][37] recommended)
 * a [good power supply][38] with a micro-USB plug that provides at least 1A of
   current
-
 * an [ethernet cable][39] attached to your router, or a
   [Wi-Fi adapter][40] (more complex)
-
 * a [null modem Apple II serial cable][41] (or: [roll your own][42])
-
 * a [USB-to-serial adapter][43]
-
 * a [Super Serial Card][44], if you have an Apple IIe (see note below)
-
 
 If you want simultaneous virtual drives and internet access from your
 Apple II:
 
 * another [null modem Apple II serial cable][41] (or: [roll your own][42])
-
 * another [USB-to-serial adapter][43]
-
 * another [Super Serial Card][44], if you have an Apple IIe (see note below)
-
 
 Optional items:
 
 * an [SD card reader][45] to prepare the SD card, if your computer doesn’t
   have one
-
 * a [USB keyboard][46] and possibly [mouse][47] (or: you can
   [control the Pi from another computer](#go-headless-optional))
-
 * a [*powered* USB hub][48] (if you don’t have a free port for a USB-to-serial
   adapter)
-
 * an [Apple II Pi card][49], or another [Super Serial Card][44] with a
   [Raspberry Pi Console cable][50], if you want to use [Apple II Pi](#apple-ii-pi)
-
 
 If you have a straight-through serial cable rather than a null modem serial
 cable, and you are using a IIgs or IIc (no Super Serial Card), you can use a
