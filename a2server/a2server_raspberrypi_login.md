@@ -1,14 +1,13 @@
-## A2SERVER
+# A2SERVER
 
 You need to access the Raspberry Pi's command prompt in order set up A2SERVER
 for network boot, and [do other stuff](a2server_commands.md).
 
 The default username is "pi" and default password is "apple2". If you
 don't have a screen and keyboard attached, you can:
+{: .space-after }
 
-
-### Log in via SSH from another computer
-
+__Log in via SSH from another computer__{: .uline }  
 On a Mac, open Terminal (in the Utilities folder of the Applications folder),
 and type `ssh pi@raspberrypi.local` to connect. If you have Windows, you can
 install [Bonjour Print Services][1], and then use [PuTTY][2] to connect to the
@@ -23,8 +22,8 @@ reserve an IP address in your router so the Pi gets the same IP address every
 time.
 
 
-### Log in from an Apple II
 
+__Log in from an Apple II__{: .uline }  
 There are a few different options for logging in from an Apple II. They are:
 
 * Apple II serial: With the appropriate cables, you can use a terminal
@@ -44,13 +43,20 @@ There are a few different options for logging in from an Apple II. They are:
   Spectrum Internet Suite; you might want to put a DHCP reservation into your
   router (type `showmac` to get your Pi's MAC address) so you don't have to
   figure it out again.
+{: .space-after }
+
+[back][9]
+
+[A2SERVER home page][10]
 
 
 [1]: http://support.apple.com/kb/dl999
 [2]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
 [3]: http://ivanx.com/raspberrypi/files/PiFinder.zip
-[4]: http://www.advanced-ip-scanner.com
+[4]: http://www.advanced-ip-scanner.com/
 [5]: http://lostclassics.apple2.info/downloads/?dl_cat=11
 [6]: http://www.wannop.info/speccie/Site/Speccies_Home_Pages.html
-[7]: http://appleii.ivanx.com/a2cloud/
-[8]: http://a2retrosystems.com
+[7]: ../a2cloud/index.html
+[8]: http://a2retrosystems.com/
+[9]: javascript:history.go(-1);
+[10]: index.html
