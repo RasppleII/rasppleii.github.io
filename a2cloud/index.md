@@ -745,9 +745,7 @@ explain in a later post.
 
 You can always put the A2CLOUD disk image back in virtual drive 2 with:
 
-~~~ bash
-vsd2 $A2CLOUD
-~~~
+`vsd2 $A2CLOUD`{: .language-bash }
 
 (The `vsd1` and `vsd2` commands create a symbolic link, which is like a
 Windows shortcut or Mac alias, to whatever file you specify as imageFileName.
@@ -770,7 +768,7 @@ internet.
 Unless you’re using ProTERM or Spectrum on an Apple IIgs, *remember to hold
 down solidApple when pressing the arrow keys* when you’re using these
 programs.
-
+{: .space-after }
 
 ### IRC (Internet Relay Chat)
 
@@ -780,7 +778,7 @@ directly to the #a2c.chat channel. (If you want to connect to other channels,
 instead type `irssi`.) Type `/quit` when you’re done. You might want to check
 out more detailed instructions for [IRC generally][72] or
 [Irssi specifically][73].
-
+{: .space-after }
 
 ### Usenet newsgroups (discussion boards)
 
@@ -790,7 +788,7 @@ will be subscribed to only the Apple II newsgroups by default; to access all
 the other ones, type Y (for “yank”) and subscribe to the ones you like. (If
 you have a preferred NNTP server you would like to use, you can set it by
 typing `a2news -s your.server.address`.)
-
+{: .space-after }
 
 ### Twitter
 
@@ -801,7 +799,7 @@ Apple II, could be Lynx, as I will explain in the next post.  If you need
 help, an [extensive manual][74] is available for TTYtter. You can also try
 starting it by typing `ttytter -readline` for enhanced input, though it is
 beta and may have problems.
-
+{: .space-after }
 
 ### Email
 
@@ -838,7 +836,7 @@ search for it.
 Unless you’re using ProTERM or Spectrum on an Apple IIgs, *remember to hold
 down solidApple when pressing the arrow keys* when you’re using these
 programs.
-
+{: .space-after }
  
 `lynx`\: a text-only web browser which can access simply laid out sites.
 Examples: `lynx ivanx.com`, or a download site, like `lynx
@@ -867,7 +865,7 @@ directoryPath`. You can see all commands by typing `help`.
 in a single command, e.g: `wget
 http://appleii.ivanx.com/slammer/files/SLAMMER111P.DSK`
 
- 
+
 ##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
@@ -904,7 +902,7 @@ You can also use `vsd1` or `vsd2` for non-ProDOS disks, but you won’t be a
 to access them from within ProDOS. However, you can use a ProDOS utility which
 knows how to access the format (e.g. System Utilities can copy files from DOS
 3.3 and Pascal disks).
-
+{: .space-after }
 
 ### Some commands for working with Apple II disk images:
 
@@ -937,6 +935,7 @@ assigned to virtual drives 1 and 2, rather than typing out the full path.
 {: #expand-archives }
 
 If you have an archive file, on your Pi, you’ll need to expand it.
+{: .space-after }
 
 Commands for general archive formats:
 
@@ -952,7 +951,7 @@ Commands for general archive formats:
 `unar archiveFileName` will extract files from tons of archive formats,
 including obsolete ones like StuffIt and DiskDoubler. See [The
 Unarchiver][79] for a full list.
-
+{: .space-after }
 
 Commands for Apple II archive formats:
 
@@ -1000,7 +999,7 @@ outfilename` will decode an EXEC file containing monitor input.
 
 If you’ve got files on your Pi that aren’t inside one of your viritual disks,
 and you want to transfer them to your Apple II, you’ve got a few options.
-
+{: .space-after }
 
 ### Archive files:
 
@@ -1008,8 +1007,8 @@ If it’s an archive file, you can (and perhaps should) expand it directly on
 the Pi, as explained in [A2CLOUD: working with archives and disk images](#expand-archives).
 Otherwise, use one of the cool moves below, and then expand it with ShrinkIt
 or the appropriate program on the Apple II.
+{: .space-after }
 
- 
 ### Copy a file into a disk image
 
 `acmd -c fileToBeCopied imageFileName`
@@ -1037,7 +1036,7 @@ exist will be created.
 file type and ProDOS file name are optional, the file name is checked to make
 sure it’s ProDOS-compatible, and any existing file of the same name within the
 image is first deleted.)
-
+{: .space-after }
 
 ### Transfer a file from your Pi to your Apple II
 
@@ -1060,7 +1059,7 @@ If you are using ProTERM, you can also try ZMODEM by using `sz` instead of
 it can recover from incomplete transfers, but those are less important in a
 direct-attached (rather than dial-up) situation, and I haven’t had as much
 success with it as I have had with YMODEM.
-
+{: .space-after }
 
 ### Transfer a file from your Apple II to your Pi
 
