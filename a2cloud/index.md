@@ -172,6 +172,7 @@ Pi board stops flickering.
 (If you are starting over with the same SD card, or want to ensure the card is
 formatted correctly, you can use the official [SD Formatter][52]  utility —
 carefully! — before copying the files.)  
+{: .space-after }
 
 ### If you’re already up and running, or want to customize the installation
 
@@ -202,7 +203,7 @@ line from your Apple II.
 With that said, you may want a screen and keyboard attached if you want to use
 [Apple II Pi](#apple-ii-pi), or you just feel more comfortable using it that way. So if
 you’re not ready to go headless, you can skip the rest of this post.
-
+{: .space-after }
 
 ### Log in to the Pi’s command line:
 
@@ -225,7 +226,7 @@ Windows, you can use [Advanced IP Scanner][56].
 The username is “pi” and the password is “apple2″ (or instead “raspberry” if
 you installed a fresh copy of Raspbian, rather than Raspple II). You should
 arrive at the Linux prompt.
-
+{: .space-after }
 
 ### Remotely Access the Raspbian desktop
 
@@ -235,7 +236,7 @@ Microsoft Windows, or its [Mac version][57], to connect to your Raspberry Pi
 by putting in “raspberrypi.local”, or your Pi’s IP address. (If you would
 prefer to use a VNC client, [configure tightvncserver][58]. You could also use
 RDP or VNC clients for other platforms, like iOS and Android.)
-
+{: .space-after }
 
 ### Get a consistent IP Address
 
@@ -258,7 +259,7 @@ If your router can’t provide a DHCP reservation, you can alternatively
 configure your Pi to have a static IP address (which is permanently set,
 rather than asking your router for it) via the method discussed [here][59].
 
- 
+
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 
 * * *
