@@ -1223,25 +1223,20 @@ enhancements. To update, type `a2cloud-update`.
 ### v1.8.1, May 5, 2015
 
 * ADTPro 2.0.1
-
 * Apple II Pi client 1.5
 
 
 ### v1.8.0, March 17, 2015
 
 * compatible with every Raspberry Pi, including Raspberry Pi 2 Model B
-
 * GSport installed for non-Raspberry Pi computers, with option for
   new GS/OS+Spectrum installation, or GSport Internet Starter Kit premade
   image
-
 * Links web browser
-
 * desktop shortcuts and Apple II menu group for emulators and ADTPro
 * new `a2cloud-update os` command will perform full Raspple II update,
   including Raspbian OS and NOOBS install manager, A2CLOUD, A2SERVER, and
   Apple II Pi
-
 * many small improvements and fixes to A2CLOUD environment and installer
   script
 
@@ -1249,19 +1244,15 @@ enhancements. To update, type `a2cloud-update`.
 ### v1.7.2, February 7, 2015
 
 * supports Raspberry Pi Model A and A+ (and Pi 2 Model B)
-
 * resolves issues with Raspbian 2015-01-31 (kernel 3.18)
 
 
 ### v1.7.1, August 11, 2014
 
 * A2CLOUD is no longer “beta” on non-Raspberry Pi computers
-
 * A2CLOUD includes KEGS and Linapple on non-Raspberry Pi computers
-
 * A2CLOUD has a faster install script for non-Raspberry Pi computers
   (downloads binaries)
-
 * unbit/unexec/bsq archive tools are installed
 
 
@@ -1274,7 +1265,6 @@ enhancements. To update, type `a2cloud-update`.
 
 * ADTPro 2.0.0 (quicker and more reliable transfer; selectable filenames from
   list)
-
 * confirmed working on Raspberry Pi Model B+ (use the USB ports closer to the
   Ethernet port)
 
@@ -1282,36 +1272,27 @@ enhancements. To update, type `a2cloud-update`.
 ### v1.6.8, Apr 7, 2014
 
 * ADTPro 1.3.0
-
 * TTYtter installs properly on non-Pi systems
 
 
 ### v1.6.7, Feb 19, 2014
 
 * A2CLOUD boot floppy contains A2PI client version 1.4
-
 * A2CLOUD boot floppy splash screen provides simple menu for virtual drives,
   Apple II Pi, or BASIC
-
 * A2CLOUD.HDV is now called A2CLOUD.PO (a symbolic link called A2CLOUD.HDV is
   still there for backwards compatibility/habits)
-
 * bug fixes for `cppo`, `shk2image`, and some launcher scripts``
 
 
 ### v1.6.6, Feb 17, 2014
 
 * [beta support for Debian and Ubuntu Linux on non-Pi machines][25]
-
 * ttytter support for color and avoiding non-ASCII characters when running
   under Screen
-
 * opens LXTerminal window by default when starting graphical desktop
-
 * a2cloud-setup installs Screen if not already installed
-
 * a2cloud-setup shows installed and available versions
-
 * a2cloud-setup -y bypasses all prompts
 
 
@@ -1325,7 +1306,6 @@ enhancements. To update, type `a2cloud-update`.
 
 * support for `screen` command to allow switching between multiple terminals
   on Apple II
-
 * `term -f` can be used to force emulation setting even when `term` doesn’t
   want to
 
@@ -1334,14 +1314,10 @@ enhancements. To update, type `a2cloud-update`.
 
 * Set TTYtter to always use -ssl mode, which is required by Twitter after
   14-Jan-14.
-
 * Set TTYtter to avoid display of non-ASCII characters on serial port shell
-
 * Set TTYtter to use color ANSI text (for IIgs) if shell is currently set to
   display it
-
 * Provided TTYtter readline module for enhanced input with -readline option
-
 * Added `appleiipi-update` command
 
 
@@ -1349,11 +1325,9 @@ enhancements. To update, type `a2cloud-update`.
 
 * Improved display of non-ASCII characters in Apple II terminal emulation
   programs
-
 * Support for “PC ANSI” colored text and graphics characters , for use with
   Spectrum’s ANSI online display, via new `term` command * Added `sciibin` and
   `unblu` for converting BinSCII and Binary II files
-
 * `baud` command supports 300 baud, in case you *really* want to kick it old
   school
 
@@ -1361,7 +1335,6 @@ enhancements. To update, type `a2cloud-update`.
 ### v1.6.1, Jan 14, 2014
 
 * Added `telnet` and `ttytter` (Twitter client)
-
 * fix for network boot failure when set up under v1.6
 
 
@@ -1371,10 +1344,8 @@ enhancements. To update, type `a2cloud-update`.
   price of a short delay on the `vsd1`/`vsd2` commands and a need to type
   `vsdsync` after changing an active virtual drive directly on the Pi; ability
   to run VSDRIVE from ProDOS program launcher, not just BASIC.SYSTEM)
-
 * if A2SERVER is installed, shares the ADTPro disks folder as ADTDISKS on the
   network
-
 * responds to name “raspberrypi.local” as alternative to IP address to Mac OS
   X (and Windows with [Bonjour Print Services][52] installed) computers on
   network
@@ -1383,9 +1354,7 @@ enhancements. To update, type `a2cloud-update`.
 ### v1.5.2, Dec 22 2013
 
 * added `dos2pro` command
-
 * Apple II Pi is now installed with GSport emulator and “apple2user” packages
-
 * speedier install by downloading A2CLOUD disk images instead of building them
 
 
@@ -1393,26 +1362,19 @@ enhancements. To update, type `a2cloud-update`.
 
 * Adds IRC and newsreader clients (Irssi and Tin) and, with shortcuts for
   Apple II community (`a2chat` and `a2news` commands)
-
 * adds KEGS and LinApple emulators
-
 * installs Apple II Pi
-
 * easy installation via [Raspple II][28]
 
 
 ### v1.2.3, Nov 2013
 
 * A2PI client version 1.3 added to A2CLOUD disk
-
 * faster install for unar/lsar, nulib2, and cftp (downloads rather than
   compiles)
-
 * console (built-in serial) login disabled, to allow Apple II Pi to have that
   port
-
 * installs xrdp/tightvncserver for remote desktop access from another computer
-
 * adds DSK2FILE image utility to A2CLOUD disk
 
 
@@ -1457,8 +1419,8 @@ have more familiarity with Alpine (a clone of my first email client from the
 early 90’s, Pine), and may include one, or the other, or both, or neither, in
 a future A2CLOUD release.
 
-To install Mutt or Alpine, type: 
-`sudo apt-get install mutt` (or `alpine`) 
+To install Mutt or Alpine, type:  
+`sudo apt-get install mutt` (or `alpine`)  
 also, get [Alistair’s Mutt configuration wizard][90]
 
 
@@ -1472,7 +1434,7 @@ self-explanatory. On a IIgs with Spectrum’s ANSI online display, you need to
 enable its color support from the Settings menu. There’s also a derivative
 called “Elinks” which at first glance seems to have more accurate color
 support (select “16 colors” from its setup menu). Alistair also suggested w3m,
-which I haven’t tried. You can get any of these with: 
+which I haven’t tried. You can get any of these with:  
 `sudo apt-get install links` (or `elinks`, or `w3m`)
 
 
@@ -1489,11 +1451,8 @@ as the default 4 MB disk in S2,D1.
 
 A2CLOUD can be installed on Debian or Ubuntu Linux (and possibly derivatives).
 It has been tried on the 32-bit versions of Debian 7 and Ubuntu Server 13.10.
-To install, type: 
-
-~~~ bash
-wget ivanx.com/a2cloud/setup; source setup
-~~~
+To install, type:  
+`wget ivanx.com/a2cloud/setup; source setup`
 
 You can also install it into the [A2SERVER][92] virtual machine with the same
 command, or start fresh with the premade [A2SERVER+A2CLOUD][92] virtual
