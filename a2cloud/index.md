@@ -47,6 +47,14 @@ been pretty heavily modified to convert the page to Markdown format.
 * [A2CLOUD: release history and notes](#release-history-and-notes)
 * [A2CLOUD: other stuff](#other-stuff)
 </nav>
+<!--
+It's possible with jQuery to make the above <nav> not scroll off the screen by
+sensing when the div gets to the top and adding "position:fixed;top:0" to the
+style (adding/removing a class perhaps).  But jQuery is a big framework and
+Every. Single. Example. required it, most without explicitly saying so.  I
+gave up looking for one that didn't.  Point me at one and I'll add the script
+to this page, else wait for re-worked website.  -TJC, 2015.12.24
+-->
 
 <section markdown="1" id="content">
 ## A2CLOUD: intro
