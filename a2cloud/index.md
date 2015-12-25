@@ -323,43 +323,37 @@ bottommost port. If you want to definitively know, see the note at the end.
 
 If you have an Apple IIe, then “printer port” or “modem port” means a Super
 Serial Card in slot 1 or 2, respectively.
-
+{: .space-after }
 
 ### You have one USB-to-serial adapter, and want to use it for virtual drives
 
 You can use:
 
 * the lower USB port
-
 * any port in a hub on the lower USB port if it is the only USB-to-serial
   adapter in the hub
-
 * the lowest-numbered port on a hub with multiple USB-to-serial adapters
 
-
 Connect the adapter to a serial cable attached to to your Apple II modem port.
-
+{: .space-after }
 
 ### You have one USB-to-serial adapter, and want to use it for internet
 
 You can use:
 
 * the upper USB port
-
 * any port in a hub on the upper USB port if it is the only USB-to-serial
   adapter in the hub
-
 * the highest-numbered port on a hub with multiple USB-to-serial adapters
-
 
 Connect the adapter to a serial cable attached to to your Apple II printer
 port.
-
+{: .space-after }
 
 ### You have two USB-to-serial adapters
 
 Do both of the above.
-
+{: .space-after }
 
 ### How to figure out the lowest or highest numbered port on your USB hub
 
@@ -375,7 +369,6 @@ adapter. Then type `ls /dev/ttyUSBlower_hub*` and see what it shows you. The
 number at the end is your USB port number. You can then move the adapter to a
 different port and repeat until you figure out which one is the lowest and
 which one is the highest.
-
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 
@@ -520,8 +513,8 @@ type `exit` or ctrl-A followed by K. When you close the last screen, Screen
 quits. All Screen commands start with ctrl-A; for a full list of commands,
 type ctrl-A followed by a question mark. A well-written, easy-to-follow guide
 on how to get the most out of Screen is [here][68].
+{: .space-after }
 
- 
 ### ProTERM
 
 ProTERM is a robust and recommended terminal program, but it does not fit on
@@ -536,8 +529,8 @@ you’re ready to connect, choose Parameters from the Online menu, choose 4800
 baud and VT-100 emulation, hide the status bar, and select Line Status:
 Online. (Thanks to Tony Diaz and Intrec Software for making ProTERM free to
 the community.)
+{: .space-after }
 
- 
 ### Spectrum
 
 [Spectrum][67], for the Apple IIgs, is not provided on the A2CLOUD disk,
@@ -550,7 +543,7 @@ if you don’t want to do it every time. You can also type `term mono` if you
 want to switch it back for use with other terminal programs. When you’re done,
 type Apple-W to “close” the display. (Thanks to Ewen Wannop for making
 Spectrum free to the community.)
-
+{: .space-after }
 
 ### Z-Link
 
@@ -569,7 +562,7 @@ your A2CLOUD disk and set it up as above. Then, at the Applesoft prompt,
 type `-VSDRIVE.LOW` followed by `-FILER`. Once in Filer, rename the volume of
 your A2CLOUD floppy to A2CLOUD.DISK, then copy /A2CLOUD.DISK/Z.LINK.CONFIG to
 /A2CLOUD/Z.LINK.CONFIG.
-
+{: .space-after }
 
 ### Apple II Plus and unenhanced IIe
 
@@ -611,13 +604,9 @@ and click on AppleShare.
 (If you can’t browse to the server on your network, try typing
 `a2server-setup` to update it, and if that doesn’t work, type `showip` to get
 your Pi’s IP address. On Mac OS X, enter the IP address under “Connect To
-Server…” from the Go menu of the Finder; on Windows, type the IP address
-following two blackslash characters (\\) in an Explorer window.)
-
-<!--
-Content edit: Make sure both Markdown source and HTML target renderings of how
-to specify a backslash-delimited UNC path are understandable.  -Joseph
--->
+Server...” from the Go menu of the Finder; on Windows, type the IP address
+following `\\` in an Explorer window.)
+{: .fine-print }
 
 Open the ADTDISKS shared volume and copy any disk images you want to make into
 disks in there.
@@ -685,7 +674,7 @@ CATALOG)
 `sudo shutdown -h now` will shut down your Pi
 
 `sudo shutdown -r now` will restart your Pi
-
+{: .space-after }
 
 There are also three “special” directories, indicated by a single or double
 period, or a tilde:
@@ -695,7 +684,7 @@ period, or a tilde:
 `..` means the parent (enclosing) directory
 
 `~` means your home directory (on the Pi’s default user, it’s /home/pi)
-
+{: .space-after }
 
 A couple of tips:
 
@@ -706,7 +695,7 @@ pressing ctrl-A while editing a command will take you to the beginning of a
 line
 
 pressing ctrl-E while editing will take you to the end of a line
-
+{: .space-after }
 
 A2CLOUD provides some specialized commands as well, some of which will be
 covered in upcoming posts. To see a full list, type `a2cloud-help`.
@@ -719,7 +708,7 @@ This is just the tip of the iceberg. There are lots and lots of Unix commands
 for every purpose imaginable. If you think there are others which should be
 included here, please mention them in the comments.
 
- 
+
 ##### This entry was posted on July 15, 2013 by [ivanx][].
 
 * * *
