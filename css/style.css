@@ -81,20 +81,20 @@ span.src-list span {
 	background-color: #000520;
 	color: #fff;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .a2cloud h2 {
-	font-size: 22px;
-	font-size: 1.571428571rem;
+	font-size: 24px;
+	margin: 16px 0 32px;
 	line-height: 1.2;
 	font-weight: normal;
-	color: #9CF;
+	color: #bef;
 }
 
 .a2cloud h3 {
-	font-size: 14px;
-	font-size: 1rem;
+	margin-top: 48px;
+	font-size: 16px;
 	font-weight: normal;
 	text-decoration: underline;
 }
@@ -102,8 +102,8 @@ span.src-list span {
 .a2cloud h5 {
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
-	font-size: 13px;
-	font-size: 0.928571429rem;
+	font-size: 15px;
+	font-weight: normal;
 	line-height: 1.846153846;
 	color: #757575;
 }
@@ -118,48 +118,33 @@ span.src-list span {
 
 .a2cloud p {
 	margin: 0 0 24px;
-	margin: 0 0 1.714285714rem;
 }
 
 .a2cloud code {
 	font-family: Courier, Courier New, Consolas, Monaco, Lucida Console, monospace;
-	font-size: 14px;
+	font-size: 16px;
 	color: #F90;
 }
 
 .a2cloud .site {
-	padding: 0 40px;
-	padding: 0 2.857142857rem;
 	margin-top: 48px;
-	margin-top: 3.428571429rem;
 	margin-bottom: 48px;
-	margin-bottom: 3.428571429rem;
 	margin: 0 auto;
 	max-width: 960px;
-	max-width: 68.571428571rem;
 	overflow: hidden;
 }
 
-.a2cloud header {
-	color: #00db0a;
-	margin: 14px 0;
-	margin: 1rem 0;
-	padding: 0 0 14px;
-	padding: 0 0 1rem;
-}
 .a2cloud header h1 {
 	text-align: left;
-	font-size: 24px;
-	font-size: 1.714285714rem;
+	font-size: 28px;
 	line-height: 1.285714286;
-	margin-bottom: 14px;
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 }
 
 .a2cloud header h2 {
+	color: #00db0a;
 	font-weight: normal;
-	font-size: 13px;
-	font-size: 0.928571429rem;
+	font-size: 15px;
 	line-height: 1.846153846;
 }
 
@@ -175,18 +160,17 @@ span.src-list span {
 
 .a2cloud header ul {
 	list-style: none;
-	padding: 1rem 0;
+	padding: 1em 0;
 	text-transform: uppercase;
 	border-top: 1px solid #ededed;
 	border-bottom: 1px solid #ededed;
-	font-size: 12px;
-	font-size: 0.857142857rem;
+	font-size: 16px;
 }
 
 .a2cloud header li {
+	color: #636363;
 	display: inline-block;
 	margin: 0 40px 0 0;
-	margin: 0 2.857142857rem 0 0;
 	line-height: 1.42857143;
 }
 
@@ -194,22 +178,20 @@ span.src-list span {
 	color: #9CF;
 }
 
-.a2cloud a:hover {
+.a2cloud a:hover, .a2cloud header li a:hover {
 	color: #F6F;
 }
 
 .a2cloud nav {
 	display: block;
 	float: right;
-	width: 26.041666667%;
+	width: 28%;
 	margin: 24px 0 0;
-	margin: 1.714285714rem 0 0;
 	color: #636363;
 }
 
 .a2cloud nav h2 {
-	font-size: 11px;
-	font-size: 0.785714286rem;
+	font-size: 13px;
 	line-height: 2.181818182;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -225,25 +207,26 @@ span.src-list span {
 
 .a2cloud nav a {
 	color: #636363;
-	text-decoration: none;
 }
 
 .a2cloud #content {
 	display: block;
 	float: left;
-	width: 65.104166667%;
+	width: 68%;
 	margin: 24px 0 0;
-	margin: 1.714285714rem 0 0;
 	line-height: 1.714285714;
 }
 
+.a2cloud header ul {
+	margin-bottom: 0;
+}
+
 .a2cloud ul {
-	margin-bottom: 36px;
-	margin-bottom: 3rem;
+	margin-bottom: 32px;
 }
 
 .a2cloud hr {
-	margin: 2em 0;
+	margin: 2em 0 4em;
 	border: 2px solid #ededed;
 }
 
