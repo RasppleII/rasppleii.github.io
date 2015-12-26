@@ -17,7 +17,7 @@ been pretty heavily modified to convert the page to Markdown format.
 
 [A2CLOUD]: index.html "A2CLOUD"
 [Apple II Extravaganza]: [http://appleii.ivanx.com/
-[Raspberry Pi Party]: http://ivanx.com/raspberrypi
+[Raspberry Pi Party]: http://ivanx.com/raspberrypi/
 [ivanx]: mailto:ivan@ivanx.com "Contact Ivan Drucker"
 </header>
 
@@ -67,13 +67,13 @@ computers or virtual machines; [click here][25] for details.
 This web page is the user guide; just read the posts in order. The table of
 contents is over on the right. You might want to start with the intro video
 below. (For other ways to use your Raspberry Pi with your Apple II, check
-out [A2SERVER][26], and [Apple II Pi][27], both part of [Raspple II][28].)
+out [A2SERVER][], and [Apple II Pi][], both part of [Raspple II][].)
 
 *5-May-15: A2CLOUD 1.8.1 is available, featuring compatibility with every
 Raspberry Pi including Raspberry Pi 2 Model B and Raspberry Pi 1 Model A+, and
 non-Pi users now get the GSport emulator. If you already have A2CLOUD
 installed, type `a2cloud-update` to update, or start over with the [Raspple
-II][28] easy installation method (or upgrade Raspple II with `a2cloud-update
+II][] easy installation method (or upgrade Raspple II with `a2cloud-update
 os`). The complete version history is [here](#release-history-and-notes).*
 
 <!--
@@ -85,6 +85,11 @@ os`). The complete version history is [here](#release-history-and-notes).*
 <iframe src="http://www.youtube.com/embed/kYkOxe4mjHg" width="480" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ##### This entry was posted on July 14, 2013 by [ivanx][]
+[24]: http://www.raspberrypi.org/ "Raspberry Pi"
+[25]: #ivanx-february-17-2014-at-943-pm "A2CLOUD on non-Pi computers"
+[A2SERVER]: ../a2server/index.html "A2SERVER"
+[Apple II Pi]: http://schmenk.is-a-geek.com/wordpress/ "Apple II Pi"
+[Raspple II]: ../rasppleii/index.html "Raspple II"
 
 * * *
 
@@ -164,7 +169,7 @@ tried them.)
 ### Starting Fresh
 
 If you have never used your Pi, you will need to prepare your SD card.
-Download [Raspple II][28] (a distribution of the Raspbian operating system
+Download [Raspple II][] (a distribution of the Raspbian operating system
 with Apple II goodies preinstalled), and expand the .zip file. Copy all of its
 files to a 4 GB or larger SD card (8 GB or larger recommended). Then put the
 SD card in your Pi, and attach power. The operating system will automatically
@@ -264,7 +269,7 @@ rather than asking your router for it) via the method discussed [here][59].
 
 ## install the software
 
-If you used the [Raspple II][28] installation method, you’ve already installed
+If you used the [Raspple II][] installation method, you’ve already installed
 the A2CLOUD software, and can skip the rest of this post.
 
 If you don’t have A2CLOUD installed yet — because, for example, you installed
@@ -567,14 +572,14 @@ relevant discussion thread][71].
 
 ## make a floppy or image
 
-If you have [A2SERVER][26] installed — which you do if you installed A2CLOUD
-with [Raspple II][28] — it’s easy to download software with your modern
+If you have [A2SERVER][] installed — which you do if you installed A2CLOUD
+with [Raspple II][] — it’s easy to download software with your modern
 computer and turn it into a floppy disk with your Apple II, or use it as a
 virtual drive. And it’s just as easy to make an image from an Apple II floppy
 that you can use in an emulator on your modern computer.
 
 (If you don’t have A2SERVER installed, you can start over with
-[Raspple II][28], or you can, at your Raspberry Pi’s prompt, type `wget
+[Raspple II][], or you can, at your Raspberry Pi’s prompt, type `wget
 ivanx.com/a2server/setup; source setup` to install it. If you’re not sure,
 type `a2server-help`; if you get a help screen, you’ve got A2SERVER.)
 
@@ -1139,7 +1144,7 @@ of the Raspbian desktop. (To start the Raspbian desktop, type `startx` or use
 
 ## Apple II Pi
 
-David Schmenk has created [Apple II Pi][27], which takes a different approach
+David Schmenk has created [Apple II Pi][], which takes a different approach
 than A2CLOUD. With A2CLOUD, the idea is to use your Pi as a peripheral for
 your Apple II.
 
@@ -1170,7 +1175,7 @@ Pi will fully shut down.
 
 Apple II Pi has many more sophisticated abilities, such being able to develop
 6502 code on the Raspberry Pi and execute it on the Apple II.  For more info
-on how to use it, check out [Dave’s web site][27] and the [Ultimate Apple 2
+on how to use it, check out [Dave’s web site][Apple II Pi] and the [Ultimate Apple 2
 forums][86].
 
 
@@ -1330,7 +1335,7 @@ enhancements. To update, type `a2cloud-update`.
   Apple II community (`a2chat` and `a2news` commands)
 * adds KEGS and LinApple emulators
 * installs Apple II Pi
-* easy installation via [Raspple II][28]
+* easy installation via [Raspple II][]
 
 
 ### v1.2.3, Nov 2013
@@ -1447,11 +1452,6 @@ though if you’re dedicated, you can compile it yourself [here][93].
 ##### This entry was posted on January 26, 2014 by [ivanx][].
 </section>
 
-[24]: http://www.raspberrypi.org "Raspberry Pi"
-[25]: #ivanx-february-17-2014-at-943-pm "A2CLOUD on non-Pi computers"
-[26]: http://appleii.ivanx.com/a2server/ "A2SERVER"
-[27]: http://schmenk.is-a-geek.com/wordpress/ "Apple II Pi"
-[28]: http://appleii.ivanx.com/rasppleii/ "Raspple II"
 [30]: #apple-ii-plus-and-unenhanced-iie "A2CLOUD: log in from your Apple II"
 [31]: http://www.raspberrypi.org/products/ "Raspberry Pi purchase"
 [32]: http://www.amazon.com/s/ref=nb_sb_ss_i_0_4?url=search-alias%3Daps&amp;field-keywords=raspberry+pi+2&amp;sprefix=rasp%2Caps%2C173 "Raspberry Pi 2 Model B search - Amazon"
