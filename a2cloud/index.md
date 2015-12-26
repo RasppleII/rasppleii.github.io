@@ -76,10 +76,13 @@ installed, type `a2cloud-update` to update, or start over with the [Raspple
 II][28] easy installation method (or upgrade Raspple II with `a2cloud-update
 os`). The complete version history is [here](#release-history-and-notes).*
 
+<!--
 [![YouTube: A2CLOUD setup part 1: intro and demo][v_img01]][video01]
 
 [v_img01]: http://img.youtube.com/vi/kYkOxe4mjHg/0.jpg
 [video01]: http://www.youtube.com/watch?v=kYkOxe4mjHg
+-->
+<iframe src="http://www.youtube.com/embed/kYkOxe4mjHg" width="480" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ##### This entry was posted on July 14, 2013 by [ivanx][]
 
@@ -92,10 +95,13 @@ goes where, followed by your shopping list. (Don’t pay much attention to
 2:00 through 6:00, as it’s now much simpler to set up A2CLOUD than when
 I made the video.)
 
+<!--
 [![YouTube: A2CLOUD setup part 2: configure your Raspberry Pi][v_img02]][video02]
 
 [v_img02]: http://img.youtube.com/vi/saIdvQNgm3c/0.jpg
 [video02]: http://www.youtube.com/watch?v=saIdvQNgm3c
+-->
+<iframe src="http://www.youtube.com/embed/saIdvQNgm3c" width="480" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 
 Places to purchase are linked:
@@ -378,10 +384,13 @@ If you don’t have ADTPro on an Apple II disk already, you need to get it
 running on your Apple II via a process called bootstrapping. Here’s a video to
 show you how to do that, or you can read the instructions below it.
 
+<!--
 [![YouTube: A2CLOUD setup part 3: making your boot floppy][v_img03]][video03]
 
 [v_img03]: http://img.youtube.com/vi/iOKIQNF8sZY/0.jpg
 [video03]: http://www.youtube.com/watch?v=iOKIQNF8sZY
+-->
+<iframe src="http://www.youtube.com/embed/iOKIQNF8sZY" width="480" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 First, turn on your Apple II and press ctrl-RESET before DOS or ProDOS can
 load. Next, if you have a screen, keyboard, and mouse attached to your Pi,
