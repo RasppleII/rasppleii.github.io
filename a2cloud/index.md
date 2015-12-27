@@ -61,7 +61,7 @@ to this page, else wait for re-worked website.  -TJC, 2015.12.24
 
 Hello, and welcome to A2CLOUD! It provides any Apple II — even a IIc — with
 internet access, mass storage, and floppy disk transfer, via a [Raspberry
-Pi][24], a tiny silent $35 computer. You can also use A2CLOUD with other Linux
+Pi][], a tiny silent $35 computer. You can also use A2CLOUD with other Linux
 computers or virtual machines; [click here](#a2cloud-on-non-pi-computers) for details.
 
 This web page is the user guide; just read the posts in order. The table of
@@ -85,7 +85,7 @@ os`). The complete version history is [here](#release-history-and-notes).*
 <iframe src="http://www.youtube.com/embed/kYkOxe4mjHg" width="480" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ##### This entry was posted on July 14, 2013 by [ivanx][]
-[24]: http://www.raspberrypi.org/ "Raspberry Pi"
+[Raspberry Pi]: http://www.raspberrypi.org/ "Raspberry Pi"
 [A2SERVER]: ../a2server/index.html "A2SERVER"
 [Apple II Pi]: http://schmenk.is-a-geek.com/wordpress/ "Apple II Pi"
 [Raspple II]: ../rasppleii/index.html "Raspple II"
@@ -399,7 +399,7 @@ which one is the highest.
 ## make your boot disk
 
 You’re almost ready to use virtual drives, courtesy of David Schmidt’s
-[VSDRIVE][60], which is included with [ADTPro][]. You can also use ADTPro
+[VSDRIVE][], which is included with [ADTPro][]. You can also use ADTPro
 itself to transfer disk images to actual disks, and vice versa.
 
 To access the virtual drives, you need to boot from the A2CLOUD disk. To get
@@ -450,7 +450,7 @@ reboot, or disconnect and then reconnect the USB-to-serial adapter on the
 lower USB port.
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
-[60]: http://adtpro.sourceforge.net/vdrive.html "VSDRIVE"
+[VSDRIVE]: http://adtpro.sourceforge.net/vdrive.html "VSDRIVE"
 [ADTPro]: http://adtpro.sourceforge.net/ "ADTPro"
 [62]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.DSK "140K A2CLOUD boot disk"
 [63]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.HDV "800K A2CLOUD boot disk"
@@ -1152,27 +1152,27 @@ point.)
 You’ll either need a screen attached to your Raspberry Pi, or
 [remote desktop software](#go-headless-optional).
 
-For an emulated Apple IIgs, use [GSport][81], a descendent of the KEGS
+For an emulated Apple IIgs, use [GSport][], a descendent of the KEGS
 emulator with significant enhancements by David Schmidt, David Schmenk, Peter
 Neubauer, Christopher Mason, and others.  GSport’s features include Uthernet
 card emulation, AppleTalk networking, and ImageWriter and Epson printer
 emulation. Type `gsport` to if you are at the command prompt and want a
 full-screen experience, or double-click GSport on the Raspbian desktop. Press
 F4 for the configuration screen, and alt-F4 to exit. Usage instructions are on
-the [GSport home page.][81]
+the [GSport home page.][GSport]
 
-For a emulated Apple IIe, type `linapple` to run the [LinApple][82] emulator.
+For a emulated Apple IIe, type `linapple` to run the [LinApple][] emulator.
 It has some nifty features like built-in software downloading and a built-in
-help screen. More information is [here][82].
+help screen. More information is [here][LinApple].
 
-You can also use GSport’s ancestor, [KEGS][83], by choosing it from the menu
+You can also use GSport’s ancestor, [KEGS][], by choosing it from the menu
 of the Raspbian desktop. (To start the Raspbian desktop, type `startx` or use
 [remote desktop software](#go-headless-optional).) Usage instructions are [here][84].
 
 ##### This entry was posted on November 29, 2013 by [ivanx][].
-[81]: http://gsport.sourceforge.net/ "GSport"
-[82]: http://linapple.sourceforge.net/ "LinApple"
-[83]: http://kegs.sourceforge.net/ "KEGS"
+[GSport]: http://gsport.sourceforge.net/ "GSport"
+[LinApple]: http://linapple.sourceforge.net/ "LinApple"
+[KEGS]: http://kegs.sourceforge.net/ "KEGS"
 [84]: http://kegs.sourceforge.net/README.kegs.txt "KEGS instructions"
 
 * * *
@@ -1225,7 +1225,7 @@ forums][87].
 A2CLOUD is sorta always in a state of development with tiny tweaks happening
 without announcement, often to the installer script rather than any visible
 features per se, and those changes and other small details are (somewhat)
-documented at the end of [the script itself][88]. But here are the noteworthy
+documented at the end of [the script itself][setup.txt]. But here are the noteworthy
 enhancements. To update, type `a2cloud-update`.
 
 ### v1.8.1, May 5, 2015
@@ -1397,7 +1397,7 @@ enhancements. To update, type `a2cloud-update`.
   introduced at KansasFest 2013
 
 ##### This entry was posted on December 28, 2013 by [ivanx][].
-[88]: http://appleii.ivanx.com/a2cloud/setup/setup.txt "A2CLOUD setup script"
+[setup.txt]: http://appleii.ivanx.com/a2cloud/setup/setup.txt "A2CLOUD setup script"
 
 * * *
 
@@ -1420,7 +1420,7 @@ in this Markdown file.  -Joseph
 
 #### ivanx, January 26, 2014 at 4:03 pm
 
-[Alistair Ross][89], who suggested the TTYtter client for Twitter that is now
+[Alistair Ross][], who suggested the TTYtter client for Twitter that is now
 in A2CLOUD, has introduced me to the Mutt email client. Mutt requires a
 hand-built .muttrc file to put in account information, but Alistair has
 developed a wizard that will create one for Gmail and other IMAP servers. I
@@ -1432,14 +1432,14 @@ To install Mutt or Alpine, type:
 `sudo apt-get install mutt` (or `alpine`)  
 also, get [Alistair’s Mutt configuration wizard][90]
 
-[89]: http://twitter.com/AJRossNZ
+[Alistair Ross]: http://twitter.com/AJRossNZ
 [90]: http://pastebin.com/Mawvd2pZ
 
 ### Alternative text-only web browsers
 
 #### ivanx, January 26, 2014 at 9:44 pm
 
-[Alistair Ross][89] also suggested the Links web browser. It has a cleaner
+[Alistair Ross][] also suggested the Links web browser. It has a cleaner
 layout than Lynx does, devoting more screen space to web content (especially
 valuable on the Apple II’s 80×24 display). You get nothing but a blank screen
 on startup, but press ESC to get a menu bar, and from there it’s
@@ -1469,7 +1469,7 @@ as the default 4 MB disk in S2,D1.
 A2CLOUD can be installed on Debian or Ubuntu Linux (and possibly derivatives).
 It has been tried on the 32-bit versions of Debian 7 and Ubuntu Server 13.10.
 To install, type:  
-`wget ivanx.com/a2cloud/setup; source setup`
+`wget ivanx.com/a2cloud/setup; source setup`{: .language-bash }
 
 You can also install it into the [A2SERVER][92] virtual machine with the same
 command, or start fresh with the premade [A2SERVER+A2CLOUD][92] virtual
