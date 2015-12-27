@@ -16,7 +16,7 @@ been pretty heavily modified to convert the page to Markdown format.
 * [love and hate mail: ivan@ivanx.com][ivanx]
 
 [A2CLOUD]: index.html "A2CLOUD"
-[Apple II Extravaganza]: [http://appleii.ivanx.com/
+[Apple II Extravaganza]: http://appleii.ivanx.com/
 [Raspberry Pi Party]: http://ivanx.com/raspberrypi/
 [ivanx]: mailto:ivan@ivanx.com "Contact Ivan Drucker"
 </header>
@@ -120,17 +120,17 @@ Places to purchase are linked:
 * a [good power supply][az-USBpwr] with a micro-USB plug that provides at least 1A of
   current
 * an [ethernet cable][az-netCable] attached to your router, or a
-  [Wi-Fi adapter][40] (more complex)
+  [Wi-Fi adapter][ivanx-rpiWifi] (more complex)
 * a [null modem Apple II serial cable][41] (or: [roll your own][42])
-* a [USB-to-serial adapter][43]
-* a [Super Serial Card][44], if you have an Apple IIe (see note below)
+* a [USB-to-serial adapter][az-USBserial]
+* a [Super Serial Card][eb-SSC], if you have an Apple IIe (see note below)
 
 If you want simultaneous virtual drives and internet access from your
 Apple II:
 
 * another [null modem Apple II serial cable][41] (or: [roll your own][42])
-* another [USB-to-serial adapter][43]
-* another [Super Serial Card][44], if you have an Apple IIe (see note below)
+* another [USB-to-serial adapter][az-USBserial]
+* another [Super Serial Card][eb-SSC], if you have an Apple IIe (see note below)
 
 Optional items:
 
@@ -140,7 +140,7 @@ Optional items:
   [control the Pi from another computer](#go-headless-optional))
 * a [*powered* USB hub][az-USBhub] (if you don’t have a free port for a USB-to-serial
   adapter)
-* an [Apple II Pi card][49], or another [Super Serial Card][44] with a
+* an [Apple II Pi card][49], or another [Super Serial Card][eb-SSC] with a
   [Raspberry Pi Console cable][50], if you want to use [Apple II Pi](#apple-ii-pi)
 
 If you have a straight-through serial cable rather than a null modem serial
@@ -169,11 +169,11 @@ tried them.)
 [az-8gSD]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=8GB+SD+card&tag=ivane-20 "8GB SD card - Amazon"
 [az-USBpwr]: http://amazon.com/dp/B00A9PO5AM?tag=ivane-20 "5V 2A Micro USB Travel Charger - Amazon"
 [az-netCable]: http://amazon.com/s?url=search-alias%3Dcomputers&field-keywords=ethernet+cable&tag=ivane-20 "Ethernet cable - Amazon"
-[40]: http://ivanx.com/raspberrypi/raspberrypi_wifi.html "Raspberry Pi WiFi"
+[ivanx-rpiWifi]: http://ivanx.com/raspberrypi/raspberrypi_wifi.html "Raspberry Pi WiFi"
 [41]: http://retrofloppy.com/products.html "Apple II null modem serial cable"
 [42]: http://adtpro.sourceforge.net/connectionsserial.html "ADTPro serial connections"
-[43]: http://amazon.com/dp/B0007T27H8?tag=ivane-20 "TRENDnet TU-S9 USB-to-serial adapter - Amazon"
-[44]: http://www.ebay.com/sch/i.html?_nkw=apple+super+serial+card "eBay - Apple Super Serial Card"
+[az-USBserial]: http://amazon.com/dp/B0007T27H8?tag=ivane-20 "TRENDnet TU-S9 USB-to-serial adapter - Amazon"
+[eb-SSC]: http://www.ebay.com/sch/i.html?_nkw=apple+super+serial+card "eBay - Apple Super Serial Card"
 [az-SDreader]: http://amazon.com/dp/B006T9B6R2?tag=ivane-20 "SD card reader"
 [az-keyboard]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+keyboard&tag=ivane-20 "USB keyboard - Amazon"
 [az-mouse]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+mouse&tag=ivane-20 "USB mouse - Amazon"
@@ -407,7 +407,7 @@ that, you need ADTPro to transfer it to an Apple II floppy. If you’ve already
 got ADTPro on an Apple II disk, boot it (choose Serial if prompted), and skip
 the video and the paragraph which follows it. Or, if you’ve got some other
 means of turning disk image files into floppies, you can download the
-[140K A2CLOUD boot disk][62] or the [800K A2CLOUD boot disk][63], and skip the
+[140K A2CLOUD boot disk][A2CLOUD 140k] or the [800K A2CLOUD boot disk][A2CLOUD 800k], and skip the
 rest of this post.
 
 If you don’t have ADTPro on an Apple II disk already, you need to get it
@@ -452,8 +452,8 @@ lower USB port.
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 [VSDRIVE]: http://adtpro.sourceforge.net/vdrive.html "VSDRIVE"
 [ADTPro]: http://adtpro.sourceforge.net/ "ADTPro"
-[62]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.DSK "140K A2CLOUD boot disk"
-[63]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.HDV "800K A2CLOUD boot disk"
+[A2CLOUD 140k]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.DSK "140K A2CLOUD boot disk"
+[A2CLOUD 800k]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.HDV "800K A2CLOUD boot disk"
 
 * * *
 
