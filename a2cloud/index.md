@@ -62,7 +62,7 @@ to this page, else wait for re-worked website.  -TJC, 2015.12.24
 Hello, and welcome to A2CLOUD! It provides any Apple II — even a IIc — with
 internet access, mass storage, and floppy disk transfer, via a [Raspberry
 Pi][24], a tiny silent $35 computer. You can also use A2CLOUD with other Linux
-computers or virtual machines; [click here][25] for details.
+computers or virtual machines; [click here](#a2cloud-on-non-pi-computers) for details.
 
 This web page is the user guide; just read the posts in order. The table of
 contents is over on the right. You might want to start with the intro video
@@ -86,7 +86,6 @@ os`). The complete version history is [here](#release-history-and-notes).*
 
 ##### This entry was posted on July 14, 2013 by [ivanx][]
 [24]: http://www.raspberrypi.org/ "Raspberry Pi"
-[25]: #ivanx-february-17-2014-at-943-pm "A2CLOUD on non-Pi computers"
 [A2SERVER]: ../a2server/index.html "A2SERVER"
 [Apple II Pi]: http://schmenk.is-a-geek.com/wordpress/ "Apple II Pi"
 [Raspple II]: ../rasppleii/index.html "Raspple II"
@@ -113,7 +112,7 @@ Places to purchase are linked:
 
 * for virtual drives, any Apple II model with Applesoft
 * for internet, an Apple IIc, IIgs, or 128K Apple IIe enhanced (though Apple
-  II Plus and unenhanced IIe [might work][30])
+  II Plus and unenhanced IIe [might work](#apple-ii-plus-and-unenhanced-iie))
 * any Raspberry Pi, B/B+ models recommended
   ([buy direct from distributor][31], or at Amazon: [Pi 2 model B][32],
   [Pi 1 model B+][33], [Pi 1 model B][34], [Pi 1 model A+][35])
@@ -161,7 +160,6 @@ models based on other chipsets such as FTDI may also work; I just haven’t
 tried them.)
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
-[30]: #apple-ii-plus-and-unenhanced-iie "log in from your Apple II - II plus and unenhanced IIe"
 [31]: http://www.raspberrypi.org/products/ "Raspberry Pi purchase"
 [32]: http://www.amazon.com/s/ref=nb_sb_ss_i_0_4?url=search-alias%3Daps&amp;field-keywords=raspberry+pi+2&amp;sprefix=rasp%2Caps%2C173 "Raspberry Pi 2 Model B search - Amazon"
 [33]: http://www.amazon.com/gp/product/B00LPESRUK/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00LPESRUK&amp;linkCode=as2&amp;tag=ivane-20&amp;linkId=B7F2LQNXIWGYCNYQ "Raspberry Pi 1 model B+ - Amazon"
@@ -284,7 +282,6 @@ If your router can’t provide a DHCP reservation, you can alternatively
 configure your Pi to have a static IP address (which is permanently set,
 rather than asking your router for it) via the method discussed [here][59].
 
-
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 [Bonjour Print Services]: http://support.apple.com/kb/dl999
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
@@ -326,7 +323,6 @@ log in.)
 
 You’ve now got your Raspberry Pi providing virtual drives and internet access
 for your Apple II!
-
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 
@@ -502,8 +498,9 @@ use with VSDRIVE, or experiment with other copy programs.
 You can also change the virtual drives to use different images, which I’ll
 explain in a later post.
 
-
 ##### This entry was posted on July 14, 2013 by [ivanx][].
+[64]: http://apple2.info/wiki/index.php?title=DOS#Commands_quick_reference "ProDOS and DOS 3.3 commands"
+[65]: http://www.apple2scans.net/?p=33 "BASIC Programming with ProDOS"
 
 * * *
 
@@ -597,8 +594,13 @@ emulation, and on an Apple II Plus you need a Videx VideoTerm (but not
 UltraTerm) for 80 column support. I haven’t tried them, but [here’s the
 relevant discussion thread][71].
 
-
 ##### This entry was posted on July 14, 2013 by [ivanx][].
+[66]: http://lostclassics.apple2.info/announcements/19/proterm-a2/ "ProTERM"
+[67]: http://www.wannop.info/speccie/Site/Speccies_Home_Pages.html "Spectrum for Apple IIgs"
+[68]: http://www.bartbania.com/index.php/linux-screen/ "using Screen"
+[69]: http://www.wannop.info/speccie/Site/Download_Centre.html "Spectrum download"
+[70]: http://macgui.com/downloads/?file_id=24237 "Mac GUI Vault: Kermit 3.87"
+[71]: https://groups.google.com/d/msg/comp.sys.apple2/8yUpfbAgdx0/oVwep6fMsTYJ "VT-100 on Apple II Plus and unenhanced IIe"
 
 * * *
 
@@ -634,7 +636,7 @@ following `\\` in an Explorer window.)
 Open the ADTDISKS shared volume and copy any disk images you want to make into
 disks in there.
 
-Then run [ADTPro][61] on your Apple II, which is on your A2CLOUD boot disk.
+Then run [ADTPro][] on your Apple II, which is on your A2CLOUD boot disk.
 Type R to receive, and type the name of the image file (case matters), and
 then choose the drive containing the disk you want to put the image onto. The
 disk will be erased, so be careful.  Also, if you were using VSDRIVE before
@@ -652,7 +654,6 @@ ADTDISKS network volume on your newer computer.
 Unix-type computers can also use `scp` to copy files to and from A2SERVER;
 Windows computers can also do so in the command window by using `pscp`
 in [PuTTY][]. The shared volume is at /media/A2SHARED/ADTDISKS.
-
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 
@@ -730,7 +731,6 @@ This is just the tip of the iceberg. There are lots and lots of Unix commands
 for every purpose imaginable. If you think there are others which should be
 included here, please mention them in the comments.
 
-
 ##### This entry was posted on July 15, 2013 by [ivanx][].
 
 * * *
@@ -773,7 +773,6 @@ Windows shortcut or Mac alias, to whatever file you specify as imageFileName.
 The symlinks are in /usr/local/adtpro/disks, and are called Virtual.po or
 Virtual2.po, respectively.)
 
-
 ##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
@@ -795,7 +794,7 @@ If you want to chat live with other Apple II people, all you need to do is
 type `a2chat`. It will launch an IRC program called Irssi and connect you
 directly to the #a2c.chat channel. (If you want to connect to other channels,
 instead type `irssi`.) Type `/quit` when you’re done. You might want to check
-out more detailed instructions for [IRC generally][72] or
+out more detailed instructions for [IRC generally][IRC Help] or
 [Irssi specifically][73].
 
 ### Usenet newsgroups (discussion boards)
@@ -813,7 +812,7 @@ You can indeed tweet from your Apple II, if you can believe it. Type `ttytter`
 and follow the instructions. For initial setup, you’ll need to sign in to your
 Twitter account from a web browser, which, if you don’t want to leave your
 Apple II, could be Lynx, as I will explain in the next post.  If you need
-help, an [extensive manual][74] is available for TTYtter. You can also try
+help, an [extensive manual][TTYtter] is available for TTYtter. You can also try
 starting it by typing `ttytter -readline` for enhanced input, though it is
 beta and may have problems.
 
@@ -821,11 +820,13 @@ beta and may have problems.
 
 There are email programs you can use, but they can be challenging to set up,
 so they have not formally been made a part of A2CLOUD for the moment. If you
-want to give it a go, [see this comment][75] to get started, and look for help
+want to give it a go, [see this comment](#email-on-a2cloud) to get started, and look for help
 on Linux forums if you need it.
 
-
 ##### This entry was posted on August 11, 2013 by [ivanx][].
+[IRC Help]: http://www.irchelp.org/ "IRC Help"
+[73]: http://www.irssi.org/documentation/ "Irssi Documentation"
+[TTYtter]: http://www.floodgap.com/software/ttytter/ "TTYtter"
 
 * * *
 
@@ -856,7 +857,7 @@ programs.
 `lynx`\: a text-only web browser which can access simply laid out sites.
 Examples: `lynx ivanx.com`, or a download site, like `lynx
 mirrors.apple2.org.za`. ProTERM and Spectrum work better for lynx than Z-Link
-does. (You can also try out [alternative text-only web browsers][78].)
+does. (You can also try out [alternative text-only web browsers](#alternative-text-only-web-browsers).)
 
 `links`\: another text-only web browser you might, or might not, prefer to
 Lynx. If you see only a black screen when you start it, press the ESC key to
@@ -880,8 +881,9 @@ directoryPath`. You can see all commands by typing `help`.
 in a single command, e.g: `wget
 http://appleii.ivanx.com/slammer/files/SLAMMER111P.DSK`
 
-
 ##### This entry was posted on August 11, 2013 by [ivanx][].
+[76]: http://elinux.org/RPi_Chromium "Chromium (Google Chrome for Raspberry Pi)"
+[77]: http://elinux.org/RPi_IceWeasel "Iceweasel (Firefox for Raspbian)"
 
 * * *
 
@@ -938,7 +940,6 @@ alternative, but it’s even slower. It does preserve dates, however.)
 
 `$VSD1` and `$VSD2` can be used in commands to refer to the disk images
 assigned to virtual drives 1 and 2, rather than typing out the full path.
-
 
 ##### This entry was posted on August 11, 2013 by [ivanx][].
 
@@ -1001,8 +1002,8 @@ and `usq filename` will uncompress Squeezed files. `unbit filename >
 outfilename` will decode an EXEC file made by Executioner; `unexec filename >
 outfilename` will decode an EXEC file containing monitor input.
 
-
 ##### This entry was posted on August 11, 2013 by [ivanx][].
+[79]: http://unarchiver.c3.cx/formats "The Unarchiver supported formats"
 
 * * *
 
@@ -1088,7 +1089,6 @@ acmd (AppleCommander) has some smarts, and it can translate (or “export”, as
 it prefers to say) from various Apple II file formats into modern formats. If
 you want it to give that a shot, use `-e` instead of `-g` above.
 
-
 ##### This entry was posted on August 11, 2013 by [ivanx][].
 
 * * *
@@ -1137,8 +1137,8 @@ ProTERM starts without having to use the “Read Globals” menu item, delete or
 rename PT3.GLOBALS, and then rename the appropriate globals file to
 PT3.GLOBALS.
 
-
 ##### This entry was posted on August 11, 2013 by [ivanx][].
+[80]: https://groups.google.com/forum/#!searchin/comp.sys.apple2/115200$20hugh "Hugh Hood's 115200 baud ProTERM macros"
 
 * * *
 
@@ -1169,8 +1169,11 @@ You can also use GSport’s ancestor, [KEGS][83], by choosing it from the menu
 of the Raspbian desktop. (To start the Raspbian desktop, type `startx` or use
 [remote desktop software](#go-headless-optional).) Usage instructions are [here][84].
 
-
 ##### This entry was posted on November 29, 2013 by [ivanx][].
+[81]: http://gsport.sourceforge.net/ "GSport"
+[82]: http://linapple.sourceforge.net/ "LinApple"
+[83]: http://kegs.sourceforge.net/ "KEGS"
+[84]: http://kegs.sourceforge.net/README.kegs.txt "KEGS instructions"
 
 * * *
 
@@ -1208,10 +1211,12 @@ Pi will fully shut down.
 Apple II Pi has many more sophisticated abilities, such being able to develop
 6502 code on the Raspberry Pi and execute it on the Apple II.  For more info
 on how to use it, check out [Dave’s web site][Apple II Pi] and the [Ultimate Apple 2
-forums][86].
-
+forums][87].
 
 ##### This entry was posted on November 29, 2013 by [ivanx][].
+[85]: https://ultimateapple2.com/ "Apple II Pi card"
+[86]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=db9%20male%20null%20modem%20adapter%20-usb%20-female&amp;linkCode=ur2&amp;rh=n%3A172282%2Ck%3Adb9%20male%20null%20modem%20adapter%20-usb%20-female&amp;tag=ivane-20&amp;url=search-alias%3Delectronics "DE-9 male-to-male null modem adapter"
+[87]: https://www.ultimateapple2.com/forums/ "Ultimate Apple 2 forums"
 
 * * *
 
@@ -1290,7 +1295,7 @@ enhancements. To update, type `a2cloud-update`.
 
 ### v1.6.6, Feb 17, 2014
 
-* [beta support for Debian and Ubuntu Linux on non-Pi machines][25]
+* [beta support for Debian and Ubuntu Linux on non-Pi machines](#a2cloud-on-non-pi-computers)
 * ttytter support for color and avoiding non-ASCII characters when running
   under Screen
 * opens LXTerminal window by default when starting graphical desktop
@@ -1391,8 +1396,8 @@ enhancements. To update, type `a2cloud-update`.
 * internet access and virtual drives for any Apple II via a Raspberry Pi;
   introduced at KansasFest 2013
 
-
 ##### This entry was posted on December 28, 2013 by [ivanx][].
+[88]: http://appleii.ivanx.com/a2cloud/setup/setup.txt "A2CLOUD setup script"
 
 * * *
 
@@ -1411,7 +1416,9 @@ Ivan's comments are included below, and obviously the order of posts is fixed
 in this Markdown file.  -Joseph
 -->
 
-### ivanx, January 26, 2014 at 4:03 pm
+### Email on A2CLOUD
+
+#### ivanx, January 26, 2014 at 4:03 pm
 
 [Alistair Ross][89], who suggested the TTYtter client for Twitter that is now
 in A2CLOUD, has introduced me to the Mutt email client. Mutt requires a
@@ -1425,10 +1432,14 @@ To install Mutt or Alpine, type:
 `sudo apt-get install mutt` (or `alpine`)  
 also, get [Alistair’s Mutt configuration wizard][90]
 
+[89]: http://twitter.com/AJRossNZ
+[90]: http://pastebin.com/Mawvd2pZ
 
-### ivanx, January 26, 2014 at 9:44 pm
+### Alternative text-only web browsers
 
-[Alistair Ross][88] also suggested the Links web browser. It has a cleaner
+#### ivanx, January 26, 2014 at 9:44 pm
+
+[Alistair Ross][89] also suggested the Links web browser. It has a cleaner
 layout than Lynx does, devoting more screen space to web content (especially
 valuable on the Apple II’s 80×24 display). You get nothing but a blank screen
 on startup, but press ESC to get a menu bar, and from there it’s
@@ -1439,8 +1450,9 @@ support (select “16 colors” from its setup menu). Alistair also suggested w3
 which I haven’t tried. You can get any of these with:  
 `sudo apt-get install links` (or `elinks`, or `w3m`)
 
+### Other image extraction methods
 
-### ivanx, January 26, 2014 at 10:08 pm
+#### ivanx, January 26, 2014 at 10:08 pm
 
 In [this comp.sys.apple2 thread][91] I discuss various techniques for copying
 contents of Apple II floppy images to another disk. In this case, it’s a hard
@@ -1448,8 +1460,11 @@ disk image file used by a CFFA 3000 card, but it could be any kind of “hard
 disk”, including a Focus or MicroDrive card, or one provided by VSDRIVE such
 as the default 4 MB disk in S2,D1.
 
+[91]: https://groups.google.com/forum/#!msg/comp.sys.apple2/VGvddYfn_wk/eFrQ-u3qBkUJ
 
-### ivanx, February 17, 2014 at 9:43 pm
+### A2CLOUD on non-Pi computers
+
+#### ivanx, February 17, 2014 at 9:43 pm
 
 A2CLOUD can be installed on Debian or Ubuntu Linux (and possibly derivatives).
 It has been tried on the 32-bit versions of Debian 7 and Ubuntu Server 13.10.
@@ -1480,37 +1495,9 @@ connected to the Apple II printer port.
 Apple II Pi is not offered as an installation option on non-Pi computers,
 though if you’re dedicated, you can compile it yourself [here][93].
 
+[92]: http://appleii.ivanx.com/a2server/a2server_virtualbox.html
+[93]: https://github.com/dschmenk/apple2pi "Apple II Pi source code"
 
 ##### This entry was posted on January 26, 2014 by [ivanx][].
 </section>
 
-[64]: http://apple2.info/wiki/index.php?title=DOS#Commands_quick_reference "ProDOS and DOS 3.3 commands"
-[65]: http://www.apple2scans.net/?p=33 "BASIC Programming with ProDOS"
-[66]: http://lostclassics.apple2.info/announcements/19/proterm-a2/ "ProTERM"
-[67]: http://www.wannop.info/speccie/Site/Speccies_Home_Pages.html "Spectrum for Apple IIgs"
-[68]: http://www.bartbania.com/index.php/linux-screen/ "using Screen"
-[69]: http://www.wannop.info/speccie/Site/Download_Centre.html "Spectrum download"
-[70]: http://macgui.com/downloads/?file_id=24237 "Mac GUI Vault: Kermit 3.87"
-[71]: https://groups.google.com/d/msg/comp.sys.apple2/8yUpfbAgdx0/oVwep6fMsTYJ "VT-100 on Apple II Plus and unenhanced IIe"
-[72]: http://www.irchelp.org/ "IRC Help"
-[73]: http://www.irssi.org/documentation/ "Irssi Documentation"
-[74]: http://www.floodgap.com/software/ttytter/ "TTYtter"
-[75]: #ivanx-january-26-2014-at-403-pm "email on A2CLOUD"
-[76]: http://elinux.org/RPi_Chromium "Chromium (Google Chrome for Raspberry Pi)"
-[77]: http://elinux.org/RPi_IceWeasel "Iceweasel (Firefox for Raspbian)"
-[78]: #ivanx-january-26-2014-at-944-pm
-[79]: http://unarchiver.c3.cx/formats "The Unarchiver supported formats"
-[80]: https://groups.google.com/forum/#!searchin/comp.sys.apple2/115200$20hugh "Hugh Hood's 115200 baud ProTERM macros"
-[81]: http://gsport.sourceforge.net/ "GSport"
-[82]: http://linapple.sourceforge.net/ "LinApple"
-[83]: http://kegs.sourceforge.net/ "KEGS"
-[84]: http://kegs.sourceforge.net/README.kegs.txt "KEGS instructions"
-[85]: https://ultimateapple2.com/ "Apple II Pi card"
-[86]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=db9%20male%20null%20modem%20adapter%20-usb%20-female&amp;linkCode=ur2&amp;rh=n%3A172282%2Ck%3Adb9%20male%20null%20modem%20adapter%20-usb%20-female&amp;tag=ivane-20&amp;url=search-alias%3Delectronics "DE-9 male-to-male null modem adapter"
-[87]: https://www.ultimateapple2.com/forums/ "Ultimate Apple 2 forums"
-[88]: http://appleii.ivanx.com/a2cloud/setup/setup.txt "A2CLOUD setup script"
-[89]: http://twitter.com/AJRossNZ
-[90]: http://pastebin.com/Mawvd2pZ
-[91]: https://groups.google.com/forum/#!msg/comp.sys.apple2/VGvddYfn_wk/eFrQ-u3qBkUJ
-[92]: http://appleii.ivanx.com/a2server/a2server_virtualbox.html
-[93]: https://github.com/dschmenk/apple2pi "Apple II Pi source code"
