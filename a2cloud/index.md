@@ -200,7 +200,7 @@ to your Pi, you’ll know when it’s done when the ACT/OK lamp on the Raspberry
 Pi board stops flickering.
 
 (If you are starting over with the same SD card, or want to ensure the card is
-formatted correctly, you can use the official [SD Formatter][52] utility —
+formatted correctly, you can use the official [SD Formatter][] utility —
 carefully! — before copying the files.)  
 
 ### If you’re already up and running, or want to customize the installation
@@ -215,7 +215,7 @@ If you want all the features, answer “Y” to the questions. Then be patient, 
 it takes a little while to install.
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
-[52]: https://www.sdcard.org/downloads/formatter_4/
+[SD Formatter]: https://www.sdcard.org/downloads/formatter_4/
 
 * * *
 
@@ -241,14 +241,14 @@ network.
 
 On a Mac, open Terminal (in the Utilities folder of the Applications folder),
 and at the prompt, type `ssh pi@raspberrypi.local` to connect. If you have
-Windows, you can install [Bonjour Print Services][53], and then use
-[PuTTY][54] to connect to the address “raspberrypi.local”.
+Windows, you can install [Bonjour Print Services][], and then use
+[PuTTY][] to connect to the address “raspberrypi.local”.
 
 If that doesn’t work, try updating A2CLOUD by typing `a2cloud-setup`. If it
 still doesn’t work, or you don’t want to install Bonjour Print Services for
 Windows, you will need to find your Pi’s IP address and use that instead. If
-you have a Mac, you can use [Pi Finder][55] to help with this; if you have
-Windows, you can use [Advanced IP Scanner][56].
+you have a Mac, you can use [Pi Finder][] to help with this; if you have
+Windows, you can use [Advanced IP Scanner][].
 
 The username is “pi” and the password is “apple2″ (or instead “raspberry” if
 you installed a fresh copy of Raspbian, rather than Raspple II). You should
@@ -286,6 +286,13 @@ rather than asking your router for it) via the method discussed [here][59].
 
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
+[Bonjour Print Services]: http://support.apple.com/kb/dl999
+[PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
+[Pi Finder]: http://ivanx.com/raspberrypi/files/PiFinder.zip
+[Advanced IP Scanner]: http://www.advanced-ip-scanner.com/
+[57]: https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12 "Microsoft Remote Desktop for Mac"
+[58]: http://elinux.org/RPi_VNC_Server "configure TightVNCServer"
+[59]: http://elinux.org/Configuring_a_Static_IP_address_on_your_Raspberry_Pi "Raspberry Pi static IP address"
 
 * * *
 
@@ -641,7 +648,7 @@ ADTDISKS network volume on your newer computer.
 
 Unix-type computers can also use `scp` to copy files to and from A2SERVER;
 Windows computers can also do so in the command window by using `pscp`
-in [PuTTY][54]. The shared volume is at /media/A2SHARED/ADTDISKS.
+in [PuTTY][]. The shared volume is at /media/A2SHARED/ADTDISKS.
 
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
@@ -1340,7 +1347,7 @@ enhancements. To update, type `a2cloud-update`.
 * if A2SERVER is installed, shares the ADTPro disks folder as ADTDISKS on the
   network
 * responds to name “raspberrypi.local” as alternative to IP address to Mac OS
-  X (and Windows with [Bonjour Print Services][53] installed) computers on
+  X (and Windows with [Bonjour Print Services][] installed) computers on
   network
 
 
@@ -1474,13 +1481,6 @@ though if you’re dedicated, you can compile it yourself [here][93].
 ##### This entry was posted on January 26, 2014 by [ivanx][].
 </section>
 
-[53]: http://support.apple.com/kb/dl999
-[54]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
-[55]: http://ivanx.com/raspberrypi/files/PiFinder.zip
-[56]: http://www.advanced-ip-scanner.com/
-[57]: https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12 "Microsoft Remote Desktop for Mac"
-[58]: http://elinux.org/RPi_VNC_Server "configure TightVNCServer"
-[59]: http://elinux.org/Configuring_a_Static_IP_address_on_your_Raspberry_Pi "Raspberry Pi static IP address"
 [60]: http://adtpro.sourceforge.net/vdrive.html "VSDRIVE"
 [61]: http://adtpro.sourceforge.net/ "ADTPro"
 [62]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.DSK "140K A2CLOUD boot disk"
