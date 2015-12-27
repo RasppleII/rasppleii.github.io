@@ -114,12 +114,12 @@ Places to purchase are linked:
 * for internet, an Apple IIc, IIgs, or 128K Apple IIe enhanced (though Apple
   II Plus and unenhanced IIe [might work](#apple-ii-plus-and-unenhanced-iie))
 * any Raspberry Pi, B/B+ models recommended
-  ([buy direct from distributor][31], or at Amazon: [Pi 2 model B][32],
-  [Pi 1 model B+][33], [Pi 1 model B][34], [Pi 1 model A+][35])
-* a [4 GB or larger SD card][36] ([8 GB or larger][37] recommended)
-* a [good power supply][38] with a micro-USB plug that provides at least 1A of
+  ([buy direct from distributor][31], or at Amazon: [Pi 2 model B][az-pi2],
+  [Pi 1 model B+][az-piB+], [Pi 1 model B][az-piB], [Pi 1 model A+][az-piA+])
+* a [4 GB or larger SD card][az-4gSD] ([8 GB or larger][az-8gSD] recommended)
+* a [good power supply][az-USBpwr] with a micro-USB plug that provides at least 1A of
   current
-* an [ethernet cable][39] attached to your router, or a
+* an [ethernet cable][az-netCable] attached to your router, or a
   [Wi-Fi adapter][40] (more complex)
 * a [null modem Apple II serial cable][41] (or: [roll your own][42])
 * a [USB-to-serial adapter][43]
@@ -134,18 +134,18 @@ Apple II:
 
 Optional items:
 
-* an [SD card reader][45] to prepare the SD card, if your computer doesn’t
+* an [SD card reader][az-SDreader] to prepare the SD card, if your computer doesn’t
   have one
-* a [USB keyboard][46] and possibly [mouse][47] (or: you can
+* a [USB keyboard][az-keyboard] and possibly [mouse][az-mouse] (or: you can
   [control the Pi from another computer](#go-headless-optional))
-* a [*powered* USB hub][48] (if you don’t have a free port for a USB-to-serial
+* a [*powered* USB hub][az-USBhub] (if you don’t have a free port for a USB-to-serial
   adapter)
 * an [Apple II Pi card][49], or another [Super Serial Card][44] with a
   [Raspberry Pi Console cable][50], if you want to use [Apple II Pi](#apple-ii-pi)
 
 If you have a straight-through serial cable rather than a null modem serial
 cable, and you are using a IIgs or IIc (no Super Serial Card), you can use a
-[DE-9 (aka DB-9) male-to-female null modem adapter][51].
+[DE-9 (aka DB-9) male-to-female null modem adapter][az-de9nullMF].
 
 If you have a Super Serial Card, its jumper block needs to point towards
 “Modem” if you have a null modem cable, or “Terminal” if you have a
@@ -161,26 +161,26 @@ tried them.)
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 [31]: http://www.raspberrypi.org/products/ "Raspberry Pi purchase"
-[32]: http://amazon.com/dp/B00T2U7R7I?tag=ivane-20 "Raspberry Pi 2 Model B - Amazon"
-[33]: http://amazon.com/dp/B00LPESRUK?tag=ivane-20 "Raspberry Pi 1 model B+ - Amazon"
-[34]: http://amazon.com/dp/B009SQQF9C?tag=ivane-20 "Raspberry Pi 1 model B - Amazon"
-[35]: http://amazon.com/dp/B00PEX05TO?tag=ivane-20 "Raspberry Pi 1 model A+ - Amazon"
-[36]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=4GB+SD+card&tag=ivane-20 "4GB SD card - Amazon"
-[37]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=8GB+SD+card&tag=ivane-20 "8GB SD card - Amazon"
-[38]: http://amazon.com/dp/B00A9PO5AM?tag=ivane-20 "5V 2A Micro USB Travel Charger - Amazon"
-[39]: http://amazon.com/s?url=search-alias%3Dcomputers&field-keywords=ethernet+cable&tag=ivane-20 "Ethernet cable - Amazon"
+[az-pi2]: http://amazon.com/dp/B00T2U7R7I?tag=ivane-20 "Raspberry Pi 2 Model B - Amazon"
+[az-piB+]: http://amazon.com/dp/B00LPESRUK?tag=ivane-20 "Raspberry Pi 1 model B+ - Amazon"
+[az-piB]: http://amazon.com/dp/B009SQQF9C?tag=ivane-20 "Raspberry Pi 1 model B - Amazon"
+[az-piA+]: http://amazon.com/dp/B00PEX05TO?tag=ivane-20 "Raspberry Pi 1 model A+ - Amazon"
+[az-4gSD]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=4GB+SD+card&tag=ivane-20 "4GB SD card - Amazon"
+[az-8gSD]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=8GB+SD+card&tag=ivane-20 "8GB SD card - Amazon"
+[az-USBpwr]: http://amazon.com/dp/B00A9PO5AM?tag=ivane-20 "5V 2A Micro USB Travel Charger - Amazon"
+[az-netCable]: http://amazon.com/s?url=search-alias%3Dcomputers&field-keywords=ethernet+cable&tag=ivane-20 "Ethernet cable - Amazon"
 [40]: http://ivanx.com/raspberrypi/raspberrypi_wifi.html "Raspberry Pi WiFi"
 [41]: http://retrofloppy.com/products.html "Apple II null modem serial cable"
 [42]: http://adtpro.sourceforge.net/connectionsserial.html "ADTPro serial connections"
 [43]: http://amazon.com/dp/B0007T27H8?tag=ivane-20 "TRENDnet TU-S9 USB-to-serial adapter - Amazon"
 [44]: http://www.ebay.com/sch/i.html?_nkw=apple+super+serial+card "eBay - Apple Super Serial Card"
-[45]: http://amazon.com/dp/B006T9B6R2?tag=ivane-20 "SD card reader"
-[46]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+keyboard&tag=ivane-20 "USB keyboard - Amazon"
-[47]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+mouse&tag=ivane-20 "USB mouse - Amazon"
-[48]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=Powered+USB+hub&tag=ivane-20 "Powered USB hub - Amazon"
+[az-SDreader]: http://amazon.com/dp/B006T9B6R2?tag=ivane-20 "SD card reader"
+[az-keyboard]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+keyboard&tag=ivane-20 "USB keyboard - Amazon"
+[az-mouse]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+mouse&tag=ivane-20 "USB mouse - Amazon"
+[az-USBhub]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=Powered+USB+hub&tag=ivane-20 "Powered USB hub - Amazon"
 [49]: http://ultimateapple2.com/ "Apple II Pi card from Ultimate Apple 2"
 [50]: http://www.pridopia.co.uk/pi-232r1-db9.html "Raspberry Pi console cable"
-[51]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=DB9+male+female+null+modem+adapter+-usb&tag=ivane-20 "DE-9 male-to-female null modem adapters - Amazon"
+[az-de9nullMF]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=DB9+male+female+null+modem+adapter+-usb&tag=ivane-20 "DE-9 male-to-female null modem adapters - Amazon"
 
 * * *
 
@@ -1191,7 +1191,7 @@ from this, you’ll need a screen attached to your Pi.
 To use Apple II Pi, you’ll need the [Apple II Pi card][85], or a [Raspberry
 Pi console cable][50] attached to a Super Serial Card (even in a IIgs) or a
 IIc/IIc+ serial port, via [the appropriate serial cable][41] and possibly a
-[DE-9 (aka DB-9) male-to-male null modem adapter][86]. The software is
+[DE-9 (aka DB-9) male-to-male null modem adapter][az-de9nullMM]. The software is
 already installed by Raspple II or A2CLOUD (if it doesn’t seem to work, try
 updating A2CLOUD by typing `a2cloud-update`).
 
@@ -1215,7 +1215,7 @@ forums][87].
 
 ##### This entry was posted on November 29, 2013 by [ivanx][].
 [85]: https://ultimateapple2.com/ "Apple II Pi card"
-[86]: http://amazon.com/s?url=search-alias%3DelectronicsDB9+male+null+modem+%adapter+-usb+-female&tag=ivane-20 "DE-9 male-to-male null modem adapter - Amazon"
+[az-de9nullMM]: http://amazon.com/s?url=search-alias%3DelectronicsDB9+male+null+modem+%adapter+-usb+-female&tag=ivane-20 "DE-9 male-to-male null modem adapter - Amazon"
 [87]: https://www.ultimateapple2.com/forums/ "Ultimate Apple 2 forums"
 
 * * *
