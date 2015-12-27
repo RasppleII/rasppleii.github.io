@@ -161,26 +161,26 @@ tried them.)
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 [31]: http://www.raspberrypi.org/products/ "Raspberry Pi purchase"
-[32]: http://www.amazon.com/s/ref=nb_sb_ss_i_0_4?url=search-alias%3Daps&amp;field-keywords=raspberry+pi+2&amp;sprefix=rasp%2Caps%2C173 "Raspberry Pi 2 Model B search - Amazon"
-[33]: http://www.amazon.com/gp/product/B00LPESRUK/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00LPESRUK&amp;linkCode=as2&amp;tag=ivane-20&amp;linkId=B7F2LQNXIWGYCNYQ "Raspberry Pi 1 model B+ - Amazon"
-[34]: http://www.amazon.com/gp/product/B009SQQF9C/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B009SQQF9C&amp;linkCode=as2&amp;tag=ivane-20 "Raspberry Pi 1 model B - Amazon"
-[35]: http://www.amazon.com/Raspberry-Pi-Model-A-256MB/dp/B00PEX05TO/ref=sr_1_1?ie=UTF8&amp;qid=1423325260&amp;sr=8-1&amp;keywords=raspberry+pi+model+a%2B "Raspberry Pi 1 model A+ - Amazon"
-[36]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=4gb%20sd%20card&amp;linkCode=ur2&amp;rh=i%3Aaps%2Ck%3A4gb%20sd%20card&amp;sprefix=4gb%20s%2Caps&amp;tag=ivane-20&amp;url=search-alias%3Daps "SD card"
-[37]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=8gb%20sd%20card&amp;linkCode=ur2&amp;rh=i%3Aaps%2Ck%3A4gb%20sd%20card&amp;sprefix=4gb%20s%2Caps&amp;tag=ivane-20&amp;url=search-alias%3Daps "8 GB SD card at Amazon"
-[38]: http://www.amazon.com/gp/product/B00A9PO5AM/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00A9PO5AM&amp;linkCode=as2&amp;tag=ivane-20
-[39]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=ethernet%20cable&amp;linkCode=ur2&amp;rh=i%3Aaps%2Ck%3Aethernet%20cable&amp;sprefix=ethernet%2Caps&amp;tag=ivane-20&amp;url=search-alias%3Daps "ethernet cable"
+[32]: http://amazon.com/dp/B00T2U7R7I?tag=ivane-20 "Raspberry Pi 2 Model B - Amazon"
+[33]: http://amazon.com/dp/B00LPESRUK?tag=ivane-20 "Raspberry Pi 1 model B+ - Amazon"
+[34]: http://amazon.com/dp/B009SQQF9C?tag=ivane-20 "Raspberry Pi 1 model B - Amazon"
+[35]: http://amazon.com/dp/B00PEX05TO?tag=ivane-20 "Raspberry Pi 1 model A+ - Amazon"
+[36]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=4GB+SD+card&tag=ivane-20 "4GB SD card - Amazon"
+[37]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=8GB+SD+card&tag=ivane-20 "8GB SD card - Amazon"
+[38]: http://amazon.com/dp/B00A9PO5AM?tag=ivane-20 "5V 2A Micro USB Travel Charger - Amazon"
+[39]: http://amazon.com/s?url=search-alias%3Dcomputers&field-keywords=ethernet+cable&tag=ivane-20 "Ethernet cable - Amazon"
 [40]: http://ivanx.com/raspberrypi/raspberrypi_wifi.html "Raspberry Pi WiFi"
 [41]: http://retrofloppy.com/products.html "Apple II null modem serial cable"
 [42]: http://adtpro.sourceforge.net/connectionsserial.html "ADTPro serial connections"
-[43]: http://www.amazon.com/gp/product/B0007T27H8/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0007T27H8&amp;linkCode=as2&amp;tag=ivane-20 "TRENDnet TU-S9 USB-to-serial adapter"
+[43]: http://amazon.com/dp/B0007T27H8?tag=ivane-20 "TRENDnet TU-S9 USB-to-serial adapter - Amazon"
 [44]: http://www.ebay.com/sch/i.html?_nkw=apple+super+serial+card "eBay - Apple Super Serial Card"
-[45]: http://www.amazon.com/gp/product/B006T9B6R2/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006T9B6R2&amp;linkCode=as2&amp;tag=ivane-20 "SD card reader"
-[46]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=usb%20keyboard&amp;linkCode=ur2&amp;rh=i%3Aaps%2Ck%3Ausb%20keyboard&amp;tag=ivane-20&amp;url=search-alias%3Daps "USB keyboard"
-[47]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=usb%20mouse&amp;linkCode=ur2&amp;rh=i%3Aaps%2Ck%3Ausb%20mouse&amp;tag=ivane-20&amp;url=search-alias%3Daps "USB mouse"
-[48]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=powered%20usb%20hub&amp;linkCode=ur2&amp;rh=i%3Aaps%2Ck%3Apowered%20usb%20hub&amp;tag=ivane-20&amp;url=search-alias%3Daps "powered USB hub"
+[45]: http://amazon.com/dp/B006T9B6R2?tag=ivane-20 "SD card reader"
+[46]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+keyboard&tag=ivane-20 "USB keyboard - Amazon"
+[47]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+mouse&tag=ivane-20 "USB mouse - Amazon"
+[48]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=Powered+USB+hub&tag=ivane-20 "Powered USB hub - Amazon"
 [49]: http://ultimateapple2.com/ "Apple II Pi card from Ultimate Apple 2"
 [50]: http://www.pridopia.co.uk/pi-232r1-db9.html "Raspberry Pi console cable"
-[51]: http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Delectronics&amp;field-keywords=db9+male+female+null+modem+adapter+-usb&amp;rh=n%3A172282%2Ck%3Adb9+male+female+null+modem+adapter+-usb "DE-9 male-to-female null modem adapters at Amazon"
+[51]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=DB9+male+female+null+modem+adapter+-usb&tag=ivane-20 "DE-9 male-to-female null modem adapters - Amazon"
 
 * * *
 
@@ -1215,7 +1215,7 @@ forums][87].
 
 ##### This entry was posted on November 29, 2013 by [ivanx][].
 [85]: https://ultimateapple2.com/ "Apple II Pi card"
-[86]: http://www.amazon.com/s/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;field-keywords=db9%20male%20null%20modem%20adapter%20-usb%20-female&amp;linkCode=ur2&amp;rh=n%3A172282%2Ck%3Adb9%20male%20null%20modem%20adapter%20-usb%20-female&amp;tag=ivane-20&amp;url=search-alias%3Delectronics "DE-9 male-to-male null modem adapter"
+[86]: http://amazon.com/s?url=search-alias%3DelectronicsDB9+male+null+modem+%adapter+-usb+-female&tag=ivane-20 "DE-9 male-to-male null modem adapter - Amazon"
 [87]: https://www.ultimateapple2.com/forums/ "Ultimate Apple 2 forums"
 
 * * *
