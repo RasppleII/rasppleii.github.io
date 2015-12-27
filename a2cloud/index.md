@@ -200,7 +200,7 @@ to your Pi, you’ll know when it’s done when the ACT/OK lamp on the Raspberry
 Pi board stops flickering.
 
 (If you are starting over with the same SD card, or want to ensure the card is
-formatted correctly, you can use the official [SD Formatter][52]  utility —
+formatted correctly, you can use the official [SD Formatter][52] utility —
 carefully! — before copying the files.)  
 
 ### If you’re already up and running, or want to customize the installation
@@ -214,8 +214,8 @@ wget appleii.ivanx.com/a2cloud/setup; source setup
 If you want all the features, answer “Y” to the questions. Then be patient, as
 it takes a little while to install.
 
-
 ##### This entry was posted on July 14, 2013 by [ivanx][].
+[52]: https://www.sdcard.org/downloads/formatter_4/
 
 * * *
 
@@ -1340,7 +1340,7 @@ enhancements. To update, type `a2cloud-update`.
 * if A2SERVER is installed, shares the ADTPro disks folder as ADTDISKS on the
   network
 * responds to name “raspberrypi.local” as alternative to IP address to Mac OS
-  X (and Windows with [Bonjour Print Services][52] installed) computers on
+  X (and Windows with [Bonjour Print Services][53] installed) computers on
   network
 
 
@@ -1474,7 +1474,6 @@ though if you’re dedicated, you can compile it yourself [here][93].
 ##### This entry was posted on January 26, 2014 by [ivanx][].
 </section>
 
-[52]: https://www.sdcard.org/downloads/formatter_4/
 [53]: http://support.apple.com/kb/dl999
 [54]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
 [55]: http://ivanx.com/raspberrypi/files/PiFinder.zip
