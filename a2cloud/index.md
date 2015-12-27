@@ -403,7 +403,7 @@ which one is the highest.
 ## make your boot disk
 
 You’re almost ready to use virtual drives, courtesy of David Schmidt’s
-[VSDRIVE][60], which is included with [ADTPro][61]. You can also use ADTPro
+[VSDRIVE][60], which is included with [ADTPro][]. You can also use ADTPro
 itself to transfer disk images to actual disks, and vice versa.
 
 To access the virtual drives, you need to boot from the A2CLOUD disk. To get
@@ -453,8 +453,11 @@ running; you can type `adtpro-start` at a prompt to get it going again, or
 reboot, or disconnect and then reconnect the USB-to-serial adapter on the
 lower USB port.
 
-
 ##### This entry was posted on July 14, 2013 by [ivanx][].
+[60]: http://adtpro.sourceforge.net/vdrive.html "VSDRIVE"
+[ADTPro]: http://adtpro.sourceforge.net/ "ADTPro"
+[62]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.DSK "140K A2CLOUD boot disk"
+[63]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.HDV "800K A2CLOUD boot disk"
 
 * * *
 
@@ -1481,10 +1484,6 @@ though if you’re dedicated, you can compile it yourself [here][93].
 ##### This entry was posted on January 26, 2014 by [ivanx][].
 </section>
 
-[60]: http://adtpro.sourceforge.net/vdrive.html "VSDRIVE"
-[61]: http://adtpro.sourceforge.net/ "ADTPro"
-[62]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.DSK "140K A2CLOUD boot disk"
-[63]: http://appleii.ivanx.com/a2cloud/files/A2CLOUD.HDV "800K A2CLOUD boot disk"
 [64]: http://apple2.info/wiki/index.php?title=DOS#Commands_quick_reference "ProDOS and DOS 3.3 commands"
 [65]: http://www.apple2scans.net/?p=33 "BASIC Programming with ProDOS"
 [66]: http://lostclassics.apple2.info/announcements/19/proterm-a2/ "ProTERM"
