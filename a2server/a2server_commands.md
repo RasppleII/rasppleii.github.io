@@ -5,10 +5,10 @@ or do other stuff. A list of commands is below.
 
 If you are running A2SERVER on a Raspberry Pi without a screen and keyboard
 attached, see how to
-[log in to a Raspberry Pi](a2server_raspberrypi_login.md).
+[log in to a Raspberry Pi][A2SERVER rpi-login].
 
 Otherwise, log in on your local console or virtual machine window, or via SSH
-on another computer. On Mac OS X, or Windows with [Bonjour Print Services][1]
+on another computer. On Mac OS X, or Windows with [Bonjour Print Services][]
 installed, you can use "raspberrypi.local" for your SSH address, or
 "a2server.local" if not on a Pi. If that doesn't work, try updating
 A2SERVER by typing `a2server-setup`.
@@ -128,12 +128,6 @@ cppo: catalog and copy files from ProDOS image file (slow, but works)
   (add -h to show help for the above four commands, e.g. "afptype -h")
 
 ~~~
-{: .space-after }
 
-[back][2]
-
-[A2SERVER home page][3]
-
-[1]: http://support.apple.com/kb/dl999
-[2]: javascript:history.go(-1);
-[3]: index.html
+[A2SERVER rpi-login]: a2server_raspberrypi_login.html
+[Bonjour Print Services]: http://support.apple.com/kb/dl999
