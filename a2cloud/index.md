@@ -795,7 +795,7 @@ type `a2chat`. It will launch an IRC program called Irssi and connect you
 directly to the #a2c.chat channel. (If you want to connect to other channels,
 instead type `irssi`.) Type `/quit` when you’re done. You might want to check
 out more detailed instructions for [IRC generally][IRC Help] or
-[Irssi specifically][73].
+[Irssi specifically][irssi docs].
 
 ### Usenet newsgroups (discussion boards)
 
@@ -825,7 +825,7 @@ on Linux forums if you need it.
 
 ##### This entry was posted on August 11, 2013 by [ivanx][].
 [IRC Help]: http://www.irchelp.org/ "IRC Help"
-[73]: http://www.irssi.org/documentation/ "Irssi Documentation"
+[irssi docs]: http://www.irssi.org/documentation/ "Irssi Documentation"
 [TTYtter]: http://www.floodgap.com/software/ttytter/ "TTYtter"
 
 * * *
@@ -836,7 +836,7 @@ If you want to get new Apple II software, there are a few ways to go about it.
 
 You could try a desktop browser on the Pi, such as the included Epiphany
 (a.k.a. Web), Midori, or Netsurf, or install an alternative such as
-[Chromium][76], the open-source cousin of Google Chrome, or [Iceweasel][77],
+[Chromium][RPi_Chromium], the open-source cousin of Google Chrome, or [Iceweasel][RPi_IceWeasel],
 which is a rebranded Firefox.
 
 You can also download with a modern computer, and [copy to your Pi over your
@@ -882,8 +882,8 @@ in a single command, e.g: `wget
 http://appleii.ivanx.com/slammer/files/SLAMMER111P.DSK`
 
 ##### This entry was posted on August 11, 2013 by [ivanx][].
-[76]: http://elinux.org/RPi_Chromium "Chromium (Google Chrome for Raspberry Pi)"
-[77]: http://elinux.org/RPi_IceWeasel "Iceweasel (Firefox for Raspbian)"
+[RPi_Chromium]: http://elinux.org/RPi_Chromium "Chromium (Google Chrome for Raspberry Pi)"
+[RPi_IceWeasel]: http://elinux.org/RPi_IceWeasel "Iceweasel (Firefox for Raspbian)"
 
 * * *
 
@@ -963,7 +963,7 @@ Commands for general archive formats:
 
 `unar archiveFileName` will extract files from tons of archive formats,
 including obsolete ones like StuffIt and DiskDoubler. See [The
-Unarchiver][79] for a full list.
+Unarchiver][unar formats] for a full list.
 {: .space-after }
 
 Commands for Apple II archive formats:
@@ -1003,7 +1003,7 @@ outfilename` will decode an EXEC file made by Executioner; `unexec filename >
 outfilename` will decode an EXEC file containing monitor input.
 
 ##### This entry was posted on August 11, 2013 by [ivanx][].
-[79]: http://unarchiver.c3.cx/formats "The Unarchiver supported formats"
+[unar formats]: http://unarchiver.c3.cx/formats "The Unarchiver supported formats"
 
 * * *
 
@@ -1119,7 +1119,7 @@ logout, use:
 To see the current speed, just type `baud` by itself.
 
 You’ll only be able to use 38400 or 57600 on a IIgs (and not with Z-Link), but
-Hugh Hood has come up with [clever ProTERM macros][80] that enable 115200
+Hugh Hood has come up with [clever ProTERM macros][csa2 PT-115200] that enable 115200
 baud on any Apple II, and A2CLOUD provides them with ProTERM. If you use
 115200 baud, you’ll likely drop some characters, especially on an 8-bit Apple
 II. One strategy you might want to try is to use a slower speed normally, but
@@ -1138,7 +1138,7 @@ rename PT3.GLOBALS, and then rename the appropriate globals file to
 PT3.GLOBALS.
 
 ##### This entry was posted on August 11, 2013 by [ivanx][].
-[80]: https://groups.google.com/forum/#!searchin/comp.sys.apple2/115200$20hugh "Hugh Hood's 115200 baud ProTERM macros"
+[csa2 PT-115200]: https://groups.google.com/forum/#!searchin/comp.sys.apple2/115200$20hugh "Hugh Hood's 115200 baud ProTERM macros"
 
 * * *
 
@@ -1167,13 +1167,13 @@ help screen. More information is [here][LinApple].
 
 You can also use GSport’s ancestor, [KEGS][], by choosing it from the menu
 of the Raspbian desktop. (To start the Raspbian desktop, type `startx` or use
-[remote desktop software](#go-headless-optional).) Usage instructions are [here][84].
+[remote desktop software](#go-headless-optional).) Usage instructions are [here][KEGS instructions].
 
 ##### This entry was posted on November 29, 2013 by [ivanx][].
 [GSport]: http://gsport.sourceforge.net/ "GSport"
 [LinApple]: http://linapple.sourceforge.net/ "LinApple"
 [KEGS]: http://kegs.sourceforge.net/ "KEGS"
-[84]: http://kegs.sourceforge.net/README.kegs.txt "KEGS instructions"
+[KEGS instructions]: http://kegs.sourceforge.net/README.kegs.txt "KEGS instructions"
 
 * * *
 
@@ -1429,10 +1429,10 @@ a future A2CLOUD release.
 
 To install Mutt or Alpine, type:  
 `sudo apt-get install mutt` (or `alpine`)  
-also, get [Alistair’s Mutt configuration wizard][90]
+also, get [Alistair’s Mutt configuration wizard][Mutt wizard]
 
 [Alistair Ross]: http://twitter.com/AJRossNZ
-[90]: http://pastebin.com/Mawvd2pZ
+[Mutt wizard]: http://pastebin.com/Mawvd2pZ
 
 ### Alternative text-only web browsers
 
@@ -1453,13 +1453,13 @@ which I haven’t tried. You can get any of these with:
 
 #### ivanx, January 26, 2014 at 10:08 pm
 
-In [this comp.sys.apple2 thread][91] I discuss various techniques for copying
+In [this comp.sys.apple2 thread][csa2 copy-from-a2img] I discuss various techniques for copying
 contents of Apple II floppy images to another disk. In this case, it’s a hard
 disk image file used by a CFFA 3000 card, but it could be any kind of “hard
 disk”, including a Focus or MicroDrive card, or one provided by VSDRIVE such
 as the default 4 MB disk in S2,D1.
 
-[91]: https://groups.google.com/forum/#!msg/comp.sys.apple2/VGvddYfn_wk/eFrQ-u3qBkUJ
+[csa2 copy-from-a2img]: https://groups.google.com/forum/#!msg/comp.sys.apple2/VGvddYfn_wk/eFrQ-u3qBkUJ
 
 ### A2CLOUD on non-Pi computers
 
@@ -1470,8 +1470,8 @@ It has been tried on the 32-bit versions of Debian 7 and Ubuntu Server 13.10.
 To install, type:  
 `wget ivanx.com/a2cloud/setup; source setup`{: .language-bash }
 
-You can also install it into the [A2SERVER][92] virtual machine with the same
-command, or start fresh with the premade [A2SERVER+A2CLOUD][92] virtual
+You can also install it into the [A2SERVER][A2SERVER vbox] virtual machine with the same
+command, or start fresh with the premade [A2SERVER+A2CLOUD][A2SERVER vbox] virtual
 machine. To use a USB-to-serial adapter with the VM, click the USB icon in the
 bottom of the window, and select the adapter. If you have two, repeat. If you
 want it to be automatically recognized, you can add it under
@@ -1492,10 +1492,10 @@ or unplug both adapters and reattach one at a time, starting with the one
 connected to the Apple II printer port.
 
 Apple II Pi is not offered as an installation option on non-Pi computers,
-though if you’re dedicated, you can compile it yourself [here][93].
+though if you’re dedicated, you can compile it yourself [here][GH dschmenk/apple2pi].
 
-[92]: http://appleii.ivanx.com/a2server/a2server_virtualbox.html
-[93]: https://github.com/dschmenk/apple2pi "Apple II Pi source code"
+[A2SERVER vbox]: ../a2server/a2server_virtualbox.html
+[GH dschmenk/apple2pi]: https://github.com/dschmenk/apple2pi "Apple II Pi source code"
 
 ##### This entry was posted on January 26, 2014 by [ivanx][].
 </section>
