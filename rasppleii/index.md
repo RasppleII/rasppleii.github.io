@@ -37,10 +37,10 @@ Current version:
 1.1.1: Mar 19, 2015, [A2CLOUD 1.8.0][8]; [A2SERVER 1.2.2][9]; Apple II Pi 0.2.0-1; supports Raspberry Pi A/A+/B/B+/2B  
 <!--
 1.1.0: Aug 11, 2014, [A2CLOUD 1.7.1][8]; [A2SERVER 1.2.0][9]; Apple II Pi 1.8  
-1.0.8: Jul 24 2014, [A2CLOUD 1.6.9][10]; [A2SERVER 1.1.5][9] (supports Raspberry Pi model B+); Apple II Pi 1.8  
-107r2: Feb 25 2014, [A2CLOUD 1.6.7][10]; [A2SERVER 1.1.4][9]; Apple II Pi 1.4r2  
+1.0.8: Jul 24 2014, [A2CLOUD 1.6.9][8]; [A2SERVER 1.1.5][9] (supports Raspberry Pi model B+); Apple II Pi 1.8  
+107r2: Feb 25 2014, [A2CLOUD 1.6.7][8]; [A2SERVER 1.1.4][9]; Apple II Pi 1.4r2  
 107a : Feb 20 2014, same as 1.0.7 with extra material for Ultimate Apple 2 SD card  
-1.0.7: Feb 20 2014, [A2CLOUD 1.6.7][10]; [A2SERVER 1.1.4][9]; Apple II Pi 1.4  
+1.0.7: Feb 20 2014, [A2CLOUD 1.6.7][8]; [A2SERVER 1.1.4][9]; Apple II Pi 1.4  
 1.0.6: not released  
 1.0.5: Jan 20 2014, A2CLOUD 1.6.2  
 1.0.4: Jan 13 2014, [A2SERVER 1.1.4][9]; A2CLOUD 1.6.1; based on Raspbian 2014-01-07  
@@ -56,15 +56,14 @@ SHA-1: 6d3e63e90f7eef79dd6bf9eddc238b22267c3dca
 [Raspberry Pi Party][12]
 
 
-[1]: http://appleii.ivanx.com/a2cloud/
-[2]: http://appleii.ivanx.com/a2server/
-[3]: http://schmenk.is-a-geek.com/wordpress
-[4]: http://appleii.ivanx.com/prnumber6/a2cloud-what-you-need/
-[5]: http://ultimateapple2.com
+[1]: ../a2cloud/index.html
+[2]: ../a2server/index.html
+[3]: http://schmenk.is-a-geek.com/wordpress/?p=167
+[4]: ../a2cloud/index.html#what-you-need
+[5]: http://ultimateapple2.com/
 [6]: http://appleii.ivanx.com/rasppleii/files/RasppleII.zip
-[7]: http://appleii.ivanx.com/prnumber6/a2cloud-prepare-your-pi/
-[8]: http://ivanx.com/prnumber6/a2cloud-release-history/
-[9]: http://ivanx.com/a2server/update/versionhistory.txt
-[10]: http://appleii.ivanx.com/prnumber6/a2cloud-release-history/
-[11]: http://appleii.ivanx.com
+[7]: ../a2cloud/index.html#prepare-your-pi
+[8]: ../a2cloud/index.html#release-history
+[9]: ../a2server/update/versionhistory.txt
+[11]: http://appleii.ivanx.com/
 [12]: http://ivanx.com/raspberrypi/
