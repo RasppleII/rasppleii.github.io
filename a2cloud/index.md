@@ -114,21 +114,21 @@ Places to purchase are linked:
 * for internet, an Apple IIc, IIgs, or 128K Apple IIe enhanced (though Apple
   II Plus and unenhanced IIe [might work](#apple-ii-plus-and-unenhanced-iie))
 * any Raspberry Pi, B/B+ models recommended
-  ([buy direct from distributor][31], or at Amazon: [Pi 2 model B][az-pi2],
+  ([buy direct from distributor][rpi-products], or at Amazon: [Pi 2 model B][az-pi2],
   [Pi 1 model B+][az-piB+], [Pi 1 model B][az-piB], [Pi 1 model A+][az-piA+])
 * a [4 GB or larger SD card][az-4gSD] ([8 GB or larger][az-8gSD] recommended)
 * a [good power supply][az-USBpwr] with a micro-USB plug that provides at least 1A of
   current
 * an [ethernet cable][az-netCable] attached to your router, or a
   [Wi-Fi adapter][ivanx-rpiWifi] (more complex)
-* a [null modem Apple II serial cable][41] (or: [roll your own][42])
+* a [null modem Apple II serial cable][RetroFloppy products] (or: [roll your own][serial - ADTPro])
 * a [USB-to-serial adapter][az-USBserial]
 * a [Super Serial Card][eb-SSC], if you have an Apple IIe (see note below)
 
 If you want simultaneous virtual drives and internet access from your
 Apple II:
 
-* another [null modem Apple II serial cable][41] (or: [roll your own][42])
+* another [null modem Apple II serial cable][RetroFloppy products] (or: [roll your own][serial - ADTPro])
 * another [USB-to-serial adapter][az-USBserial]
 * another [Super Serial Card][eb-SSC], if you have an Apple IIe (see note below)
 
@@ -140,8 +140,8 @@ Optional items:
   [control the Pi from another computer](#go-headless-optional))
 * a [*powered* USB hub][az-USBhub] (if you don’t have a free port for a USB-to-serial
   adapter)
-* an [Apple II Pi card][49], or another [Super Serial Card][eb-SSC] with a
-  [Raspberry Pi Console cable][50], if you want to use [Apple II Pi](#apple-ii-pi)
+* an [Apple II Pi card][UA2], or another [Super Serial Card][eb-SSC] with a
+  [Raspberry Pi Console cable][lvttl-rs232-cable], if you want to use [Apple II Pi](#apple-ii-pi)
 
 If you have a straight-through serial cable rather than a null modem serial
 cable, and you are using a IIgs or IIc (no Super Serial Card), you can use a
@@ -160,7 +160,7 @@ models based on other chipsets such as FTDI may also work; I just haven’t
 tried them.)
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
-[31]: http://www.raspberrypi.org/products/ "Raspberry Pi purchase"
+[rpi-products]: http://www.raspberrypi.org/products/ "Raspberry Pi purchase"
 [az-pi2]: http://amazon.com/dp/B00T2U7R7I?tag=ivane-20 "Raspberry Pi 2 Model B - Amazon"
 [az-piB+]: http://amazon.com/dp/B00LPESRUK?tag=ivane-20 "Raspberry Pi 1 model B+ - Amazon"
 [az-piB]: http://amazon.com/dp/B009SQQF9C?tag=ivane-20 "Raspberry Pi 1 model B - Amazon"
@@ -170,16 +170,16 @@ tried them.)
 [az-USBpwr]: http://amazon.com/dp/B00A9PO5AM?tag=ivane-20 "5V 2A Micro USB Travel Charger - Amazon"
 [az-netCable]: http://amazon.com/s?url=search-alias%3Dcomputers&field-keywords=ethernet+cable&tag=ivane-20 "Ethernet cable - Amazon"
 [ivanx-rpiWifi]: http://ivanx.com/raspberrypi/raspberrypi_wifi.html "Raspberry Pi WiFi"
-[41]: http://retrofloppy.com/products.html "Apple II null modem serial cable"
-[42]: http://adtpro.sourceforge.net/connectionsserial.html "ADTPro serial connections"
+[RetroFloppy products]: http://retrofloppy.com/products.html "Apple II null modem serial cable"
+[serial - ADTPro]: http://adtpro.sourceforge.net/connectionsserial.html "ADTPro serial connections"
 [az-USBserial]: http://amazon.com/dp/B0007T27H8?tag=ivane-20 "TRENDnet TU-S9 USB-to-serial adapter - Amazon"
 [eb-SSC]: http://www.ebay.com/sch/i.html?_nkw=apple+super+serial+card "eBay - Apple Super Serial Card"
 [az-SDreader]: http://amazon.com/dp/B006T9B6R2?tag=ivane-20 "SD card reader"
 [az-keyboard]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+keyboard&tag=ivane-20 "USB keyboard - Amazon"
 [az-mouse]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=USB+mouse&tag=ivane-20 "USB mouse - Amazon"
 [az-USBhub]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=Powered+USB+hub&tag=ivane-20 "Powered USB hub - Amazon"
-[49]: http://ultimateapple2.com/ "Apple II Pi card from Ultimate Apple 2"
-[50]: http://www.pridopia.co.uk/pi-232r1-db9.html "Raspberry Pi console cable"
+[UA2]: http://ultimateapple2.com/ "Apple II Pi card from Ultimate Apple 2"
+[lvttl-rs232-cable]: http://www.pridopia.co.uk/pi-232r1-db9.html "Raspberry Pi console cable"
 [az-de9nullMF]: http://amazon.com/s?url=search-alias%3Delectronics&field-keywords=DB9+male+female+null+modem+adapter+-usb&tag=ivane-20 "DE-9 male-to-female null modem adapters - Amazon"
 
 * * *
@@ -256,9 +256,9 @@ arrive at the Linux prompt.
 
 You can access the Raspbian graphical desktop by using remote desktop
 software. Use the Remote Desktop Connection application included with
-Microsoft Windows, or its [Mac version][57], to connect to your Raspberry Pi
+Microsoft Windows, or its [Mac version][RDPMac], to connect to your Raspberry Pi
 by putting in “raspberrypi.local”, or your Pi’s IP address. (If you would
-prefer to use a VNC client, [configure tightvncserver][58]. You could also use
+prefer to use a VNC client, [configure tightvncserver][RPiTightVNC]. You could also use
 RDP or VNC clients for other platforms, like iOS and Android.)
 
 ### Get a consistent IP Address
@@ -280,16 +280,16 @@ manual, or Google for it.
 
 If your router can’t provide a DHCP reservation, you can alternatively
 configure your Pi to have a static IP address (which is permanently set,
-rather than asking your router for it) via the method discussed [here][59].
+rather than asking your router for it) via the method discussed [here][RPiStaticIP].
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
 [Bonjour Print Services]: http://support.apple.com/kb/dl999
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
 [Pi Finder]: http://ivanx.com/raspberrypi/files/PiFinder.zip
 [Advanced IP Scanner]: http://www.advanced-ip-scanner.com/
-[57]: https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12 "Microsoft Remote Desktop for Mac"
-[58]: http://elinux.org/RPi_VNC_Server "configure TightVNCServer"
-[59]: http://elinux.org/Configuring_a_Static_IP_address_on_your_Raspberry_Pi "Raspberry Pi static IP address"
+[RDPMac]: https://itunes.apple.com/us/app/microsoft-remote-desktop/id715768417?mt=12 "Microsoft Remote Desktop for Mac"
+[RPiTightVNC]: http://elinux.org/RPi_VNC_Server "configure TightVNCServer"
+[RPiStaticIP]: http://elinux.org/Configuring_a_Static_IP_address_on_your_Raspberry_Pi "Raspberry Pi static IP address"
 
 * * *
 
@@ -465,8 +465,8 @@ V. (If you are at an Applesoft prompt, you can instead type `-VSDRIVE`.)
 Once you’ve done this, you can access your blank virtual disk on slot 2 drive
 1, and the 800K version of the A2CLOUD disk on slot 2 drive 2.  Check it out
 by typing `CAT,S2,D2`. After specifying the slot and drive, they will stick
-for subsequent [ProDOS commands][64] (that’s a quick list; here’s a
-[full manual][65]). You will no longer have access to slot 6. To regain
+for subsequent [ProDOS commands][DOS/ProDOS cmds] (that’s a quick list; here’s a
+[full manual][BASIC w/ ProDOS]). You will no longer have access to slot 6. To regain
 access to slot 6, do a full reset of your Apple II and boot any ProDOS disk as
 usual.
 
@@ -499,8 +499,8 @@ You can also change the virtual drives to use different images, which I’ll
 explain in a later post.
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
-[64]: http://apple2.info/wiki/index.php?title=DOS#Commands_quick_reference "ProDOS and DOS 3.3 commands"
-[65]: http://www.apple2scans.net/?p=33 "BASIC Programming with ProDOS"
+[DOS/ProDOS cmds]: http://apple2.info/wiki/index.php?title=DOS#Commands_quick_reference "ProDOS and DOS 3.3 commands"
+[BASIC w/ ProDOS]: http://www.apple2scans.net/?p=33 "BASIC Programming with ProDOS"
 
 * * *
 
@@ -512,9 +512,9 @@ read any of this post. But it’s *more fun* to log into it from your Apple II.
 You try it.
 
 To do that, you’ll need terminal communications software which supports VT-100
-emulation. The A2CLOUD installer provides both [ProTERM][66] and Z-Link for
+emulation. The A2CLOUD installer provides both [ProTERM][] and Z-Link for
 IIc, IIgs, and enhanced IIe; GS/OS users can also download and use
-[Spectrum][67] for color and graphic text. Apple II Plus and unenhanced IIe
+[Spectrum][] for color and graphic text. Apple II Plus and unenhanced IIe
 users have some options too.
 
 Once you’ve connected with your terminal program — specifics are below — press
@@ -537,7 +537,7 @@ to the next screen by typing ctrl-A followed by N.   To close a screen,
 type `exit` or ctrl-A followed by K. When you close the last screen, Screen
 quits. All Screen commands start with ctrl-A; for a full list of commands,
 type ctrl-A followed by a question mark. A well-written, easy-to-follow guide
-on how to get the most out of Screen is [here][68].
+on how to get the most out of Screen is [here][using Screen].
 
 ### ProTERM
 
@@ -556,8 +556,8 @@ the community.)
 
 ### Spectrum
 
-[Spectrum][67], for the Apple IIgs, is not provided on the A2CLOUD disk,
-[but is freely available for download][69]. From the Settings menu, choose
+[Spectrum][], for the Apple IIgs, is not provided on the A2CLOUD disk,
+[but is freely available for download][Spectrum DL]. From the Settings menu, choose
 Port and select the printer port at 4800 baud. Then in the Settings menu,
 choose Online Display and select VT-100 (monochrome text), or ANSI (color and
 graphic text, though slower). Then from the Show menu, choose Online Display.
@@ -588,19 +588,19 @@ your A2CLOUD floppy to A2CLOUD.DISK, then copy /A2CLOUD.DISK/Z.LINK.CONFIG to
 ### Apple II Plus and unenhanced IIe
 
 If you have an Apple II Plus or unehnanced IIe, there have been reports
-of success with using [Kermit 3.87][70], or DCOM 3.3,
+of success with using [Kermit 3.87][], or DCOM 3.3,
 for terminal access to your Raspberry Pi. They need to be set for VT-100
 emulation, and on an Apple II Plus you need a Videx VideoTerm (but not
 UltraTerm) for 80 column support. I haven’t tried them, but [here’s the
-relevant discussion thread][71].
+relevant discussion thread][csa2 unenh-vt100].
 
 ##### This entry was posted on July 14, 2013 by [ivanx][].
-[66]: http://lostclassics.apple2.info/announcements/19/proterm-a2/ "ProTERM"
-[67]: http://www.wannop.info/speccie/Site/Speccies_Home_Pages.html "Spectrum for Apple IIgs"
-[68]: http://www.bartbania.com/index.php/linux-screen/ "using Screen"
-[69]: http://www.wannop.info/speccie/Site/Download_Centre.html "Spectrum download"
-[70]: http://macgui.com/downloads/?file_id=24237 "Mac GUI Vault: Kermit 3.87"
-[71]: https://groups.google.com/d/msg/comp.sys.apple2/8yUpfbAgdx0/oVwep6fMsTYJ "VT-100 on Apple II Plus and unenhanced IIe"
+[ProTERM]: http://lostclassics.apple2.info/announcements/19/proterm-a2/ "ProTERM"
+[Spectrum]: http://www.wannop.info/speccie/Site/Speccies_Home_Pages.html "Spectrum for Apple IIgs"
+[using Screen]: https://blog.bartbania.com/raspberry_pi/linux-screen/ "using Screen"
+[Spectrum DL]: http://www.wannop.info/speccie/Site/Download_Centre.html "Spectrum download"
+[Kermit 3.87]: http://macgui.com/downloads/?file_id=24237 "Mac GUI Vault: Kermit 3.87"
+[csa2 unenh-vt100]: https://groups.google.com/d/msg/comp.sys.apple2/8yUpfbAgdx0/oVwep6fMsTYJ "VT-100 on Apple II Plus and unenhanced IIe"
 
 * * *
 
@@ -1188,9 +1188,9 @@ joystick, and drives to control your Raspberry Pi, primarily so you can use
 the GSport emulator, giving you a virtual souped up Apple II. To get benefit
 from this, you’ll need a screen attached to your Pi.
 
-To use Apple II Pi, you’ll need the [Apple II Pi card][85], or a [Raspberry
-Pi console cable][50] attached to a Super Serial Card (even in a IIgs) or a
-IIc/IIc+ serial port, via [the appropriate serial cable][41] and possibly a
+To use Apple II Pi, you’ll need the [Apple II Pi card][UA2], or a [Raspberry
+Pi console cable][lvttl-rs232-cable] attached to a Super Serial Card (even in a IIgs) or a
+IIc/IIc+ serial port, via [the appropriate serial cable][RetroFloppy products] and possibly a
 [DE-9 (aka DB-9) male-to-male null modem adapter][az-de9nullMM]. The software is
 already installed by Raspple II or A2CLOUD (if it doesn’t seem to work, try
 updating A2CLOUD by typing `a2cloud-update`).
@@ -1211,12 +1211,11 @@ Pi will fully shut down.
 Apple II Pi has many more sophisticated abilities, such being able to develop
 6502 code on the Raspberry Pi and execute it on the Apple II.  For more info
 on how to use it, check out [Dave’s web site][Apple II Pi] and the [Ultimate Apple 2
-forums][87].
+forums][UA2 forum].
 
 ##### This entry was posted on November 29, 2013 by [ivanx][].
-[85]: https://ultimateapple2.com/ "Apple II Pi card"
 [az-de9nullMM]: http://amazon.com/s?url=search-alias%3DelectronicsDB9+male+null+modem+%adapter+-usb+-female&tag=ivane-20 "DE-9 male-to-male null modem adapter - Amazon"
-[87]: https://www.ultimateapple2.com/forums/ "Ultimate Apple 2 forums"
+[UA2 forum]: https://www.ultimateapple2.com/forums/ "Ultimate Apple 2 forums"
 
 * * *
 
