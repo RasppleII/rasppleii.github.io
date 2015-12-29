@@ -17,21 +17,20 @@ LTS includes kernel 3.13, which is *not* compatible with A2SERVER; you will
 need to upgrade it to 3.16 or later. Debian 8 and Ubuntu 15 *cannot* be used
 at this time.)_{: .fine-print .no-style }
 
-1. [Create a new virtual machine](a2server_prepvm.md) (skip if installing on a
+1. [Create a new virtual machine][A2SERVER prepvm] (skip if installing on a
    real machine)
-2. [Install Debian](a2server_installubuntu.md) (or Ubuntu) on the virtual or
+2. [Install Debian][A2SERVER installubuntu] (or Ubuntu) on the virtual or
    real machine
-
 
 __Raspberry Pi__{: .uline }
 
-1. [Download Raspbian][1]
-2. [Perform Raspberry Pi setup](a2server_raspberrypi.md)
+1. [Download Raspbian][RPi downloads]
+2. [Perform Raspberry Pi setup][A2SERVER raspberrypi]
 {: .space-after }
 
 Once you are up and running in Linux, you can execute the automated setup
 scripts to download, install, and configure the A2SERVER software. To use
-these, [log in to Linux](a2server_commands.md), and type:
+these, [log in to Linux][A2SERVER commands], and type:
 
 ~~~ bash
 wget appleii.ivanx.com/a2server/setup; source setup
@@ -40,18 +39,16 @@ wget appleii.ivanx.com/a2server/setup; source setup
 Confirm that you want to proceed, enter the password again, and go get a
 sandwich, but come back so you can answer questions when prompted.
 
-Once it's done, check out the links on the [A2SERVER home page](index.md) for
+Once it's done, check out the links on the [A2SERVER home page][A2SERVER] for
 next steps.
 
 If you'd like to set things up manually, or are curious as to what's
-happening, you can
-[view the contents of the setup scripts](a2server_scriptdetails.md).
-{: .space-after }
+happening, you can [view the contents of the setup scripts][A2SERVER scriptdetails].
 
-[back][2]
-
-[A2SERVER home page][3]
-
-[1]: http://www.raspberrypi.org/downloads
-[2]: javascript:history.go(-1);
-[3]: index.html
+[A2SERVER prepvm]: a2server_prepvm.htnl
+[A2SERVER installubuntu]: a2server_installubuntu.html
+[RPi downloads]: http://www.raspberrypi.org/downloads/
+[A2SERVER raspberrypi]: a2server_raspberrypi.html
+[A2SERVER commands]: a2server_commands.tml
+[A2SERVER]: index.html
+[A@SERVER scriptdetails]: a2server_scriptdetails.html
