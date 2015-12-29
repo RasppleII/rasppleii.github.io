@@ -80,7 +80,7 @@ licensed under the [WTFPL][].
 [MountIt]: http://www.brutaldeluxe.fr/products/apple2gs/mountit.html
 [afptype]: scripts/tools/afptype.txt
 [cppo]: scripts/tools/cppo.txt
-[A2SERVER commands]: a2server_commands.md
+[A2SERVER commands]: a2server_commands.html
 [nulib2]: http://www.nulib.com/
 [The Unarchiver]: http://unarchiver.c3.cx/
 [WTFPL]: http://www.wtfpl.net/
