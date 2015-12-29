@@ -3,7 +3,7 @@
 To connect to A2SERVER from your Apple II:
 
 (An alternative to the below is to [boot your Apple II over the
-network](a2server_netboot.md) -- check that out too.)
+network][A2SERVER netboot] -- check that out too.)
 
 Start up A2SERVER and wait (potentially up to a minute) until you get to the
 login prompt. You do not need to log in. On a Raspberry Pi, you can see that
@@ -18,7 +18,7 @@ it, use the GS/OS installer disks to custom install the script called
 "Network: AppleShare" to your startup disk. If you are on a floppy-only
 system, you can instead use the script "Network: AppleShare, 3.5" disk" to
 make a bootable disk, or consider setting up
-[network boot](a2server_netboot.md).
+[network boot][A2SERVER netboot].
 
 (There is also an obsolete [IIgs Workstation Disk](#wsdisks) that boots into
 ProDOS 16 rather than GS/OS, and has the same ProDOS 8 applications for server
@@ -59,11 +59,6 @@ links, but I'm not fixing that right now.  -tjcarter,2015-10-22
 * IIgs Workstation, 800K \[superseded by GS/OS AppleShare software\]:
   [raw image](files/a2ws/A2GS.WS.HDV)
   [ShrinkIt image](files/a2ws/A2E.WS.BXY)
-{: .no-bullets .space-after }
+{: .no-bullets }
 
-[back][1]
-
-[A2SERVER home page][2]
-
-[1]: javascript:history.go(-1);
-[2]: index.html
+[A2SERVER netboot]: a2server_netboot.html
