@@ -3,7 +3,7 @@
 These steps cover how to install Ubuntu Server Linux into your empty virtual or real machine. (The instructions are similar, but may vary somewhat, for Debian Linux.)
 {: .space-after }
 
-* Download [Ubuntu Server 12.04 LTS][1], and burn it to a CD if
+* Download [Ubuntu Server 12.04 LTS][Ubuntu download], and burn it to a CD if
   installing on a real machine; otherwise, attach the download to your
   virtual machine's CD/DVD drive.
 
@@ -45,13 +45,5 @@ These steps cover how to install Ubuntu Server Linux into your empty virtual or 
   will turn off the (virtual) machine.
 * Recommended: If you are using a virtual machine, take a snapshot you
   can return to this point if necessary.
-{: .space-after }
 
-[back][2]
-
-[A2SERVER home page][3]
-
-
-[1]: http://www.ubuntu.com/download/server/download
-[2]: javascript:history.go(-1);
-[3]: index.html
+[Ubuntu download]: http://www.ubuntu.com/download/server/download
