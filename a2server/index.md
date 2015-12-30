@@ -1,6 +1,6 @@
 # A2SERVER
 
-A2SERVER lets you use a [Raspberry Pi][1], or almost any other computer, to
+A2SERVER lets you use a [Raspberry Pi][], or almost any other computer, to
 serve files to Apple IIgs and enhanced IIe computers on your network. You'll
 also be able to boot into GS/OS or ProDOS 8 directly from tne network (no
 drives needed). A2SERVER has been designed to be as easy to set up and use as
@@ -12,10 +12,10 @@ runs on Mac OS X, Windows, Linux, or Solaris computers, or as an easy-to-use
 installer for Ubuntu or Debian Linux.
 -->
 
- A2SERVER is based on open-source software, primarily [Netatalk][2] 2.2.4,
- with [many utilities and enhancements](a2server_features.md) to make
+ A2SERVER is based on open-source software, primarily [Netatalk][] 2.2.4,
+ with [many utilities and enhancements][A2SERVER features] to make
  everything as easy as possible. (If you like A2SERVER, you might also want to
- check out [A2CLOUD][3].)
+ check out [A2CLOUD][].)
 
 <!--
 If you haven't checked out A2SERVER in a while: it now runs on something
@@ -31,45 +31,43 @@ the installer script. To update, type `a2server-setup`.*
 
 Choose how you'd like to use A2SERVER, and you'll be up and running shortly.
 
-* [Raspberry Pi](a2server_raspberrypi.md)
-* [Virtual Machine](a2server_virtualbox.md) (for Mac OS X, Windows, Linux,
+* [Raspberry Pi][A2SERVER raspberrypi]
+* [Virtual Machine][A2SERVER virtualbox] (for Mac OS X, Windows, Linux,
   Solaris)
-* [Installer for Ubuntu or Debian Linux](a2server_installer.md)
+* [Installer for Ubuntu or Debian Linux][A2SERVER installer]
 {: .hlist .space-after }
 
 Once you've got it set up, here are next steps:
 
-[Attach your Apple II to your local network](a2server_lan.md)
+[Attach your Apple II to your local network][A2SERVER lan]
 
-[Connect to A2SERVER from your Apple II](a2server_howtouse.md)
+[Connect to A2SERVER from your Apple II][A2SERVER howtouse]
 
-[Boot into ProDOS 8 or GS/OS over the network](a2server_netboot.md)
+[Boot into ProDOS 8 or GS/OS over the network][A2SERVER netboot]
 
-[Log into, shut down, and do stuff in the A2SERVER
-console](a2server_commands.md)
+[Log into, shut down, and do stuff in the A2SERVER console][A2SERVER commands]
 
-[Access A2SERVER files from a Mac or Windows computer](a2server_access.md)
+[Access A2SERVER files from a Mac or Windows computer][A2SERVER access]
 
-[Use A2SERVER with Wi-Fi](a2server_wifi.md)
+[Use A2SERVER with Wi-Fi][A2SERVER wifi]
 {: .space-after }
 
 And some other stuff that might (or might not) be helpful or interesting:
 
-[A2SERVER feature list](a2server_features.md)
+[A2SERVER feature list][A2SERVER features]
 
-[A2SERVER version history](update/versionhistory.txt)
+[A2SERVER version history][A2SERVER changelog]
 
-[Recover from a crashed A2SERVER](a2server_recovery.md)
+[Recover from a crashed A2SERVER][A2SERVER recovery]
 
-[Details of what the "a2server-setup" script
-does](a2server_scriptdetails.md)
+[Details of what the "a2server-setup" script does][A2SERVER scriptdetails]
 
-[See the March 2013 cover of Juiced.GS][4], featuring A2SERVER
+[See the March 2013 cover of Juiced.GS][Juiced.GS cover 2013.03], featuring A2SERVER
 
-[Watch me introduce A2SERVER at KansasFest 2011][5]  
+[Watch me introduce A2SERVER at KansasFest 2011][KFest2011: A2SERVER]  
 (note: this contains some outdated information)
 
-[The A2SERVER odyssey](a2server_story.md) (warning: long)
+[The A2SERVER odyssey][A2SERVER story] (warning: long)
 {: .space-after }
 
 Buckets of thanks to Steven Hirsch and Geoff Body, whose invaluable assistance
@@ -79,13 +77,30 @@ James Littlejohn, and others at comp.sys.apple2 and KansasFest. (As well as
 the creators, past and present, of Netatalk and Raspberry Pi.) Apple II
 Forever!
 
-Questions? Comments? email [ivan@ivanx.com](mailto:ivan@ivanx.com)
+Questions? Comments? email [ivan@ivanx.com][ivanx]
 
-[Apple II Extravaganza home page](http://appleii.ivanx.com/)
+[Apple II Extravaganza home page][Apple II Extravaganza]
 
 
-[1]: http://www.raspberrypi.org
-[2]: http://netatalk.sourceforge.net
-[3]: http://ivanx.com/a2cloud
-[4]: http://juiced.gs/2013/03/v18i1-now-shipping/
-[5]: http://www.youtube.com/watch?v=w88NjWRK7Kk
+[Raspberry Pi]: http://www.raspberrypi.org/
+[Netatalk]: http://netatalk.sourceforge.net/
+[A2SERVER features]: a2server_features.html
+[A2CLOUD]: ../a2cloud/index.html
+[A2SERVER raspberrypi]: a2server_raspberrypi.html
+[A2SERVER virtualbox]: a2server_virtualbox.html
+[A2SERVER installer]: a2server_installer.html
+[A2SERVER lan]: a2server_lan.html
+[A2SERVER howtouse]: a2server_howtouse.html
+[A2SERVER netboot]: a2server_netboot.html
+[A2SEERVER commands]: a2server_commands.html
+[A2SERVER access]: a2server_access.html
+[A2SERVER wifi]: a2server_wifi.html
+[A2SERVER features]: a2server_features.html
+[A2SERVER changelog]: update/versionhistory.txt
+[A2SERVER recovery]: a2server_recovery.html
+[A2SERVER scriptdetails]: a2server_scriptdetails.html
+[Juiced.GS cover 2013.03]: http://juiced.gs/2013/03/v18i1-now-shipping/
+[KFest2011: A2SERVER]: http://www.youtube.com/watch?v=w88NjWRK7Kk
+[A2SERVER story]: a2server_story.html
+[ivanx.com]: mailto:ivan@ivanx.com
+[Apple II Extravaganza]: http://appleii.ivanx.com/
