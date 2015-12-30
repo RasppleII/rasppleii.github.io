@@ -21,7 +21,7 @@ idiosyncracies before you buy one.
 <!--
 Asante no longer references/sells it  -Joseph 2015/12/30
 <span>[Asante][AsanteTalk buy]</span>-->
-<span>[eBay][eBay Asante bridges]</span>
+<span>[eBay][eBay Asante bridge]</span>
 </span>
 
 * Dayna EtherPrint and Mini EtherPrint (any model with an Ethernet port)

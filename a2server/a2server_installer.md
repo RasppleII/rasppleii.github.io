@@ -51,4 +51,4 @@ happening, you can [view the contents of the setup scripts][A2SERVER scriptdetai
 [A2SERVER raspberrypi]: a2server_raspberrypi.html
 [A2SERVER commands]: a2server_commands.tml
 [A2SERVER]: index.html
-[A@SERVER scriptdetails]: a2server_scriptdetails.html
+[A2SERVER scriptdetails]: a2server_scriptdetails.html

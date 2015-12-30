@@ -92,15 +92,14 @@ Questions? Comments? email [ivan@ivanx.com][ivanx]
 [A2SERVER lan]: a2server_lan.html
 [A2SERVER howtouse]: a2server_howtouse.html
 [A2SERVER netboot]: a2server_netboot.html
-[A2SEERVER commands]: a2server_commands.html
+[A2SERVER commands]: a2server_commands.html
 [A2SERVER access]: a2server_access.html
 [A2SERVER wifi]: a2server_wifi.html
-[A2SERVER features]: a2server_features.html
 [A2SERVER changelog]: update/versionhistory.txt
 [A2SERVER recovery]: a2server_recovery.html
 [A2SERVER scriptdetails]: a2server_scriptdetails.html
 [Juiced.GS cover 2013.03]: http://juiced.gs/2013/03/v18i1-now-shipping/
 [KFest2011: A2SERVER]: http://www.youtube.com/watch?v=w88NjWRK7Kk
 [A2SERVER story]: a2server_story.html
-[ivanx.com]: mailto:ivan@ivanx.com
+[ivanx]: mailto:ivan@ivanx.com
 [Apple II Extravaganza]: http://appleii.ivanx.com/
