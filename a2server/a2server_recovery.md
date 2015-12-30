@@ -13,7 +13,7 @@ connect from another computer on your network.
 
 To prevent this from happening, type `a2server-setup` *before* updating the
 software on your computer. If it's too late, and you need to recover from
-this situation, you could [start over][1]. Or, if you want to keep your
+this situation, you could [start over][A2SERVER]. Or, if you want to keep your
 current installation, you have a few options, depending on your setup:
 {: .space-after }
 
@@ -46,7 +46,7 @@ __A2SERVER on Raspberry Pi without screen/keyboard mouse, and a Mac__{: .uline }
 * Within it, open *cmdline.txt* in a text editor (the default is TextEdit).
 * At the end of the line, append `single` (preceded by a space), then save it.
 * Eject the SD card and put it back in your Pi, then start up your Pi.
-* [Log in to your Pi][2] and type `a2server-setup`
+* [Log in to your Pi][A2SERVER rpi login] and type `a2server-setup`
 {: .space-after }
 
 
@@ -58,7 +58,7 @@ computer__{: .uline }
   `wget ivanx.com/a2server/fix; source fix`{: .language-bash }
 * Follow the on-screen instructions.
 * If after using the fix tool, you still can't connect from your Apple II,
-  [log in to your Pi][2], and type `a2server-setup`
+  [log in to your Pi][A2SERVER rpi login], and type `a2server-setup`
 * (Alternative approach: Follow the Mac method above, though the volume may
   not appear as BOOT.)
 {: .space-after }
@@ -67,7 +67,7 @@ __A2SERVER on Raspberry Pi without screen/keyboard/mouse, and a Windows
 computer__{: .uline }
 
 * Remove the SD card from your Pi.
-* Install the [A2SERVER virtual machine](a2server_virtualbox.md) on your
+* Install the [A2SERVER virtual machine][A2SERVER virtualbox] on your
   Windows computer.
 * Start the virtual machine, and log in with user name "user1" and
   password "apple2".
@@ -77,14 +77,8 @@ computer__{: .uline }
 * Type `system-shutdown` in the virtual machine window.
 * Quit VirtualBox.
 * If after using the fix tool, you still can't connect from your Apple
-  II, [Log in to your Pi][2] and type `a2server-setup`
-{: .space-after }
+  II, [Log in to your Pi][A2SERVER rpi login] and type `a2server-setup`
 
-[back][3]
-
-[A2SERVER home page][1]
-
-
-[1]: index.html
-[2]: a2server_raspberrypi_login.html
-[3]: javascript:history.go(-1);
+[A2SERVER]: index.html
+[A2SERVER virtualbox]: a2server_virtualbox.md
+[A2SERVER rpi login]: a2server_raspberrypi_login.html
