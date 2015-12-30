@@ -231,11 +231,3 @@ normally only possible under GS/OS.
 I could go on and on, but basically the ideas kept coming, and I think I was
 able I was able to polish most of A2SERVER's rough edges so that it could be
 fun and/or useful for a few people. I hope you enjoy it!
-{: .space-after }
-
-[back][1]
-
-[A2SERVER home page][2]
-
-[1]: javascript:history.go(-1);
-[2]: index.html
