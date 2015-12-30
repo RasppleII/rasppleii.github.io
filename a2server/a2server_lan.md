@@ -1,41 +1,43 @@
 # A2SERVER
 
 In order to connect your Apple II to the network, you need a LocalTalk to
-Ethernet bridge. *(Unfortunately, the [Uthernet card][1] will not work, as
+Ethernet bridge. *(Unfortunately, the [Uthernet card][UltimateMicro] will not work, as
 Apple's network drivers don't know what it is.)*{: .fine-print }
 
 If you have an enhanced Apple IIe, you will also need an [Apple II Workstation
-Card][2], and, if you're not booting over the network, the [Workstation Card
+Card][a2info a2wsc], and, if you're not booting over the network, the [Workstation Card
 software](a2server_howtouse.html#wsdisks). Make sure you buy one with the
 dongle.
 <span class="src-list">
-<!--<span>[Blujay][3]</span>-->
-<span>[eBay][4]</span>
+<!--<span>[Blujay][Blujay a2wsc]</span>-->
+<span>[eBay][eBay a2wsc]</span>
 </span>
 
 These are the commonly available bridges; be sure you read below about their
 idiosyncracies before you buy one.
 
-* Asante [AsanteTalk][5] and AsantePrint
+* Asante <!--[-->AsanteTalk<!--][]--> and AsantePrint
 <span class="src-list">
-<span>[Asante][6]</span>
-<span>[eBay][7]</span>
+<!--
+Asante no longer references/sells it  -Joseph 2015/12/30
+<span>[Asante][AsanteTalk buy]</span>-->
+<span>[eBay][eBay Asante bridges]</span>
 </span>
 
 * Dayna EtherPrint and Mini EtherPrint (any model with an Ethernet port)
 <span class="src-list">
-<span>[eBay][8]</span>
+<span>[eBay][eBay EtherPrint]</span>
 </span>
 
 * Farallon EtherWave/EtherMac/iPrint LT with LocalTalk (PN842, PN848 or
    PN559)
 <span class="src-list">
-<span>[eBay][9]</span>
+<span>[eBay][eBay Farallon bridge]</span>
 </span>
 
-* A pre-USB Mac with any kind of Ethernet, and the [LocalTalk Bridge][10] control panel installed
+* A pre-USB Mac with any kind of Ethernet, and the [LocalTalk Bridge][LocalTalk Bridge Software] control panel installed
 <span class="src-list">
-<span>[eBay][11]</span>
+<span>[eBay][ebay PB-G3]</span>
 </span>
 
 You'll also need an ImageWriter II printer cable (or any other 8-pin mini-DIN
@@ -58,8 +60,8 @@ for each, or a single bridge attached to daisy-chained LocalTalk transceivers.
 
 Wired ethernet is recommended, but if you have an Apple AirPort or Time
 Capsule, you can use Wi-Fi by attaching your LocalTalk-to-Ethernet bridge to a
-another AirPort, and setting up an [extended network][12] (if all AirPorts are
-802.11n models), or a [WDS][13] (if any AirPort is an 802.11g model). *(Most
+another AirPort, and setting up an [extended network][AirPort extended network] (if all AirPorts are
+802.11n models), or a [WDS][AirPort WDS] (if any AirPort is an 802.11g model). *(Most
 non-Apple routers and access points will not work because they are not
 designed to handle AppleTalk networking.)*{: .fine-print }
 {: .space-after }
@@ -77,13 +79,13 @@ Caveat emptor:
 * At least some of the Dayna bridges must be attached to a 10Base-T Ethernet
   port; they won't work if attached to an autosensing 10/100 or Gigabit
   Ethernet port such as those found on modern routers and switches. You can
-  [buy a 10Base-T hub on eBay][14] for around $10 to go between your router
+  [buy a 10Base-T hub on eBay][eBay 10bT-hub] for around $10 to go between your router
   and the bridge.
 
 * Farallon bridges work fine with an Apple IIe. To prevent them from freezing
   a IIgs after a couple of minutes, you can download a fix for GS/OS ([disk
-  image][15] or [ShrinkIt][16] format) and put it into SYSTEM/SYSTEM.SETUP, or
-  you can [log in to the A2SERVER console](a2server_commands.html) and type
+  image][Farallon Patch PO] or [ShrinkIt][Farallon Patch SHK] format) and put it into SYSTEM/SYSTEM.SETUP, or
+  you can [log in to the A2SERVER console][A2SERVER commands] and type
   `a2server-setup` and you will be asked if you want to install it. Because
   the fix is for GS/OS only, Farallon bridges will *not* work with a IIgs
   booted directly into ProDOS 8. (Also note: the PN842 has a built-in 8-pin
@@ -93,7 +95,7 @@ Caveat emptor:
 * Using a classic Mac as a bridge works perfectly in all cases. Set AppleTalk
   to use the Ethernet port, attach the LocalTalk tranceiver or serial cable to
   the printer port (or printer/modem port), and install [LocalTalk
-  Bridge][10]. *(Recommended models: PowerBook 3400 with Ethernet, PowerBook G3
+  Bridge][LocalTalk Bridge Software]. *(Recommended models: PowerBook 3400 with Ethernet, PowerBook G3
   with black keyboard. Any model with both a round serial port and any kind of
   Ethernet, including via expansion card, AAUI adapter, or SCSI adapter,
   should work.)*{: .fine-print }
@@ -103,7 +105,7 @@ And finally:
 
 * The Cayman GatorBox CS and the Shiva FastPath IV and V have been reported to
   work, but it's hard to find these, so I have been unable to test. If you
-  have one of these and it doesn't work, [log in](a2server_commands.html) to
+  have one of these and it doesn't work, [log in][A2SERVER commands] to
   A2SERVER and type `netatalk-router-off` *(if you get "command not found",
   type `a2server-setup` to refresh the command list).*{: .fine-print }
 
@@ -119,28 +121,21 @@ crashing the computer in GS/OS; and many thanks to Geoff Body, who contributed
 the patch to GS/OS to make Farallon bridges work reliably without freezing a
 IIgs after a few minutes. Also, thanks to all who have tested and sent reports
 on using A2SERVER with their bridges.
-{: .space-after }
 
-[back][17]
-
-[A2SERVER home page][18]
-
-
-[1]: http://a2retrosystems.com/
-[2]: http://www.apple2info.net/hardware/a2ews/a2ews.htm
-[3]: http://www.blujay.com/?keywords=workstation+card&Search.x=0&Search.y=0&Search=Search&page=search
-[4]: http://www.ebay.com/sch/i.html?_nkw=apple+workstation+card+-portrait
-[5]: http://www.asante.com/products/Asantetalk/Asantetalk.asp
-[6]: http://www.asante.com/shop/shopdisplayproducts.asp?id=16&cat=+AsanteTalk
-[7]: http://www.ebay.com/sch/i.html?_nkw=%28asantetalk%2C+asanteprint%29
-[8]: http://www.ebay.com/sch/i.html?_nkw=etherprint
-[9]: http://www.ebay.com/sch/i.html?_nkw=farallon+%28etherwave%2Cethermac%2Ciprint%29+-sl+-aui+-aaui+-pci+-nubus+-pds+-card
-[10]: http://archive.org/download/download.info.apple.com.2012.11/download.info.apple.com.2012.11.zip/download.info.apple.com%2FApple_Support_Area%2FApple_Software_Updates%2FEnglish-North_American%2FMacintosh%2FNetworking-Communications%2FOther_N-C%2FLocalTalk_Bridge_2.1.smi.bin
-[11]: http://www.ebay.com/sch/i.html?_nkw=powerbook%20(3400c%2Cg3)%20-adapter%20-pismo%20-lombard%20-bronze%20-ibook%20-g4%20-333%20-333mhz%20-400%20-400mhz%20-500%20-500mhz
-[12]: http://support.apple.com/kb/HT4259
-[13]: http://support.apple.com/kb/HT4262
-[14]: http://www.ebay.com/sch/i.html?_odkw=10base-t+%28hub%2Cswitch%29+-fast+-100+-1000+-gigabit
-[15]: http://appleii.ivanx.com/a2server/files/FARALLON.B1.PO
-[16]: http://appleii.ivanx.com/a2server/files/FARALLON.B1.BXY
-[17]: javascript:history.go(-1);
-[18]: index.html
+[UltimateMicro]: http://a2retrosystems.com/
+[a2info a2wsc]: http://www.apple2info.net/hardware/a2ews/a2ews.htm
+[Blujay a2wsc]: http://www.blujay.com/?keywords=workstation+card&Search.x=0&Search.y=0&Search=Search&page=search
+[eBay a2wsc]: http://www.ebay.com/sch/i.html?_nkw=apple+workstation+card+-portrait
+[AsanteTalk]: http://www.asante.com/products/Asantetalk/Asantetalk.asp
+[AsanteTalk buy]: http://www.asante.com/shop/shopdisplayproducts.asp?id=16&cat=+AsanteTalk
+[eBay Asante bridge]: http://www.ebay.com/sch/i.html?_nkw=%28asantetalk%2C+asanteprint%29
+[eBay EtherPrint]: http://www.ebay.com/sch/i.html?_nkw=etherprint
+[eBay Farallon bridge]: http://www.ebay.com/sch/i.html?_nkw=farallon+%28etherwave%2Cethermac%2Ciprint%29+-sl+-aui+-aaui+-pci+-nubus+-pds+-card
+[LocalTalk Bridge Software]: http://archive.org/download/download.info.apple.com.2012.11/download.info.apple.com.2012.11.zip/download.info.apple.com%2FApple_Support_Area%2FApple_Software_Updates%2FEnglish-North_American%2FMacintosh%2FNetworking-Communications%2FOther_N-C%2FLocalTalk_Bridge_2.1.smi.bin
+[ebay PB-G3]: http://www.ebay.com/sch/i.html?_nkw=powerbook%20(3400c%2Cg3)%20-adapter%20-pismo%20-lombard%20-bronze%20-ibook%20-g4%20-333%20-333mhz%20-400%20-400mhz%20-500%20-500mhz
+[AirPort extended network]: http://support.apple.com/kb/HT4259
+[AirPort WDS]: http://support.apple.com/kb/HT4262
+[eBay 10bT-hub]: http://www.ebay.com/sch/i.html?_nkw=10base-t+%28hub%2Cswitch%29+-fast+-100+-1000+-gigabit 
+[Farallon Patch PO]: http://appleii.ivanx.com/a2server/files/FARALLON.B1.PO
+[Farallon Patch SHK]: http://appleii.ivanx.com/a2server/files/FARALLON.B1.BXY
+[A2SERVER commands]: a2server_commands.html
