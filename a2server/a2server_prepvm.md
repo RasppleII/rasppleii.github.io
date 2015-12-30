@@ -1,15 +1,15 @@
 # A2SERVER
 
 The following steps explain how to prep the A2SERVER virtual machine,
-specifically [VirtualBox][1], which has the notable virtue of being free.
+specifically [VirtualBox][], which has the notable virtue of being free.
 However, you can also use other virtual machine products, such as those from
-[Parallels][2] and [VMware][3], and the process should be similar.
+[Parallels][] and [VMware][], and the process should be similar.
 
 If you're comfortable doing so, you may also customize the steps below as you
 wish, or install Ubuntu Linux natively rather than in a VM.
 
-* Download [VirtualBox 4.2.10][4].
-* Download [Ubuntu Server 12.04 LTS][5] (A2SERVER has been tested with the
+* Download [VirtualBox 4.2.10][VBox download].
+* Download [Ubuntu Server 12.04 LTS][Ubuntu server download] (A2SERVER has been tested with the
   32-bit version only).
 {: .space-after }
 * Start VirtualBox, and go to Preferences.
@@ -44,17 +44,9 @@ wish, or install Ubuntu Linux natively rather than in a VM.
 * *Optional but recommended: Under Advanced, change the MAC Address to
   080003F2FF59.*{: .fine-print }
 * Click OK.
-{: .space-after }
 
-[back][6]
-
-[A2SERVER home page][7]
-
-
-[1]: http://www.virtualbox.org/
-[2]: http://www.parallels.com/
-[3]: http://www.vmware.com/
-[4]: https://www.virtualbox.org/wiki/Downloads/
-[5]: http://www.ubuntu.com/download/server/
-[6]: javascript:history.go(-1);
-[7]: index.html
+[VirtualBox]: http://www.virtualbox.org/
+[Parallels]: http://www.parallels.com/
+[VMware]: http://www.vmware.com/
+[VBox download]: https://www.virtualbox.org/wiki/Downloads/
+[Ubuntu server download]: http://www.ubuntu.com/download/server/
