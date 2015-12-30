@@ -2,9 +2,9 @@
 
 To set up A2SERVER, follow these steps:
 
-* Download and install [VirtualBox][1]. It's free. (If you prefer different
+* Download and install [VirtualBox][]. It's free. (If you prefer different
   virtual machine software, [you can instead use the A2SERVER installer
-  script][2].)
+  script][A2SERVER installer].)
 
 * Download the [A2SERVER virtual machine](files/A2SERVER.ova) (~750 MB), or
   the [A2SERVER+A2CLOUD virtual machine](files/A2SERVER_A2CLOUD.ova) (~1.7
@@ -27,11 +27,9 @@ To set up A2SERVER, follow these steps:
 
 * Click OK.
 
-
 You're all set up. For next steps, check out the links on the [A2SERVER home
-page][3].
+page][A2SERVER].
 {: .space-after }
-
 
 SHA-1 for A2SERVER VM: d6c60b0ab14f14ddd49b7e5cdac39503db96a903  
 SHA-1 for A2SERVER+A2CLOUD VM: 69df7c28fa21e4e4cc01b106398936f23559a64b  
@@ -39,14 +37,8 @@ SHA-1 for A2SERVER+A2CLOUD VM: 69df7c28fa21e4e4cc01b106398936f23559a64b
 v1.1.3: a8927d6fba9dfa9c2015918cdc61122bb2c95ea5  
 v1.1.0: 63eebfcfe9fbbeb17aa4ab3226e849289072d396
 -->
-{: .fine-print .space-after }
+{: .fine-print }
 
-[back][4]
-
-[A2SERVER home page][3]
-
-
-[1]: https://www.virtualbox.org/wiki/Downloads
-[2]: a2server_installer.html
-[3]: index.html
-[4]: javascript:history.go(-1);
+[VirtualBox]: https://www.virtualbox.org/wiki/Downloads
+[A2SERVER installer]: a2server_installer.html
+[A2SERVER]: index.html
