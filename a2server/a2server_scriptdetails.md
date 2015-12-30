@@ -29,7 +29,7 @@ themselves):
 -->
 * download, compile, and install nulib2 (ShrinkIt archive utility), into
   /usr/local/bin
-* install libraries required for compiling [The Unarchiver][1]
+* install libraries required for compiling [The Unarchiver][]
 * download, compile, and install unar/lsar (The Unarchiver), into
   /usr/local/bin
 * install A2SERVER tools into /usr/local/bin and /usr/local/etc:  
@@ -39,7 +39,7 @@ themselves):
   [mkatinit](scripts/tools/mkatinit.txt),
   [volnifo](scripts/tools/mkvolinfo.txt),
   [aliases](scripts/tools/a2server-aliases.txt) (described at the bottom of
-  [this page](a2server_commands.html))
+  [this page](A2SERVER commands])
 * set up aliases file to be read at each login (/etc/profile)
 * customize pre-login message on Ubuntu (/etc/issue), or post-login message on
   non-Ubuntu (/etc/motd)
@@ -89,13 +89,6 @@ setup, skipped on subsequent runs)
 * prevent console from going blank after ten minutes of inactivity (after
   login)
 * resolve a slow-scrolling problem in Ubuntu Server 10.04 (only)
-{: .space-after }
 
-[back][2]
-
-[A2SERVER home page][3]
-
-
-[1]: http://wakaba.c3.cx/s/apps/unarchiver.html
-[2]: javascript:history.go(-1);
-[3]: index.html
+[The Unarchiver]: http://wakaba.c3.cx/s/apps/unarchiver.html
+[A2SERVER commands]: a2server_commands.html
