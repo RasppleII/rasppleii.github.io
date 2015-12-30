@@ -5,7 +5,7 @@ ProDOS 8 over the network, rather than from a local drive. It can even
 download and install ProDOS 8 and GS/OS for you, meaning you can get up and
 running from "bare metal" if you wanted to.
 
-To do this, [log into the a2server console][1], and type:
+To do this, [log into the a2server console][A2SERVER commands], and type:
 
 ~~~ bash
 a2server-setup
@@ -46,12 +46,5 @@ NETBOOT.GSOS or NETBOOT.P8, which you'll find in A2FILES (both reboot the
 computer immediately). You can temporarily network boot into ProDOS 8, without
 changing the GS/OS default, by pressing "8" while the dots are filling in
 during the first phase of the network boot (thanks to Geoff Body for this).
-{: .space-after }
 
-[back][2]
-
-[A2SERVER home page][3]
-
-[1]: a2server_commands.html
-[2]: javascript:history.go(-1);
-[3]: index.html
+[A2SERVER commands]: a2server_commands.html
