@@ -1,31 +1,29 @@
 ---
 layout: page
 title: A2CLOUD
+subtitle: This is not a blog. This is a user guide.
 permalink: /a2cloud/
 ---
 
-<header markdown="1">
-# [A2CLOUD][]
-
-## This is not a blog. This is a user guide.
-
-
 <!--
-This file is an export of the WordPress site for A2CLOUD, pulled in October
-2015 from <http://appleii.ivanx.com/a2cloud/>.  The formatting and links have
-been pretty heavily modified to convert the page to Markdown format.
+This header, part of the WP-based A2CLOUD site, doesn't really seem to fit
+into the current Jekyll-based template well.  If we want to recreate it,
+that's fine, but it should probably live in one of the templates.
+			-Joseph 2016-01-02
 -->
-
+<!--
+<header markdown="1">
 * A2CLOUD home
 * [Apple II Extravaganza][]
 * [Raspberry Pi Party][]
 * [love and hate mail: ivan@ivanx.com][ivanx]
 
-[A2CLOUD]: index.html "A2CLOUD"
 [Apple II Extravaganza]: http://appleii.ivanx.com/
 [Raspberry Pi Party]: http://ivanx.com/raspberrypi/
-[ivanx]: mailto:ivan@ivanx.com "Contact Ivan Drucker"
 </header>
+-->
+[A2CLOUD]: index.html "A2CLOUD"
+[ivanx]: mailto:ivan@ivanx.com "Contact Ivan Drucker"
 
 <nav markdown="1">
 ## A2CLOUD Table of Contents
