@@ -1,3 +1,9 @@
+---
+layout: page
+title: A2CLOUD
+permalink: /a2cloud/
+---
+
 <header markdown="1">
 # [A2CLOUD][]
 
