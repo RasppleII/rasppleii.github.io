@@ -40,6 +40,12 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+
+    }
+    .current {
+        // This is lame, do it better
+        color: $background-color;
+        background-color: $text-color;
     }
 
     @include media-query($on-palm) {
