@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 You probably want to be able to get stuff on and off of A2SERVER, so that
 means connecting to it from other computers.
 

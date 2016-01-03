@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 If you had A2SERVER running, and you typed either `apt-get update` or
 `rpi-update`, you may have received Linux kernel version 3.12 through 3.15.
 These, unfortunately, include a defective AppleTalk kernel module which will

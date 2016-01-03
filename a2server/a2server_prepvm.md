@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 The following steps explain how to prep the A2SERVER virtual machine,
 specifically [VirtualBox][], which has the notable virtue of being free.
 However, you can also use other virtual machine products, such as those from

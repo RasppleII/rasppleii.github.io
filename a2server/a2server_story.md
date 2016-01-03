@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 The A2SERVER Odyssey
 
 A2SERVER has been a multi-year labor of love.

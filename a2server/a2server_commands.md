@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 Sometimes you need to access the A2SERVER command line to set up network boot
 or do other stuff. A list of commands is below.
 

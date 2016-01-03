@@ -4,8 +4,6 @@ title: A2SERVER
 
 ---
 
-# A2SERVER
-
 A2SERVER lets you use a [Raspberry Pi][], or almost any other computer, to
 serve files to Apple IIgs and enhanced IIe computers on your network. You'll
 also be able to boot into GS/OS or ProDOS 8 directly from tne network (no

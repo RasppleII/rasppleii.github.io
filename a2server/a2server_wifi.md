@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 While wired Ethernet is recommended, it's possible to use A2SERVER with Wi-Fi
 if you have an Apple AirPort or Time Capsule. (A2SERVER won't work with most
 non-Apple router and access point models, as they are not designed to handle

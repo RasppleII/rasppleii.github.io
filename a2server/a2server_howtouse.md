@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 To connect to A2SERVER from your Apple II:
 
 (An alternative to the below is to [boot your Apple II over the

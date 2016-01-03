@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 In order to connect your Apple II to the network, you need a LocalTalk to
 Ethernet bridge. *(Unfortunately, the [Uthernet card][UltimateMicro] will not work, as
 Apple's network drivers don't know what it is.)*{: .fine-print }

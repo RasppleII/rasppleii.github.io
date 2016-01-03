@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 To set up A2SERVER, follow these steps:
 
 * Download and install [VirtualBox][]. It's free. (If you prefer different

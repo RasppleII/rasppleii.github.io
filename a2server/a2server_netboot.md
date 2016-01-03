@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 You can set up A2SERVER to let your Apple IIgs or IIe boot into GS/OS or
 ProDOS 8 over the network, rather than from a local drive. It can even
 download and install ProDOS 8 and GS/OS for you, meaning you can get up and

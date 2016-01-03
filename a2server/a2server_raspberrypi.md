@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 So you got a [Raspberry Pi][]. Congratulations!  
 Are you ready to turn it into a file server for your Apple II? Here's how.
 {: .space-after }

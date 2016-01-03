@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 You need to access the Raspberry Pi's command prompt in order set up A2SERVER
 for network boot, and [do other stuff][A2SERVER commands].
 

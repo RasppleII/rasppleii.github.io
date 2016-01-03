@@ -3,8 +3,6 @@ layout: page
 
 ---
 
-# A2SERVER
-
 When you type A2SERVER-setup, a series of scripts are downloaded from
 appleii.ivanx.com and executed, some with root privileges. They are run from
 the /tmp folder, and deleted upon completion.
