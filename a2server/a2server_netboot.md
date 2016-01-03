@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 You can set up A2SERVER to let your Apple IIgs or IIe boot into GS/OS or

@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 A2SERVER's central capability, sharing files to an Apple II, is provided by

@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 These steps cover how to install Ubuntu Server Linux into your empty virtual or real machine. (The instructions are similar, but may vary somewhat, for Debian Linux.)

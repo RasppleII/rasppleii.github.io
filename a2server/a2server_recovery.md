@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 If you had A2SERVER running, and you typed either `apt-get update` or

@@ -1,3 +1,9 @@
+---
+layout: page
+title: A2SERVER
+
+---
+
 # A2SERVER
 
 A2SERVER lets you use a [Raspberry Pi][], or almost any other computer, to

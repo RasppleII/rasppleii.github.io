@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 While wired Ethernet is recommended, it's possible to use A2SERVER with Wi-Fi

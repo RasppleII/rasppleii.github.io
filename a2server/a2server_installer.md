@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 You can easily install A2SERVER on Debian, Ubuntu, or Raspbian Linux by using

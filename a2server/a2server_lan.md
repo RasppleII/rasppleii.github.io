@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 In order to connect your Apple II to the network, you need a LocalTalk to

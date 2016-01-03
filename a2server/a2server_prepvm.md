@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 The following steps explain how to prep the A2SERVER virtual machine,

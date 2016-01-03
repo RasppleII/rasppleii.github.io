@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 When you type A2SERVER-setup, a series of scripts are downloaded from

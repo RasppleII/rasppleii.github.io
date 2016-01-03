@@ -1,3 +1,8 @@
+---
+layout: page
+
+---
+
 # A2SERVER
 
 So you got a [Raspberry Pi][]. Congratulations!  
