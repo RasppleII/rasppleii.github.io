@@ -7,13 +7,13 @@
 
 # Site settings
 title: Raspple II
-email: tjcarter@blocksfree.com
+email: rasppleii@blocksfree.com
 description: > # this means to ignore newlines until "baseurl:"
-        Description here.  :)
+        Apple // storage, internet, and more
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rasppleii.github.io" # Works for now
 #twitter_username: jekyllrb
-#github_username:  jekyll
+github_username:  RasppleII
 
 # Build settings
 markdown: kramdown
