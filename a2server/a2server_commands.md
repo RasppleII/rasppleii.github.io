@@ -1,5 +1,6 @@
 ---
 layout: page
+in-category: A2SERVER
 
 ---
 

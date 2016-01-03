@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+category: Home
 order: 1
 
 ---

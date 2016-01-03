@@ -2,6 +2,7 @@
 layout: page
 title: A2CLOUD
 subtitle: This is not a blog. This is a user guide.
+category: A2CLOUD
 order: 2
 
 ---
