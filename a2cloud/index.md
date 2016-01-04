@@ -2,8 +2,9 @@
 layout: page
 title: A2CLOUD
 subtitle: This is not a blog. This is a user guide.
+nav: A2CLOUD
+nav-rank: 20
 category: A2CLOUD
-order: 2
 
 ---
 

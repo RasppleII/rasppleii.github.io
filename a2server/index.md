@@ -1,8 +1,9 @@
 ---
 layout: page
 title: A2SERVER
+nav: A2SERVER
+nav-rank: 30
 category: A2SERVER
-order: 3
 
 ---
 
