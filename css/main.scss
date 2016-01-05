@@ -3,11 +3,14 @@
 ---
 @charset "utf-8";
 
-// Load our customizations first
+// Load custom defaults for bootstrap
 @import "bootstrap-custom";
 
 // Load boostrap
 @import "bootstrap";
+
+// Finally load our overrides
+@import "bootstrap-theme";
 
 // Load what we still use of Jekyll's defaults
 @import

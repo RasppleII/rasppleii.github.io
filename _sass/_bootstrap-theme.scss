@@ -1,0 +1,39 @@
+// Place your custom theme for Bootstrap here.
+
+.navbar-brand {
+	font-family: VT323, Courier, Courier New, monospace;
+	font-size: $navbar-brand-size;
+	line-height: $navbar-brand-size;
+	margin-left: -$font-size-base;
+	padding: ($navbar-height - $navbar-brand-size)/2 $font-size-base;
+	text-shadow: 0 0 2px rgba(#333, 0.5);
+}
+
+.navbar-nav > li > a {
+	font-size: $font-size-base;
+	line-height: $font-size-base;
+	border-radius: 5px;
+	margin: ($navbar-height - $font-size-base * 2)/2 $font-size-base;
+	padding: ($font-size-base/2) $font-size-base;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: $brand-primary;
+	color: $body-bg;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.navbar-static-top {
+	border-width: 0;
+}
