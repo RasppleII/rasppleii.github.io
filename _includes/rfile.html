@@ -1,14 +1,14 @@
-{% if include.url and include.file %}
+{% if include.url %}
 <noscript>
-	<iframe src="{{ include.url }}/{{ include.file }}" width="960" height="1000">
-		<a href="{{ include.url }}/{{ include.file }}"
+	<iframe src="{{ include.url }}" width="960" height="1000">
+		<a href="{{ include.url }}"
 			>You are using an old browser. Click here to go directly to included content.</a>
 </iframe>
-</noscript>
-<div class="need-js"><pre><code id="incl_{{ include.file | slugify }}"></code></pre></div>
+</noscript>{% assign url_id = include.url | remove:'://' | replace_first:'/','###' | split:'###' | slice:1 | join:'' | prepend:'incl_' | slugify %}
+<div class="need-js"><pre><code id="{{ url_id }}"></code></pre></div>
 <script><!--
 	$(function(){
-		$("#incl_{{ include.file | slugify }}").load("{{ include.url }}/{{ include.file }}");
+		$("#{{ url_id }}").load("{{ include.url }}");
 	});
 //-->
 </script>{% endif %}
