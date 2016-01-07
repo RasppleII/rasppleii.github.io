@@ -1,0 +1,14 @@
+{% if include.url and include.file %}
+<noscript>
+	<iframe src="{{ include.url }}/{{ include.file }}" width="960" height="1000">
+		<a href="{{ include.url }}/{{ include.file }}"
+			>You are using an old browser. Click here to go directly to included content.</a>
+</iframe>
+</noscript>
+<div class="need-js"><pre><code id="incl_{{ include.file | slugify }}"></code></pre></div>
+<script><!--
+	$(function(){
+		$("#incl_{{ include.file | slugify }}").load("{{ include.url }}/{{ include.file }}");
+	});
+//-->
+</script>{% endif %}
