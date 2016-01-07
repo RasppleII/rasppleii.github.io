@@ -40,14 +40,8 @@ Once logged in, you can enter the following commands.
 (If any of these yield "command not found", refresh the command list by
 typing `a2server-setup`, answering "no" to all prompts if you like.)
 
-<script>
-<!--
-	$(function(){
-		$("#includedContent").load("https://raw.githubusercontent.com/RasppleII/a2server/1.3.0/scripts/tools/a2server-help.txt");
-	});
-//-->
-</script>
-<pre id="includedContent"></pre>
+{% capture a2server_git_url %}https://cdn.rawgit.com/RasppleII/a2server/{{ site.a2server_release }}/scripts/tools/a2server-help.txt{% endcapture %}
+{% include rfile.html url=a2server_git_url %}
 
 [A2SERVER rpi-login]: a2server_raspberrypi_login.html
 [Bonjour Print Services]: http://support.apple.com/kb/dl999
