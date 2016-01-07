@@ -14,6 +14,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rasppleii.github.io" # Works for now
 twitter_username: RasppleII
 github_username:  RasppleII
+rawgit_url: https://cdn.rawgit.com/RasppleII/a2server
 
 # Build settings
 markdown: kramdown
+
+# Release settings
+a2server_release: 1.3.0
+# a2cloud_release: set when tagged
