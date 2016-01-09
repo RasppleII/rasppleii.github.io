@@ -18,17 +18,15 @@ On Windows, it should appear under Network.
 On Mac OS 7 through 9, open Chooser from the Apple menu and click on
 AppleShare.
 
+<div markdown="1" class="alert alert-info">
+<small>
 (If you can't browse to the server on your network, you may need to [log in
 to A2SERVER][A2SERVER commands] to update, and if that doesn't work, to
 find its IP address. On Mac OS X, enter the IP address under "Connect To
 Server..." from the Go menu of the Finder; on Windows, type the IP address
 following two backslash characters (\\) in an Explorer window.)
-{: .fine-print }
-
-<!--
-Content edit: Make sure both Markdown source and HTML target renderings of how
-to specify a backslash-delimited UNC path are understandable.  -Joseph
--->
+</small>
+</div>
 
 You will see two or three shared volumes: A2FILES, GSFILES, and, if you have
 A2CLOUD installed, ADTDISKS. Avoid the A2FILES volume except for copying

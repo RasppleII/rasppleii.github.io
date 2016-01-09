@@ -24,10 +24,13 @@ system, you can instead use the script "Network: AppleShare, 3.5" disk" to
 make a bootable disk, or consider setting up
 [network boot][A2SERVER netboot].
 
-(There is also an obsolete [IIgs Workstation Disk](#wsdisks) that boots into
+<div markdown="1" class="alert alert-warning">
+<small>
+There is also an obsolete [IIgs Workstation Disk](#wsdisks) that boots into
 ProDOS 16 rather than GS/OS, and has the same ProDOS 8 applications for server
-access as the IIe disk. You probably don't want to use it.)
-{: .fine-print }
+access as the IIe disk. You probably don't want to use it.
+</small>
+</div>
 
 "a2server" or "raspberrypi" should appear in the list of server names. Log
 in as Guest and select the A2FILES volume, for ProDOS 8 storage, and/or the
